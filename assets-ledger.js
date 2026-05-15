@@ -562,11 +562,10 @@
 
   function renderEditionBar(edition) {
     if (!editionBar) return;
-    const sourceLabel = edition.source === "mlb-stats-api" ? "Live Data Edition" : "Sample Edition";
     const timestamp = formatUpdatedTime(edition.generatedAt);
     editionBar.innerHTML = `
       <span>The Baseball Morning Ledger</span>
-      <span>${sourceLabel} - Games of ${formatDate(edition.date)}</span>
+      <span>Games of ${formatDate(edition.date)}</span>
       <span>${timestamp ? `Updated ${timestamp} Eastern` : "Updated Daily at 5:00 AM Eastern"}</span>
     `;
 

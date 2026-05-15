@@ -14,6 +14,7 @@
   const scoringSummary = document.querySelector("#game-scoring-summary");
   const playLog = document.querySelector("#game-play-log");
   const lastUpdated = document.querySelector("#last-updated");
+  const editionBar = document.querySelector(".edition-bar");
 
   function displayTeamName(name) {
     const names = {
@@ -25,6 +26,16 @@
 
   function selectedGame() {
     return edition?.games?.find((game) => game.gamePk === gamePk) || edition?.games?.[0];
+  }
+
+  function formatDate(dateString) {
+    const date = new Date(`${dateString}T12:00:00`);
+    return new Intl.DateTimeFormat("en-US", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    }).format(date);
   }
 
   function inningLabel(play) {
@@ -229,6 +240,15 @@
     gameTitle.textContent = `${displayTeamName(game.away.name)} at ${displayTeamName(game.home.name)}`;
     gameSubtitle.textContent = `${displayTeamName(winner.name)} ${winner.score}, ${displayTeamName(loser.name)} ${loser.score}`;
     gameStatus.textContent = `${game.status || "Final"} - ${game.venue || "Ballpark"}`;
+
+    if (editionBar && edition.date) {
+      const backLink = editionBar.querySelector("a")?.outerHTML || '<a href="index.html">Back To Morning Edition</a>';
+      editionBar.innerHTML = `
+        <span>The Baseball Morning Ledger</span>
+        <span>Games of ${formatDate(edition.date)}</span>
+        <span>${backLink}</span>
+      `;
+    }
 
     renderLineScore(game);
     renderBattingBox(awayBatting, game, "away");

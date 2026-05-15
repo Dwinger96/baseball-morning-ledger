@@ -8,6 +8,7 @@
   const pitchingLeadersTab = document.querySelector("#pitching-leaders-tab");
   const leadersNote = document.querySelector("#leaders-note");
   const lastUpdated = document.querySelector("#last-updated");
+  const editionBar = document.querySelector(".edition-bar");
   const edition = window.ledgerEdition;
   let leagueFilter = "overall";
   let leaderMode = "hitting";
@@ -65,6 +66,26 @@
       minute: "2-digit",
     }).format(new Date(edition.generatedAt));
     lastUpdated.textContent = `Last Updated ${timestamp} Eastern`;
+  }
+
+  function formatDate(dateString) {
+    const date = new Date(`${dateString}T12:00:00`);
+    return new Intl.DateTimeFormat("en-US", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    }).format(date);
+  }
+
+  function renderEditionBar() {
+    if (!editionBar || !edition?.date) return;
+    const backLink = editionBar.querySelector("a")?.outerHTML || '<a href="index.html">Back To Morning Edition</a>';
+    editionBar.innerHTML = `
+      <span>The Baseball Morning Ledger</span>
+      <span>Games of ${formatDate(edition.date)}</span>
+      <span>${backLink}</span>
+    `;
   }
 
   function displayTeamName(team) {
@@ -252,5 +273,6 @@
   });
 
   renderLeaders();
+  renderEditionBar();
   renderLastUpdated();
 })();

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leaders - The Baseball Morning Ledger</title>
+    <link rel="stylesheet" href="ledger.css">
+  </head>
+  <body>
+    <main id="top" class="page">
+      <div class="edition-bar">
+        <span>The Baseball Morning Ledger</span>
+        <span>League Leaders</span>
+        <span><a href="index.html">Back To Morning Edition</a></span>
+      </div>
+
+      <header class="masthead">
+        <h1>League Leaders</h1>
+        <div class="tagline">
+          <span>Overall hitting and pitching leaders</span>
+        </div>
+      </header>
+
+      <nav class="nav" aria-label="Leaders navigation">
+        <a href="index.html">Morning Edition</a>
+        <a href="#leaders">Leaders</a>
+      </nav>
+
+      <section id="leaders" class="scoreboard-section">
+        <h2 class="section-title">Overall Leaders</h2>
+        <div class="leader-controls" aria-label="League filter tabs">
+          <button id="overall-leaders-tab" class="leader-tab active" type="button">Overall</button>
+          <button id="al-leaders-tab" class="leader-tab" type="button">American League</button>
+          <button id="nl-leaders-tab" class="leader-tab" type="button">National League</button>
+          <button id="rookie-leaders-tab" class="leader-tab" type="button">Rookies</button>
+        </div>
+        <div class="leader-controls" aria-label="Leader category tabs">
+          <button id="hitting-leaders-tab" class="leader-tab active" type="button">Hitting</button>
+          <button id="pitching-leaders-tab" class="leader-tab" type="button">Pitching</button>
+        </div>
+        <table id="leaders-table" class="data-table">
+          <caption>Overall Hitting Leaders</caption>
+          <thead>
+            <tr><th>Player</th><th>Team</th><th>G</th><th>AB</th><th>AVG</th><th>HR</th><th>RBI</th><th>OPS</th></tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="8" class="summary-play">Loading leaders...</td></tr>
+          </tbody>
+        </table>
+        <p id="leaders-note" class="selected-game-label">Click a stat heading to sort. Rate stats use qualified players; counting stats include all players.</p>
+      </section>
+
+      <footer class="footer">
+        <span>The Baseball Morning Ledger</span>
+        <span>Private prototype edition</span>
+        <span id="last-updated">No official league affiliation</span>
+      </footer>
+    </main>
+
+    <script src="data/yesterday-data.js"></script>
+    <script src="leaders-page.js"></script>
+  </body>
+</html>

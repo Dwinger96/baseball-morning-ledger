@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Full Game Record - The Baseball Morning Ledger</title>
+    <link rel="stylesheet" href="ledger.css">
+  </head>
+  <body>
+    <main id="top" class="page">
+      <div class="edition-bar">
+        <span>The Baseball Morning Ledger</span>
+        <span>Full Game Record</span>
+        <span><a href="index.html">Back To Morning Edition</a></span>
+      </div>
+
+      <header class="masthead">
+        <h1 id="game-title">Full Game Record</h1>
+        <div class="tagline">
+          <span id="game-subtitle">Full box score and scoring log</span>
+        </div>
+      </header>
+
+      <nav class="nav" aria-label="Game navigation">
+        <a href="index.html">Morning Edition</a>
+        <a href="#box-score">Box Score</a>
+        <a href="#scoring-summary">Scoring Summary</a>
+        <a href="#play-log">Play Log</a>
+      </nav>
+
+      <section class="scoreboard-section">
+        <h2 class="section-title">Line Score</h2>
+        <p id="game-status" class="selected-game-label">Loading game...</p>
+        <table id="game-line-score" class="line-score" aria-label="Game line score"></table>
+      </section>
+
+      <div class="content-grid">
+        <section id="box-score">
+          <h2 class="section-title">Box Score</h2>
+          <div class="team-box-grid">
+            <table id="game-away-batting" class="data-table"></table>
+            <table id="game-home-batting" class="data-table"></table>
+            <table id="game-away-pitching" class="data-table"></table>
+            <table id="game-home-pitching" class="data-table"></table>
+          </div>
+        </section>
+      </div>
+
+      <div class="morning-grid">
+        <section class="full-span">
+          <h2 id="scoring-summary" class="section-title">Scoring Summary</h2>
+          <table id="game-scoring-summary" class="data-table scoring-log"></table>
+        </section>
+      </div>
+
+      <div class="morning-grid">
+        <section class="full-span">
+          <h2 id="play-log" class="section-title">Inning-By-Inning Play Log</h2>
+          <div id="game-play-log" class="play-log"></div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <span>The Baseball Morning Ledger</span>
+        <span>Private prototype edition</span>
+        <span id="last-updated">No official league affiliation</span>
+      </footer>
+    </main>
+
+    <script src="data/yesterday-data.js"></script>
+    <script src="game-ledger.js"></script>
+  </body>
+</html>

@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Baseball Morning Ledger</title>
+    <style>
+      :root {
+        --paper: #f4ecd8;
+        --paper-deep: #eadbbd;
+        --ink: #1c1a16;
+        --muted: #665d50;
+        --rule: #2a251d;
+        --green: #194c35;
+        --red: #9b2d22;
+        --gold: #b48635;
+        --blue: #1f3f66;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background:
+          linear-gradient(rgba(255,255,255,0.18), rgba(0,0,0,0.02)),
+          repeating-linear-gradient(90deg, rgba(0,0,0,0.018) 0 1px, transparent 1px 5px),
+          var(--paper);
+        font-family: Georgia, "Times New Roman", serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page {
+        width: min(1180px, calc(100% - 28px));
+        margin: 22px auto 42px;
+        border: 2px solid var(--rule);
+        background: rgba(244, 236, 216, 0.92);
+        box-shadow: 0 20px 50px rgba(38, 28, 13, 0.18);
+      }
+
+      .edition-bar,
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 8px 14px;
+        border-bottom: 2px solid var(--rule);
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .masthead {
+        padding: 20px 16px 12px;
+        text-align: center;
+        border-bottom: 6px double var(--rule);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(42px, 8vw, 92px);
+        line-height: 0.9;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .tagline {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        color: var(--muted);
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        background: var(--ink);
+        color: var(--paper);
+      }
+
+      .nav a {
+        padding: 2px 7px;
+      }
+
+      .kicker,
+      .section-kicker {
+        margin: 0 0 8px;
+        color: var(--red);
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: clamp(32px, 5vw, 58px);
+        line-height: 0.95;
+      }
+
+      .line-score {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 0 16px;
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+      }
+
+      th,
+      td {
+        padding: 6px 7px;
+        border-bottom: 1px solid rgba(28, 26, 22, 0.35);
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      th:first-child,
+      td:first-child {
+        text-align: left;
+      }
+
+      th {
+        border-top: 2px solid var(--rule);
+        border-bottom: 2px solid var(--rule);
+        font-weight: 700;
+      }
+
+      .scoreboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        align-items: start;
+      }
+
+      .scoreboard-section {
+        padding: 18px;
+        border-bottom: 2px solid var(--rule);
+      }
+
+      .scoreboard-league {
+        display: grid;
+        gap: 8px;
+        min-width: 0;
+        align-content: start;
+      }
+
+      .scoreboard-league .section-kicker {
+        margin: 0;
+        padding: 6px 8px;
+        border: 1px solid var(--rule);
+        background: var(--ink);
+        color: var(--paper);
+      }
+
+      .score-card {
+        display: block;
+        width: 100%;
+        color: inherit;
+        border: 1px solid var(--rule);
+        background: rgba(255, 251, 239, 0.42);
+        font: inherit;
+        text-align: inherit;
+        cursor: pointer;
+      }
+
+      .score-card {
+        transition: color 140ms ease, background 140ms ease;
+      }
+
+      .score-card:hover,
+      .score-card:focus-visible,
+      .score-card.selected {
+        color: var(--red);
+        background: rgba(180, 134, 53, 0.14);
+        outline: 2px solid rgba(155, 45, 34, 0.55);
+        outline-offset: 3px;
+      }
+
+      .score-card.selected header {
+        background: var(--ink);
+        color: var(--paper);
+      }
+
+      .game-ledger-link {
+        display: block;
+        margin: 0 8px 8px;
+        padding-top: 5px;
+        border-top: 1px dotted rgba(28, 26, 22, 0.5);
+        color: var(--blue);
+        font-family: "Courier New", monospace;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .game-ledger-link:hover,
+      .game-ledger-link:focus-visible {
+        color: var(--red);
+        outline: 1px solid rgba(155, 45, 34, 0.45);
+        outline-offset: 2px;
+      }
+
+      .score-card header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 6px 8px;
+        border-bottom: 1px solid var(--rule);
+        background: var(--paper-deep);
+        font-family: "Courier New", monospace;
+        font-size: 11px;
+        text-transform: uppercase;
+      }
+
+      .teams {
+        padding: 7px 8px;
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+      }
+
+      .team-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 12px;
+        padding: 2px 0;
+        align-items: baseline;
+      }
+
+      .team-row span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .winner {
+        font-weight: 700;
+      }
+
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 18px;
+      }
+
+      .team-box-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        align-items: start;
+      }
+
+      .team-box-grid .data-table {
+        margin-bottom: 0;
+        min-width: 0;
+      }
+
+      section {
+        min-width: 0;
+      }
+
+      .section-title {
+        margin: 0 0 12px;
+        padding-bottom: 6px;
+        border-bottom: 3px double var(--rule);
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 14px;
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+      }
+
+      .data-table caption {
+        padding: 0 0 6px;
+        text-align: left;
+        color: var(--blue);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .small-note {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+      }
+
+      .selected-game-label {
+        margin: 0 0 12px;
+        padding: 6px 8px;
+        border: 1px solid var(--rule);
+        background: var(--paper-deep);
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .standings-snapshot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+      }
+
+      .standings-league {
+        min-width: 0;
+      }
+
+      .standings-league-title {
+        margin: 0 0 10px;
+        padding: 5px 7px;
+        border: 2px solid var(--rule);
+        background: var(--ink);
+        color: var(--paper);
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+        text-transform: uppercase;
+      }
+
+      .leader-controls {
+        display: flex;
+        gap: 18px;
+        margin-bottom: 12px;
+        border-bottom: 2px solid var(--rule);
+        font-family: "Courier New", monospace;
+        text-transform: uppercase;
+      }
+
+      .leader-tab,
+      .sortable-heading {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .leader-tab {
+        padding: 0 0 6px;
+        color: var(--muted);
+      }
+
+      .leader-tab.active {
+        color: var(--ink);
+        border-bottom: 4px solid var(--rule);
+      }
+
+      .sortable-heading {
+        width: 100%;
+        padding: 0;
+        text-align: inherit;
+        line-height: inherit;
+      }
+
+      .sortable-heading:hover,
+      .sortable-heading:focus-visible {
+        color: var(--red);
+        outline: 0;
+      }
+
+      .leader-tab:hover,
+      .leader-tab:focus-visible {
+        color: var(--red);
+        outline: 0;
+      }
+
+      .summary-play {
+        line-height: 1.35;
+        white-space: normal;
+      }
+
+      .scoring-log td {
+        vertical-align: top;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+
+      .scoring-log td:first-child,
+      .scoring-log td:nth-child(2) {
+        font-weight: 700;
+      }
+
+      .morning-grid {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 18px;
+        padding: 18px;
+        border-top: 2px solid var(--rule);
+      }
+
+      .full-span {
+        grid-column: 1 / -1;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 12px 14px;
+        border-top: 6px double var(--rule);
+        color: var(--muted);
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      @media (max-width: 880px) {
+        .content-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .morning-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .standings-snapshot {
+          grid-template-columns: 1fr;
+        }
+
+        .scoreboard {
+          grid-template-columns: 1fr;
+        }
+
+        .team-box-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .page {
+          width: calc(100% - 14px);
+          margin-top: 8px;
+        }
+
+        .edition-bar,
+        .footer {
+          flex-direction: column;
+        }
+
+        th,
+        td {
+          padding: 5px 4px;
+          font-size: 10px;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <main id="top" class="page">
+      <div class="edition-bar">
+        <span>Vol. 1, No. 1</span>
+        <span>Morning Edition</span>
+        <span>Loading latest update...</span>
+      </div>
+
+      <header class="masthead">
+        <h1>The Baseball Morning Ledger</h1>
+        <div class="tagline">
+          <span>A Morning Record Of Scores, Standings, And Box Scores</span>
+        </div>
+      </header>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#scoreboard">Scoreboard</a>
+        <a href="#standings">Standings</a>
+        <a href="leaders.html">Leaders</a>
+        <a href="#today-slate">Today's Slate</a>
+      </nav>
+
+      <section class="scoreboard-section">
+        <h2 class="section-title">Yesterday's Box Scores</h2>
+        <div id="scoreboard" class="scoreboard" aria-label="Yesterday scoreboard">
+          <p class="section-kicker">Final Scores</p>
+          <div class="score-card">
+            <header><span>Final</span><span>Fenway Park</span></header>
+            <div class="teams">
+              <div class="team-row"><span>Toronto</span><strong>4</strong></div>
+              <div class="team-row winner"><span>Boston</span><strong>5</strong></div>
+            </div>
+          </div>
+          <div class="score-card">
+            <header><span>Final</span><span>Wrigley Field</span></header>
+            <div class="teams">
+              <div class="team-row winner"><span>St. Louis</span><strong>7</strong></div>
+              <div class="team-row"><span>Chicago</span><strong>2</strong></div>
+            </div>
+          </div>
+          <div class="score-card">
+            <header><span>Final / 11</span><span>Seattle</span></header>
+            <div class="teams">
+              <div class="team-row"><span>Texas</span><strong>3</strong></div>
+              <div class="team-row winner"><span>Seattle</span><strong>4</strong></div>
+            </div>
+          </div>
+          <div class="score-card">
+            <header><span>Final</span><span>Los Angeles</span></header>
+            <div class="teams">
+              <div class="team-row winner"><span>San Diego</span><strong>6</strong></div>
+              <div class="team-row"><span>Los Angeles</span><strong>5</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="content-grid">
+        <section id="box-score">
+          <h2 class="section-title">Box Score Desk</h2>
+          <p id="selected-game-label" class="selected-game-label">Selected Game: Boston 5, Toronto 4</p>
+          <table class="line-score" aria-label="Selected game line score">
+            <thead>
+              <tr>
+                <th>Team</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>R</th>
+                <th>H</th>
+                <th>E</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Toronto</td>
+                <td>0</td><td>1</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td>
+                <td>4</td><td>8</td><td>1</td>
+              </tr>
+              <tr>
+                <td>Boston</td>
+                <td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td>
+                <td>5</td><td>10</td><td>0</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="team-box-grid">
+            <table id="away-batting-box-table" class="data-table">
+                <caption>Boston Batting</caption>
+                <thead>
+                  <tr><th>Player</th><th>AB</th><th>R</th><th>H</th><th>HR</th><th>RBI</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Duran CF</td><td>5</td><td>1</td><td>2</td><td>0</td><td>1</td></tr>
+                  <tr><td>Devers 3B</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td></tr>
+                  <tr><td>Yoshida DH</td><td>4</td><td>1</td><td>2</td><td>0</td><td>2</td></tr>
+                  <tr><td>Story SS</td><td>4</td><td>1</td><td>1</td><td>0</td><td>1</td></tr>
+                </tbody>
+              </table>
+
+            <table id="home-batting-box-table" class="data-table">
+                <caption>Toronto Batting</caption>
+                <thead>
+                  <tr><th>Player</th><th>AB</th><th>R</th><th>H</th><th>HR</th><th>RBI</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Guerrero 1B</td><td>4</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+                  <tr><td>Bichette SS</td><td>5</td><td>1</td><td>2</td><td>0</td><td>1</td></tr>
+                  <tr><td>Kirk C</td><td>4</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+                </tbody>
+              </table>
+
+            <table id="away-pitching-box-table" class="data-table">
+                <caption>Boston Pitching</caption>
+                <thead>
+                  <tr><th>Pitcher</th><th>IP</th><th>H</th><th>ER</th><th>K</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Crawford</td><td>6.0</td><td>5</td><td>3</td><td>7</td></tr>
+                  <tr><td>Martin</td><td>1.0</td><td>1</td><td>0</td><td>1</td></tr>
+                  <tr><td>Jansen</td><td>1.0</td><td>0</td><td>0</td><td>2</td></tr>
+                </tbody>
+              </table>
+
+            <table id="home-pitching-box-table" class="data-table">
+                <caption>Toronto Pitching</caption>
+                <thead>
+                  <tr><th>Pitcher</th><th>IP</th><th>H</th><th>ER</th><th>K</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Berrios</td><td>6.0</td><td>6</td><td>2</td><td>5</td></tr>
+                  <tr><td>Romano</td><td>0.1</td><td>3</td><td>3</td><td>0</td></tr>
+                </tbody>
+              </table>
+          </div>
+          <p id="box-score-note" class="small-note">Box score lines update from the daily data file.</p>
+        </section>
+
+      </div>
+
+      <div class="morning-grid">
+        <section class="full-span">
+          <h2 id="scoring-summary" class="section-title">Scoring Summary</h2>
+          <table id="scoring-summary-table" class="data-table scoring-log">
+            <caption>Toronto at Boston</caption>
+            <thead>
+              <tr><th>Inning</th><th>Score</th><th>Play</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2nd</td>
+                <td>TOR 1-0</td>
+                <td class="summary-play">Guerrero Jr. singles to right, Bichette scores.</td>
+              </tr>
+              <tr>
+                <td>3rd</td>
+                <td>1-1</td>
+                <td class="summary-play">Duran doubles to left, Rafaela scores.</td>
+              </tr>
+              <tr>
+                <td>4th</td>
+                <td>TOR 3-1</td>
+                <td class="summary-play">Varsho sacrifice fly; Kirk follows with a two-out RBI single.</td>
+              </tr>
+              <tr>
+                <td>6th</td>
+                <td>TOR 3-2</td>
+                <td class="summary-play">Yoshida singles home Devers after a double into the corner.</td>
+              </tr>
+              <tr>
+                <td>8th</td>
+                <td>TOR 4-2</td>
+                <td class="summary-play">Bichette wins a nine-pitch at-bat and singles home Springer.</td>
+              </tr>
+              <tr>
+                <td>9th</td>
+                <td>BOS 5-4</td>
+                <td class="summary-play">Yoshida singles, Story ties it, Rafaela walks it off.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+      </div>
+
+      <div class="morning-grid">
+        <section id="standings" class="full-span">
+          <h2 class="section-title">Standings</h2>
+          <div id="standings-snapshot" class="standings-snapshot">
+            <table class="data-table">
+              <caption>American League East</caption>
+              <thead>
+                <tr><th>Team</th><th>W</th><th>L</th><th>GB</th><th>L10</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Baltimore</td><td>27</td><td>16</td><td>-</td><td>7-3</td></tr>
+                <tr><td>New York</td><td>25</td><td>18</td><td>2.0</td><td>5-5</td></tr>
+                <tr><td>Boston</td><td>23</td><td>20</td><td>4.0</td><td>6-4</td></tr>
+                <tr><td>Toronto</td><td>21</td><td>22</td><td>6.0</td><td>4-6</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <div class="morning-grid">
+        <section id="leaders" class="full-span">
+          <h2 class="section-title">League Leaders</h2>
+          <div class="leader-controls" aria-label="Leader category tabs">
+            <button id="hitting-leaders-tab" class="leader-tab active" type="button">Hitting</button>
+            <button id="pitching-leaders-tab" class="leader-tab" type="button">Pitching</button>
+          </div>
+          <table id="leaders-table" class="data-table">
+            <caption>Overall Hitting Leaders</caption>
+            <thead>
+              <tr><th>Player</th><th>Team</th><th>G</th><th>AB</th><th>AVG</th><th>HR</th><th>RBI</th><th>OPS</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Ramirez</td><td>CLE</td><td>10</td><td>38</td><td>.421</td><td>5</td><td>9</td><td>1.218</td></tr>
+            </tbody>
+          </table>
+          <p id="leaders-note" class="small-note">Click a stat heading to sort. Rate stats use qualified players; counting stats include all players.</p>
+        </section>
+      </div>
+
+      <div class="morning-grid">
+        <section class="full-span">
+          <h2 id="today-slate" class="section-title">Today's Slate</h2>
+          <table id="today-slate-table" class="data-table">
+            <caption>Probables And First Pitch</caption>
+            <thead>
+              <tr><th>Matchup</th><th>Time</th><th>Probables</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Toronto at Boston</td><td>1:35 PM</td><td>Gausman vs Bello</td></tr>
+              <tr><td>Texas at Seattle</td><td>4:10 PM</td><td>Eovaldi vs Kirby</td></tr>
+              <tr><td>St. Louis at Chicago</td><td>7:05 PM</td><td>Gray vs Steele</td></tr>
+              <tr><td>San Diego at Los Angeles</td><td>10:10 PM</td><td>Darvish vs Yamamoto</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+      </div>
+
+      <footer class="footer">
+        <span>The Baseball Morning Ledger</span>
+        <span>Private prototype edition</span>
+        <span id="last-updated">No official league affiliation</span>
+      </footer>
+    </main>
+    <script src="data/yesterday-data.js"></script>
+    <script src="assets-ledger.js"></script>
+  </body>
+</html>

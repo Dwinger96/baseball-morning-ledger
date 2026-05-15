@@ -37,3 +37,5 @@ Open `index.html` in a browser, or paste this into the address bar:
 ```text
 file:///C:/Users/dwinger/Documents/Codex/2026-05-14/i-have-an-idea-for-a/index.html
 ```
+
+

@@ -910,7 +910,7 @@
             <div>
               <p>Get the daily score roundup by email when the morning edition is ready.</p>
             </div>
-            <form class="subscribe-form" name="subscribe" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field">
+            <form id="subscribe-form" class="subscribe-form" name="subscribe" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="subscribe">
               <p class="hidden-field">
                 <label>Leave this blank: <input name="bot-field"></label>
@@ -931,5 +931,21 @@
     </main>
     <script src="data/yesterday-data.js"></script>
     <script src="assets-ledger.js"></script>
+    <script>
+      const subscribeForm = document.querySelector("#subscribe-form");
+      subscribeForm?.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const formData = new FormData(subscribeForm);
+        const body = new URLSearchParams(formData).toString();
+
+        await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body,
+        });
+
+        window.location.href = "/thanks.html";
+      });
+    </script>
   </body>
 </html>

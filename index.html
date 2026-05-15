@@ -427,6 +427,63 @@
         grid-column: 1 / -1;
       }
 
+      .subscribe-panel {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 14px;
+        align-items: end;
+        padding: 14px;
+        border: 2px solid var(--rule);
+        background: rgba(255, 251, 239, 0.34);
+      }
+
+      .subscribe-panel p {
+        margin: 0;
+        color: var(--muted);
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+        line-height: 1.4;
+        text-transform: uppercase;
+      }
+
+      .subscribe-form {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+
+      .subscribe-form input {
+        min-width: min(320px, 48vw);
+        height: 38px;
+        padding: 8px 10px;
+        border: 2px solid var(--rule);
+        background: var(--paper);
+        color: var(--ink);
+        font: 700 12px "Courier New", monospace;
+      }
+
+      .subscribe-form button {
+        height: 38px;
+        padding: 0 14px;
+        border: 2px solid var(--rule);
+        background: var(--red);
+        color: var(--paper);
+        font: 700 12px "Courier New", monospace;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+
+      .subscribe-form button:hover,
+      .subscribe-form button:focus-visible {
+        background: var(--ink);
+        outline: 2px solid rgba(155, 45, 34, 0.45);
+        outline-offset: 2px;
+      }
+
+      .hidden-field {
+        display: none;
+      }
+
       .footer {
         display: flex;
         flex-wrap: wrap;
@@ -575,6 +632,23 @@
           white-space: nowrap;
         }
 
+        .subscribe-panel {
+          grid-template-columns: 1fr;
+          gap: 10px;
+          padding: 12px;
+        }
+
+        .subscribe-form {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .subscribe-form input,
+        .subscribe-form button {
+          width: 100%;
+          min-width: 0;
+        }
+
       }
     </style>
   </head>
@@ -598,6 +672,7 @@
         <a href="#standings">Standings</a>
         <a href="leaders.html">Leaders</a>
         <a href="#today-slate">Today's Slate</a>
+        <a href="#subscribe">Subscribe</a>
       </nav>
 
       <section class="scoreboard-section">
@@ -826,6 +901,26 @@
           </table>
         </section>
 
+      </div>
+
+      <div class="morning-grid">
+        <section id="subscribe" class="full-span">
+          <h2 class="section-title">Morning Delivery</h2>
+          <div class="subscribe-panel">
+            <div>
+              <p>Get the daily score roundup by email when the morning edition is ready.</p>
+            </div>
+            <form class="subscribe-form" name="subscribe" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="subscribe">
+              <p class="hidden-field">
+                <label>Leave this blank: <input name="bot-field"></label>
+              </p>
+              <label class="hidden-field" for="subscriber-email">Email</label>
+              <input id="subscriber-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </section>
       </div>
 
       <footer class="footer">

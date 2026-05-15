@@ -244,7 +244,6 @@
     if (editionBar && edition.date) {
       const backLink = editionBar.querySelector("a")?.outerHTML || '<a href="index.html">Back To Morning Edition</a>';
       editionBar.innerHTML = `
-        <span>The Baseball Morning Ledger</span>
         <span>Games of ${formatDate(edition.date)}</span>
         <span>${backLink}</span>
       `;

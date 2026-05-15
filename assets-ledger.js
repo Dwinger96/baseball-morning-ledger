@@ -564,7 +564,6 @@
     if (!editionBar) return;
     const timestamp = formatUpdatedTime(edition.generatedAt);
     editionBar.innerHTML = `
-      <span>The Baseball Morning Ledger</span>
       <span>Games of ${formatDate(edition.date)}</span>
       <span>${timestamp ? `Updated ${timestamp} Eastern` : "Updated Daily at 5:00 AM Eastern"}</span>
     `;

@@ -38,3 +38,9 @@ jobs:
           git add data/yesterday.json data/yesterday-data.js
           git diff --cached --quiet || git commit -m "Update daily ledger data"
           git push
+
+      - name: Create Buttondown draft
+        if: env.BUTTONDOWN_API_KEY != ''
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: node scripts/create-buttondown-draft.js

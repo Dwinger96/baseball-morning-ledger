@@ -19,7 +19,6 @@
   let leaderMode = "hitting";
   let leaderSort = "ops";
   let selectedGamePk = null;
-  const nationalLeagueTeamIds = new Set([108, 109, 112, 113, 115, 118, 119, 120, 121, 133, 134, 135, 137, 138, 143, 158]);
 
   function isWinner(game, side) {
     return game[side].score > game[side === "away" ? "home" : "away"].score;
@@ -64,39 +63,13 @@
     return names[name] || name;
   }
 
-  function gameLeagueId(game) {
-    if (game.home.leagueId) return game.home.leagueId;
-    if (nationalLeagueTeamIds.has(game.home.id)) return 104;
-    return 103;
-  }
-
   function renderScoreboard(edition) {
     if (!scoreboard || !edition.games?.length) return;
     const selectedGame = getSelectedGame(edition);
 
-    const gamesByLeague = [
-      { id: 103, name: "American League", games: [] },
-      { id: 104, name: "National League", games: [] },
-    ];
+    scoreboard.innerHTML = "";
 
     edition.games.forEach((game) => {
-      const league = gamesByLeague.find((item) => item.id === gameLeagueId(game)) || gamesByLeague[0];
-      league.games.push(game);
-    });
-
-    scoreboard.innerHTML = gamesByLeague
-      .map(
-        (league) => `
-          <div class="scoreboard-league" data-league-id="${league.id}">
-            <p class="section-kicker">${league.name} Games - ${formatDate(edition.date)}</p>
-          </div>
-        `,
-      )
-      .join("");
-
-    edition.games.forEach((game) => {
-      const leagueId = gameLeagueId(game) === 104 ? 104 : 103;
-      const leagueColumn = scoreboard.querySelector(`[data-league-id="${leagueId}"]`);
       const card = document.createElement("div");
       card.setAttribute("role", "button");
       card.setAttribute("tabindex", "0");
@@ -130,16 +103,7 @@
           document.querySelector("#box-score")?.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       });
-      leagueColumn?.appendChild(card);
-    });
-
-    scoreboard.querySelectorAll(".scoreboard-league").forEach((column) => {
-      if (column.querySelectorAll(".score-card").length === 0) {
-        const empty = document.createElement("p");
-        empty.className = "small-note";
-        empty.textContent = "No games listed.";
-        column.appendChild(empty);
-      }
+      scoreboard.appendChild(card);
     });
   }
 

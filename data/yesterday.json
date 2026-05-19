@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-19T13:54:21.785Z",
+  "generatedAt": "2026-05-19T17:43:00.541Z",
   "date": "2026-05-18",
   "slateDate": "2026-05-19",
   "gameOfDay": 822734,
@@ -5437,7 +5437,7 @@
         "leagueId": null,
         "leagueName": "",
         "score": 7,
-        "hits": 12,
+        "hits": 11,
         "errors": 4
       },
       "innings": [
@@ -5576,7 +5576,7 @@
         {
           "inning": 11,
           "half": "bottom",
-          "play": "Joey Wiemer singles on a ground ball to shortstop Vidal Bruján, deflected by third baseman Bo Bichette. CJ Abrams scores.",
+          "play": "Joey Wiemer reaches on a fielder's choice, fielded by third baseman Bo Bichette. CJ Abrams scores.",
           "awayScore": 6,
           "homeScore": 6
         },
@@ -6677,8 +6677,8 @@
           "half": "bottom",
           "batter": "Joey Wiemer",
           "pitcher": "Huascar Brazobán",
-          "result": "Single",
-          "description": "Joey Wiemer singles on a ground ball to shortstop Vidal Bruján, deflected by third baseman Bo Bichette. CJ Abrams scores.",
+          "result": "Fielders Choice",
+          "description": "Joey Wiemer reaches on a fielder's choice, fielded by third baseman Bo Bichette. CJ Abrams scores.",
           "rbi": 1,
           "awayScore": 6,
           "homeScore": 6
@@ -7110,7 +7110,7 @@
             {
               "name": "Huascar Brazobán",
               "inningsPitched": "2.0",
-              "hits": 2,
+              "hits": 1,
               "runs": 1,
               "earnedRuns": 0,
               "walks": 2,
@@ -7215,7 +7215,7 @@
               "position": "CF",
               "atBats": 2,
               "runs": 1,
-              "hits": 2,
+              "hits": 1,
               "homeRuns": 0,
               "rbi": 2,
               "walks": 2,
@@ -18682,7 +18682,7 @@
   "todaySlate": [
     {
       "gamePk": 823865,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "loanDepot park",
       "startTime": "2026-05-19T20:10:00Z",
       "away": {
@@ -18848,7 +18848,7 @@
       "away": {
         "name": "Texas Rangers",
         "abbreviation": "Texas Rangers",
-        "probablePitcher": "Kumar Rocker"
+        "probablePitcher": "Tyler Alexander"
       },
       "home": {
         "name": "Colorado Rockies",
@@ -22181,18 +22181,6 @@
           "ops": ".955"
         },
         {
-          "player": "Joey Wiemer",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPlayed": 32,
-          "atBats": 70,
-          "plateAppearances": 83,
-          "avg": ".300",
-          "homeRuns": 3,
-          "rbi": 12,
-          "ops": ".939"
-        },
-        {
           "player": "Andy Pages",
           "team": "Los Angeles Dodgers",
           "leagueId": 104,
@@ -22683,6 +22671,18 @@
           "homeRuns": 6,
           "rbi": 16,
           "ops": ".873"
+        },
+        {
+          "player": "Joey Wiemer",
+          "team": "Washington Nationals",
+          "leagueId": 104,
+          "gamesPlayed": 32,
+          "atBats": 70,
+          "plateAppearances": 83,
+          "avg": ".286",
+          "homeRuns": 3,
+          "rbi": 12,
+          "ops": ".912"
         },
         {
           "player": "Vladimir Guerrero Jr.",
@@ -30640,7 +30640,7 @@
           "leagueId": 104,
           "inningsPitched": "24.1",
           "era": "1.85",
-          "whip": "0.99",
+          "whip": "0.95",
           "strikeOuts": 19,
           "saves": 0
         },

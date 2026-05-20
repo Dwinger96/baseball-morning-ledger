@@ -43,20 +43,19 @@ function buildEmail(edition) {
   const dateLine = formatDate(edition.date);
   const subject = `The Morning Ledger - Games of ${formatShortDate(edition.date)}`;
   const scores = edition.games?.length
-    ? edition.games.map((game) => scoreLine(game)).join("\n")
+    ? edition.games.map((game) => `- ${scoreLine(game)}`).join("\n")
     : "No final scores were listed for yesterday.";
 
-  const body = `<!-- buttondown-editor-mode: plaintext -->
-Good morning.
+  const body = `Good morning.
 
 Yesterday's final scores are in.
 
-Games of ${dateLine}
+**Games of ${dateLine}**
 
 ${scores}
 
 Read the full morning edition:
-${SITE_URL}
+[${SITE_URL}](${SITE_URL})
 
 The Baseball Morning Ledger`;
 

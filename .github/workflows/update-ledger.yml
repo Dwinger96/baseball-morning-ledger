@@ -3,6 +3,8 @@ name: Update Baseball Morning Ledger
 on:
   schedule:
     - cron: "17 9 * * *"
+    - cron: "47 9 * * *"
+    - cron: "17 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -31,16 +33,26 @@ jobs:
       - name: Update daily data
         run: node scripts/fetch-yesterday.js
 
+      - name: Check for updated data
+        id: data-changes
+        run: |
+          git add data/yesterday.json data/yesterday-data.js
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit updated data
+        if: steps.data-changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/yesterday.json data/yesterday-data.js
-          git diff --cached --quiet || git commit -m "Update daily ledger data"
+          git commit -m "Update daily ledger data"
           git push
 
       - name: Create Buttondown draft
-        if: env.BUTTONDOWN_API_KEY != ''
+        if: steps.data-changes.outputs.changed == 'true' && env.BUTTONDOWN_API_KEY != ''
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: node scripts/create-buttondown-draft.js

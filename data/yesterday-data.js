@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-23T12:12:45.615Z",
+  "generatedAt": "2026-05-23T14:49:10.105Z",
   "date": "2026-05-22",
   "slateDate": "2026-05-23",
   "gameOfDay": 824922,
@@ -18074,8 +18074,8 @@ window.ledgerEdition = {
         "leagueId": null,
         "leagueName": "",
         "score": 0,
-        "hits": null,
-        "errors": null
+        "hits": 0,
+        "errors": 0
       },
       "home": {
         "id": 113,
@@ -18084,20 +18084,62 @@ window.ledgerEdition = {
         "leagueId": null,
         "leagueName": "",
         "score": 0,
-        "hits": null,
-        "errors": null
+        "hits": 0,
+        "errors": 0
       },
-      "innings": [],
+      "innings": [
+        {
+          "num": 1,
+          "away": 0,
+          "home": 0
+        }
+      ],
       "scoringPlays": [],
-      "playLog": [],
+      "playLog": [
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "JJ Wetherholt",
+          "pitcher": "Chris Paddack",
+          "result": "Game Advisory",
+          "description": "Status Change - Pre-Game",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        }
+      ],
       "boxScore": {
         "away": {
           "batting": [],
-          "pitching": []
+          "pitching": [
+            {
+              "name": "Andre Pallante",
+              "inningsPitched": "0.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 0
+            }
+          ]
         },
         "home": {
           "batting": [],
-          "pitching": []
+          "pitching": [
+            {
+              "name": "Chris Paddack",
+              "inningsPitched": "0.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 0
+            }
+          ]
         }
       },
       "probablePitchers": {
@@ -18114,7 +18156,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 824518,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Great American Ball Park",
       "startTime": "2026-05-23T17:10:00Z",
       "away": {
@@ -18142,22 +18184,6 @@ window.ledgerEdition = {
         "name": "Cincinnati Reds",
         "abbreviation": "Cincinnati Reds",
         "probablePitcher": "Chase Petty"
-      }
-    },
-    {
-      "gamePk": 823543,
-      "status": "Scheduled",
-      "venue": "Yankee Stadium",
-      "startTime": "2026-05-23T17:35:00Z",
-      "away": {
-        "name": "Tampa Bay Rays",
-        "abbreviation": "Tampa Bay Rays",
-        "probablePitcher": "Drew Rasmussen"
-      },
-      "home": {
-        "name": "New York Yankees",
-        "abbreviation": "New York Yankees",
-        "probablePitcher": "Ryan Weathers"
       }
     },
     {
@@ -18366,6 +18392,22 @@ window.ledgerEdition = {
         "name": "Arizona Diamondbacks",
         "abbreviation": "Arizona Diamondbacks",
         "probablePitcher": "Zac Gallen"
+      }
+    },
+    {
+      "gamePk": 823543,
+      "status": "Postponed",
+      "venue": "Yankee Stadium",
+      "startTime": "2026-05-23T17:35:00Z",
+      "away": {
+        "name": "Tampa Bay Rays",
+        "abbreviation": "Tampa Bay Rays",
+        "probablePitcher": "Drew Rasmussen"
+      },
+      "home": {
+        "name": "New York Yankees",
+        "abbreviation": "New York Yankees",
+        "probablePitcher": "Ryan Weathers"
       }
     }
   ],
@@ -27909,6 +27951,30 @@ window.ledgerEdition = {
       ],
       "rookies": [
         {
+          "player": "Wade Meckler",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 1,
+          "atBats": 3,
+          "plateAppearances": 4,
+          "avg": ".667",
+          "homeRuns": 1,
+          "rbi": 3,
+          "ops": "2.417"
+        },
+        {
+          "player": "Gabriel Gonzalez",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 1,
+          "atBats": 2,
+          "plateAppearances": 4,
+          "avg": ".500",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": "1.250"
+        },
+        {
           "player": "Daniel Susac",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -28593,6 +28659,18 @@ window.ledgerEdition = {
           "ops": ".212"
         },
         {
+          "player": "Victor Bericoto",
+          "team": "San Francisco Giants",
+          "leagueId": 104,
+          "gamesPlayed": 1,
+          "atBats": 1,
+          "plateAppearances": 1,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
+        },
+        {
           "player": "Didier Fuentes",
           "team": "Atlanta Braves",
           "leagueId": 104,
@@ -28663,6 +28741,18 @@ window.ledgerEdition = {
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".000"
+        },
+        {
+          "player": "Esmerlyn Valdez",
+          "team": "Pittsburgh Pirates",
+          "leagueId": 104,
+          "gamesPlayed": 1,
+          "atBats": 3,
+          "plateAppearances": 4,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".250"
         }
       ]
     },
@@ -35982,6 +36072,16 @@ window.ledgerEdition = {
           "era": "0.00",
           "whip": "1.50",
           "strikeOuts": 0,
+          "saves": 0
+        },
+        {
+          "player": "Jonah Tong",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "inningsPitched": "3.0",
+          "era": "0.00",
+          "whip": "0.33",
+          "strikeOuts": 2,
           "saves": 0
         },
         {

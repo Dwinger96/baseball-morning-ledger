@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-24T12:14:58.913Z",
+  "generatedAt": "2026-05-24T14:47:32.200Z",
   "date": "2026-05-23",
   "slateDate": "2026-05-24",
   "gameOfDay": 824516,
@@ -17634,7 +17634,7 @@
   "todaySlate": [
     {
       "gamePk": 822813,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Rogers Centre",
       "startTime": "2026-05-24T16:15:00Z",
       "away": {
@@ -17650,7 +17650,7 @@
     },
     {
       "gamePk": 824839,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Oriole Park at Camden Yards",
       "startTime": "2026-05-24T16:35:00Z",
       "away": {
@@ -17682,7 +17682,7 @@
     },
     {
       "gamePk": 824759,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Fenway Park",
       "startTime": "2026-05-24T17:35:00Z",
       "away": {
@@ -17698,7 +17698,7 @@
     },
     {
       "gamePk": 823459,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Citizens Bank Park",
       "startTime": "2026-05-24T17:35:00Z",
       "away": {
@@ -17714,7 +17714,7 @@
     },
     {
       "gamePk": 823544,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Yankee Stadium",
       "startTime": "2026-05-24T17:35:00Z",
       "away": {
@@ -17730,7 +17730,7 @@
     },
     {
       "gamePk": 824514,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Great American Ball Park",
       "startTime": "2026-05-24T17:40:00Z",
       "away": {
@@ -17746,7 +17746,7 @@
     },
     {
       "gamePk": 823861,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "loanDepot park",
       "startTime": "2026-05-24T17:40:00Z",
       "away": {
@@ -17762,7 +17762,7 @@
     },
     {
       "gamePk": 824108,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Kauffman Stadium",
       "startTime": "2026-05-24T18:10:00Z",
       "away": {
@@ -28173,6 +28173,18 @@
           "ops": ".212"
         },
         {
+          "player": "Kevin Alcántara",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 1,
+          "atBats": 1,
+          "plateAppearances": 1,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
+        },
+        {
           "player": "Victor Bericoto",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -35627,6 +35639,16 @@
           "inningsPitched": "2.0",
           "era": "0.00",
           "whip": "0.50",
+          "strikeOuts": 0,
+          "saves": 0
+        },
+        {
+          "player": "Jonathan Pintaro",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "inningsPitched": "1.0",
+          "era": "0.00",
+          "whip": "0.00",
           "strikeOuts": 0,
           "saves": 0
         },

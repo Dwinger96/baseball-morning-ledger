@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-26T18:39:06.421Z",
+  "generatedAt": "2026-05-26T19:11:03.964Z",
   "date": "2026-05-25",
   "slateDate": "2026-05-26",
   "gameOfDay": 824838,
@@ -16714,7 +16714,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 824275,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Comerica Park",
       "startTime": "2026-05-26T22:40:00Z",
       "away": {
@@ -16778,7 +16778,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 823624,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Citi Field",
       "startTime": "2026-05-26T23:10:00Z",
       "away": {
@@ -16789,7 +16789,7 @@ window.ledgerEdition = {
       "home": {
         "name": "New York Mets",
         "abbreviation": "New York Mets",
-        "probablePitcher": null
+        "probablePitcher": "David Peterson"
       }
     },
     {

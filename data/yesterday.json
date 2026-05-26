@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-26T18:14:19.570Z",
+  "generatedAt": "2026-05-26T18:39:06.421Z",
   "date": "2026-05-25",
   "slateDate": "2026-05-26",
   "gameOfDay": 824838,
@@ -16746,7 +16746,7 @@
     },
     {
       "gamePk": 824758,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Fenway Park",
       "startTime": "2026-05-26T22:45:00Z",
       "away": {

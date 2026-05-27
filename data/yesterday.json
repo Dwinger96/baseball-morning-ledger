@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-27T18:35:38.649Z",
+  "generatedAt": "2026-05-27T18:37:49.257Z",
   "date": "2026-05-26",
   "slateDate": "2026-05-27",
   "gameOfDay": 824597,
@@ -20945,6 +20945,18 @@
           "ops": ".785"
         },
         {
+          "player": "Xavier Edwards",
+          "team": "Miami Marlins",
+          "leagueId": 104,
+          "gamesPlayed": 57,
+          "atBats": 211,
+          "plateAppearances": 240,
+          "avg": ".313",
+          "homeRuns": 6,
+          "rbi": 19,
+          "ops": ".872"
+        },
+        {
           "player": "Yandy Díaz",
           "team": "Tampa Bay Rays",
           "leagueId": 103,
@@ -20955,18 +20967,6 @@
           "homeRuns": 8,
           "rbi": 33,
           "ops": ".885"
-        },
-        {
-          "player": "Xavier Edwards",
-          "team": "Miami Marlins",
-          "leagueId": 104,
-          "gamesPlayed": 57,
-          "atBats": 210,
-          "plateAppearances": 239,
-          "avg": ".310",
-          "homeRuns": 6,
-          "rbi": 19,
-          "ops": ".867"
         },
         {
           "player": "William Contreras",
@@ -21557,18 +21557,6 @@
           "ops": ".775"
         },
         {
-          "player": "Liam Hicks",
-          "team": "Miami Marlins",
-          "leagueId": 104,
-          "gamesPlayed": 54,
-          "atBats": 176,
-          "plateAppearances": 202,
-          "avg": ".267",
-          "homeRuns": 11,
-          "rbi": 44,
-          "ops": ".819"
-        },
-        {
           "player": "Freddie Freeman",
           "team": "Los Angeles Dodgers",
           "leagueId": 104,
@@ -21615,6 +21603,18 @@
           "homeRuns": 7,
           "rbi": 21,
           "ops": ".775"
+        },
+        {
+          "player": "Liam Hicks",
+          "team": "Miami Marlins",
+          "leagueId": 104,
+          "gamesPlayed": 54,
+          "atBats": 177,
+          "plateAppearances": 203,
+          "avg": ".266",
+          "homeRuns": 11,
+          "rbi": 44,
+          "ops": ".815"
         },
         {
           "player": "Iván Herrera",
@@ -21797,6 +21797,18 @@
           "ops": ".878"
         },
         {
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 191,
+          "plateAppearances": 218,
+          "avg": ".257",
+          "homeRuns": 7,
+          "rbi": 31,
+          "ops": ".774"
+        },
+        {
           "player": "Bryan Reynolds",
           "team": "Pittsburgh Pirates",
           "leagueId": 104,
@@ -21869,18 +21881,6 @@
           "ops": ".673"
         },
         {
-          "player": "Chase DeLauter",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 190,
-          "plateAppearances": 217,
-          "avg": ".253",
-          "homeRuns": 7,
-          "rbi": 30,
-          "ops": ".768"
-        },
-        {
           "player": "Nico Hoerner",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -21915,6 +21915,18 @@
           "homeRuns": 5,
           "rbi": 22,
           "ops": ".692"
+        },
+        {
+          "player": "Angel Martínez",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 178,
+          "plateAppearances": 193,
+          "avg": ".247",
+          "homeRuns": 9,
+          "rbi": 28,
+          "ops": ".747"
         },
         {
           "player": "Rafael Devers",
@@ -21987,18 +21999,6 @@
           "homeRuns": 7,
           "rbi": 24,
           "ops": ".685"
-        },
-        {
-          "player": "Angel Martínez",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 177,
-          "plateAppearances": 192,
-          "avg": ".243",
-          "homeRuns": 9,
-          "rbi": 27,
-          "ops": ".740"
         },
         {
           "player": "Hunter Goodman",
@@ -22301,18 +22301,6 @@
           "ops": ".653"
         },
         {
-          "player": "Masyn Winn",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 48,
-          "atBats": 175,
-          "plateAppearances": 201,
-          "avg": ".229",
-          "homeRuns": 1,
-          "rbi": 18,
-          "ops": ".622"
-        },
-        {
           "player": "Andrew Benintendi",
           "team": "Chicago White Sox",
           "leagueId": 103,
@@ -22359,6 +22347,18 @@
           "homeRuns": 10,
           "rbi": 31,
           "ops": ".768"
+        },
+        {
+          "player": "Masyn Winn",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 48,
+          "atBats": 176,
+          "plateAppearances": 202,
+          "avg": ".227",
+          "homeRuns": 1,
+          "rbi": 18,
+          "ops": ".620"
         },
         {
           "player": "Brady House",
@@ -22999,6 +22999,18 @@
           "ops": ".800"
         },
         {
+          "player": "Bryan Torres",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 5,
+          "atBats": 17,
+          "plateAppearances": 19,
+          "avg": ".353",
+          "homeRuns": 1,
+          "rbi": 3,
+          "ops": "1.068"
+        },
+        {
           "player": "Taylor Trammell",
           "team": "Houston Astros",
           "leagueId": 103,
@@ -23263,16 +23275,16 @@
           "ops": ".808"
         },
         {
-          "player": "Bryan Torres",
-          "team": "St. Louis Cardinals",
+          "player": "Xavier Edwards",
+          "team": "Miami Marlins",
           "leagueId": 104,
-          "gamesPlayed": 5,
-          "atBats": 16,
-          "plateAppearances": 18,
+          "gamesPlayed": 57,
+          "atBats": 211,
+          "plateAppearances": 240,
           "avg": ".313",
-          "homeRuns": 1,
-          "rbi": 2,
-          "ops": ".889"
+          "homeRuns": 6,
+          "rbi": 19,
+          "ops": ".872"
         },
         {
           "player": "Yandy Díaz",
@@ -23297,18 +23309,6 @@
           "homeRuns": 1,
           "rbi": 2,
           "ops": ".847"
-        },
-        {
-          "player": "Xavier Edwards",
-          "team": "Miami Marlins",
-          "leagueId": 104,
-          "gamesPlayed": 57,
-          "atBats": 210,
-          "plateAppearances": 239,
-          "avg": ".310",
-          "homeRuns": 6,
-          "rbi": 19,
-          "ops": ".867"
         },
         {
           "player": "William Contreras",
@@ -23503,18 +23503,6 @@
           "ops": ".964"
         },
         {
-          "player": "Yohendrick Piñango",
-          "team": "Toronto Blue Jays",
-          "leagueId": 103,
-          "gamesPlayed": 26,
-          "atBats": 77,
-          "plateAppearances": 81,
-          "avg": ".299",
-          "homeRuns": 2,
-          "rbi": 12,
-          "ops": ".762"
-        },
-        {
           "player": "Casey Schmitt",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -23609,6 +23597,18 @@
           "homeRuns": 9,
           "rbi": 25,
           "ops": ".853"
+        },
+        {
+          "player": "Yohendrick Piñango",
+          "team": "Toronto Blue Jays",
+          "leagueId": 103,
+          "gamesPlayed": 26,
+          "atBats": 78,
+          "plateAppearances": 82,
+          "avg": ".295",
+          "homeRuns": 2,
+          "rbi": 12,
+          "ops": ".752"
         },
         {
           "player": "Vladimir Guerrero Jr.",
@@ -24607,18 +24607,6 @@
           "ops": ".775"
         },
         {
-          "player": "Liam Hicks",
-          "team": "Miami Marlins",
-          "leagueId": 104,
-          "gamesPlayed": 54,
-          "atBats": 176,
-          "plateAppearances": 202,
-          "avg": ".267",
-          "homeRuns": 11,
-          "rbi": 44,
-          "ops": ".819"
-        },
-        {
           "player": "Samuel Basallo",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -24677,6 +24665,18 @@
           "homeRuns": 7,
           "rbi": 21,
           "ops": ".775"
+        },
+        {
+          "player": "Liam Hicks",
+          "team": "Miami Marlins",
+          "leagueId": 104,
+          "gamesPlayed": 54,
+          "atBats": 177,
+          "plateAppearances": 203,
+          "avg": ".266",
+          "homeRuns": 11,
+          "rbi": 44,
+          "ops": ".815"
         },
         {
           "player": "Miguel Rojas",
@@ -24991,6 +24991,18 @@
           "ops": ".734"
         },
         {
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 191,
+          "plateAppearances": 218,
+          "avg": ".257",
+          "homeRuns": 7,
+          "rbi": 31,
+          "ops": ".774"
+        },
+        {
           "player": "Javier Báez",
           "team": "Detroit Tigers",
           "leagueId": 103,
@@ -25181,18 +25193,6 @@
           "homeRuns": 7,
           "rbi": 26,
           "ops": ".803"
-        },
-        {
-          "player": "Chase DeLauter",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 190,
-          "plateAppearances": 217,
-          "avg": ".253",
-          "homeRuns": 7,
-          "rbi": 30,
-          "ops": ".768"
         },
         {
           "player": "Nico Hoerner",
@@ -25399,6 +25399,18 @@
           "ops": ".643"
         },
         {
+          "player": "Angel Martínez",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 178,
+          "plateAppearances": 193,
+          "avg": ".247",
+          "homeRuns": 9,
+          "rbi": 28,
+          "ops": ".747"
+        },
+        {
           "player": "Andruw Monasterio",
           "team": "Boston Red Sox",
           "leagueId": 103,
@@ -25555,18 +25567,6 @@
           "ops": ".715"
         },
         {
-          "player": "Angel Martínez",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 177,
-          "plateAppearances": 192,
-          "avg": ".243",
-          "homeRuns": 9,
-          "rbi": 27,
-          "ops": ".740"
-        },
-        {
           "player": "Dylan Beavers",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -25644,11 +25644,11 @@
           "leagueId": 103,
           "gamesPlayed": 46,
           "atBats": 145,
-          "plateAppearances": 162,
+          "plateAppearances": 163,
           "avg": ".241",
           "homeRuns": 4,
           "rbi": 19,
-          "ops": ".707"
+          "ops": ".711"
         },
         {
           "player": "Connor Wong",
@@ -26275,18 +26275,6 @@
           "ops": ".653"
         },
         {
-          "player": "Masyn Winn",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 48,
-          "atBats": 175,
-          "plateAppearances": 201,
-          "avg": ".229",
-          "homeRuns": 1,
-          "rbi": 18,
-          "ops": ".622"
-        },
-        {
           "player": "Lourdes Gurriel Jr.",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -26369,6 +26357,18 @@
           "homeRuns": 0,
           "rbi": 1,
           "ops": ".577"
+        },
+        {
+          "player": "Masyn Winn",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 48,
+          "atBats": 176,
+          "plateAppearances": 202,
+          "avg": ".227",
+          "homeRuns": 1,
+          "rbi": 18,
+          "ops": ".620"
         },
         {
           "player": "Brady House",
@@ -26599,6 +26599,18 @@
           "ops": ".792"
         },
         {
+          "player": "Kyle Manzardo",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 49,
+          "atBats": 149,
+          "plateAppearances": 168,
+          "avg": ".221",
+          "homeRuns": 5,
+          "rbi": 17,
+          "ops": ".666"
+        },
+        {
           "player": "Eli White",
           "team": "Atlanta Braves",
           "leagueId": 104,
@@ -26753,18 +26765,6 @@
           "homeRuns": 3,
           "rbi": 16,
           "ops": ".651"
-        },
-        {
-          "player": "Kyle Manzardo",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 49,
-          "atBats": 148,
-          "plateAppearances": 167,
-          "avg": ".216",
-          "homeRuns": 5,
-          "rbi": 17,
-          "ops": ".657"
         },
         {
           "player": "Ezequiel Tovar",
@@ -29685,6 +29685,18 @@
           "ops": ".704"
         },
         {
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 191,
+          "plateAppearances": 218,
+          "avg": ".257",
+          "homeRuns": 7,
+          "rbi": 31,
+          "ops": ".774"
+        },
+        {
           "player": "Sal Stewart",
           "team": "Cincinnati Reds",
           "leagueId": 104,
@@ -29695,18 +29707,6 @@
           "homeRuns": 12,
           "rbi": 35,
           "ops": ".830"
-        },
-        {
-          "player": "Chase DeLauter",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 190,
-          "plateAppearances": 217,
-          "avg": ".253",
-          "homeRuns": 7,
-          "rbi": 30,
-          "ops": ".768"
         },
         {
           "player": "Brandon Valenzuela",
@@ -29927,6 +29927,18 @@
           "ops": "1.212"
         },
         {
+          "player": "Bryan Torres",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 5,
+          "atBats": 17,
+          "plateAppearances": 19,
+          "avg": ".353",
+          "homeRuns": 1,
+          "rbi": 3,
+          "ops": "1.068"
+        },
+        {
           "player": "Tyler Black",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -29987,18 +29999,6 @@
           "ops": ".802"
         },
         {
-          "player": "Bryan Torres",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 5,
-          "atBats": 16,
-          "plateAppearances": 18,
-          "avg": ".313",
-          "homeRuns": 1,
-          "rbi": 2,
-          "ops": ".889"
-        },
-        {
           "player": "Travis Bazzana",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -30015,12 +30015,12 @@
           "team": "Toronto Blue Jays",
           "leagueId": 103,
           "gamesPlayed": 26,
-          "atBats": 77,
-          "plateAppearances": 81,
-          "avg": ".299",
+          "atBats": 78,
+          "plateAppearances": 82,
+          "avg": ".295",
           "homeRuns": 2,
           "rbi": 12,
-          "ops": ".762"
+          "ops": ".752"
         },
         {
           "player": "Kevin McGonigle",
@@ -30155,6 +30155,18 @@
           "ops": ".704"
         },
         {
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 191,
+          "plateAppearances": 218,
+          "avg": ".257",
+          "homeRuns": 7,
+          "rbi": 31,
+          "ops": ".774"
+        },
+        {
           "player": "Sal Stewart",
           "team": "Cincinnati Reds",
           "leagueId": 104,
@@ -30165,18 +30177,6 @@
           "homeRuns": 12,
           "rbi": 35,
           "ops": ".830"
-        },
-        {
-          "player": "Chase DeLauter",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 190,
-          "plateAppearances": 217,
-          "avg": ".253",
-          "homeRuns": 7,
-          "rbi": 30,
-          "ops": ".768"
         },
         {
           "player": "Victor Mesa Jr.",
@@ -31021,6 +31021,16 @@
           "saves": 0
         },
         {
+          "player": "Kevin Gausman",
+          "team": "Toronto Blue Jays",
+          "leagueId": 103,
+          "inningsPitched": "68.2",
+          "era": "3.15",
+          "whip": "1.08",
+          "strikeOuts": 66,
+          "saves": 0
+        },
+        {
           "player": "Gavin Williams",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -31028,16 +31038,6 @@
           "era": "3.15",
           "whip": "1.12",
           "strikeOuts": 88,
-          "saves": 0
-        },
-        {
-          "player": "Kevin Gausman",
-          "team": "Toronto Blue Jays",
-          "leagueId": 103,
-          "inningsPitched": "68.0",
-          "era": "3.18",
-          "whip": "1.07",
-          "strikeOuts": 66,
           "saves": 0
         },
         {
@@ -31381,6 +31381,16 @@
           "saves": 0
         },
         {
+          "player": "Eury Pérez",
+          "team": "Miami Marlins",
+          "leagueId": 104,
+          "inningsPitched": "62.2",
+          "era": "4.60",
+          "whip": "1.26",
+          "strikeOuts": 72,
+          "saves": 0
+        },
+        {
           "player": "Robbie Ray",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -31388,16 +31398,6 @@
           "era": "4.60",
           "whip": "1.38",
           "strikeOuts": 53,
-          "saves": 0
-        },
-        {
-          "player": "Eury Pérez",
-          "team": "Miami Marlins",
-          "leagueId": 104,
-          "inningsPitched": "62.1",
-          "era": "4.62",
-          "whip": "1.27",
-          "strikeOuts": 71,
           "saves": 0
         },
         {
@@ -32948,7 +32948,7 @@
           "leagueId": 104,
           "inningsPitched": "23.0",
           "era": "2.35",
-          "whip": "1.57",
+          "whip": "1.74",
           "strikeOuts": 21,
           "saves": 4
         },
@@ -33041,16 +33041,6 @@
           "whip": "1.04",
           "strikeOuts": 27,
           "saves": 0
-        },
-        {
-          "player": "Chad Patrick",
-          "team": "Milwaukee Brewers",
-          "leagueId": 104,
-          "inningsPitched": "44.1",
-          "era": "2.44",
-          "whip": "1.22",
-          "strikeOuts": 31,
-          "saves": 2
         },
         {
           "player": "José Soriano",
@@ -33221,6 +33211,16 @@
           "whip": "0.77",
           "strikeOuts": 7,
           "saves": 0
+        },
+        {
+          "player": "Chad Patrick",
+          "team": "Milwaukee Brewers",
+          "leagueId": 104,
+          "inningsPitched": "44.2",
+          "era": "2.62",
+          "whip": "1.23",
+          "strikeOuts": 32,
+          "saves": 2
         },
         {
           "player": "Tyler Rogers",
@@ -33783,6 +33783,16 @@
           "saves": 0
         },
         {
+          "player": "Kevin Gausman",
+          "team": "Toronto Blue Jays",
+          "leagueId": 103,
+          "inningsPitched": "68.2",
+          "era": "3.15",
+          "whip": "1.08",
+          "strikeOuts": 66,
+          "saves": 0
+        },
+        {
           "player": "Gavin Williams",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -33811,16 +33821,6 @@
           "whip": "1.00",
           "strikeOuts": 19,
           "saves": 1
-        },
-        {
-          "player": "Kevin Gausman",
-          "team": "Toronto Blue Jays",
-          "leagueId": 103,
-          "inningsPitched": "68.0",
-          "era": "3.18",
-          "whip": "1.07",
-          "strikeOuts": 66,
-          "saves": 0
         },
         {
           "player": "Burch Smith",
@@ -35323,6 +35323,16 @@
           "saves": 0
         },
         {
+          "player": "Eury Pérez",
+          "team": "Miami Marlins",
+          "leagueId": 104,
+          "inningsPitched": "62.2",
+          "era": "4.60",
+          "whip": "1.26",
+          "strikeOuts": 72,
+          "saves": 0
+        },
+        {
           "player": "Robbie Ray",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -35341,16 +35351,6 @@
           "whip": "1.58",
           "strikeOuts": 29,
           "saves": 3
-        },
-        {
-          "player": "Eury Pérez",
-          "team": "Miami Marlins",
-          "leagueId": 104,
-          "inningsPitched": "62.1",
-          "era": "4.62",
-          "whip": "1.27",
-          "strikeOuts": 71,
-          "saves": 0
         },
         {
           "player": "Cole Sands",

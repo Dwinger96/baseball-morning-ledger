@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-28T19:44:14.027Z",
+  "generatedAt": "2026-05-28T19:46:17.340Z",
   "date": "2026-05-27",
   "slateDate": "2026-05-28",
   "gameOfDay": 822809,
@@ -25533,18 +25533,6 @@
           "ops": ".657"
         },
         {
-          "player": "Matt Vierling",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 47,
-          "atBats": 142,
-          "plateAppearances": 159,
-          "avg": ".211",
-          "homeRuns": 4,
-          "rbi": 21,
-          "ops": ".636"
-        },
-        {
           "player": "Jackson Holliday",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -25615,6 +25603,18 @@
           "homeRuns": 3,
           "rbi": 14,
           "ops": ".618"
+        },
+        {
+          "player": "Matt Vierling",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 47,
+          "atBats": 143,
+          "plateAppearances": 160,
+          "avg": ".210",
+          "homeRuns": 4,
+          "rbi": 21,
+          "ops": ".632"
         },
         {
           "player": "Austin Slater",
@@ -26642,11 +26642,11 @@
           "leagueId": 103,
           "gamesPlayed": 41,
           "atBats": 126,
-          "plateAppearances": 136,
+          "plateAppearances": 137,
           "avg": ".175",
           "homeRuns": 4,
           "rbi": 10,
-          "ops": ".537"
+          "ops": ".543"
         },
         {
           "player": "Luisangel Acuña",
@@ -26760,7 +26760,7 @@
           "player": "Jahmai Jones",
           "team": "Detroit Tigers",
           "leagueId": 103,
-          "gamesPlayed": 37,
+          "gamesPlayed": 38,
           "atBats": 66,
           "plateAppearances": 72,
           "avg": ".167",
@@ -28159,18 +28159,6 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": "1.000"
-        },
-        {
-          "player": "Ryan Zeferjahn",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 20,
-          "atBats": 0,
-          "plateAppearances": 0,
-          "avg": ".000",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".000"
         }
       ],
       "rookieQualified": [
@@ -33977,6 +33965,16 @@
           "saves": 0
         },
         {
+          "player": "Ryan Zeferjahn",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "inningsPitched": "25.0",
+          "era": "4.68",
+          "whip": "1.28",
+          "strikeOuts": 31,
+          "saves": 1
+        },
+        {
           "player": "David Bednar",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -34025,16 +34023,6 @@
           "whip": "1.16",
           "strikeOuts": 23,
           "saves": 6
-        },
-        {
-          "player": "Ryan Zeferjahn",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "inningsPitched": "24.2",
-          "era": "4.74",
-          "whip": "1.26",
-          "strikeOuts": 30,
-          "saves": 1
         },
         {
           "player": "Jack Leiter",

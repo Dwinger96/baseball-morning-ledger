@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-28T18:44:51.035Z",
+  "generatedAt": "2026-05-28T19:44:14.027Z",
   "date": "2026-05-27",
   "slateDate": "2026-05-28",
   "gameOfDay": 822809,
@@ -18806,7 +18806,7 @@
     },
     {
       "gamePk": 824834,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Oriole Park at Camden Yards",
       "startTime": "2026-05-28T22:35:00Z",
       "away": {
@@ -19571,12 +19571,12 @@
           "team": "Detroit Tigers",
           "leagueId": 103,
           "gamesPlayed": 57,
-          "atBats": 202,
-          "plateAppearances": 234,
-          "avg": ".307",
+          "atBats": 204,
+          "plateAppearances": 236,
+          "avg": ".304",
           "homeRuns": 4,
           "rbi": 25,
-          "ops": ".843"
+          "ops": ".834"
         },
         {
           "player": "Drake Baldwin",
@@ -19735,18 +19735,6 @@
           "ops": ".937"
         },
         {
-          "player": "Kevin McGonigle",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 55,
-          "atBats": 204,
-          "plateAppearances": 239,
-          "avg": ".294",
-          "homeRuns": 3,
-          "rbi": 21,
-          "ops": ".823"
-        },
-        {
           "player": "Ernie Clement",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -19781,6 +19769,18 @@
           "homeRuns": 7,
           "rbi": 28,
           "ops": ".945"
+        },
+        {
+          "player": "Kevin McGonigle",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 55,
+          "atBats": 206,
+          "plateAppearances": 241,
+          "avg": ".291",
+          "homeRuns": 3,
+          "rbi": 21,
+          "ops": ".816"
         },
         {
           "player": "Casey Schmitt",
@@ -20035,18 +20035,6 @@
           "ops": ".830"
         },
         {
-          "player": "Chase Meidroth",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 54,
-          "atBats": 199,
-          "plateAppearances": 228,
-          "avg": ".271",
-          "homeRuns": 5,
-          "rbi": 18,
-          "ops": ".736"
-        },
-        {
           "player": "Nolan Arenado",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -20057,6 +20045,18 @@
           "homeRuns": 7,
           "rbi": 27,
           "ops": ".810"
+        },
+        {
+          "player": "Chase Meidroth",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 54,
+          "atBats": 200,
+          "plateAppearances": 230,
+          "avg": ".270",
+          "homeRuns": 5,
+          "rbi": 18,
+          "ops": ".735"
         },
         {
           "player": "Brandon Lowe",
@@ -20359,18 +20359,6 @@
           "ops": ".754"
         },
         {
-          "player": "Byron Buxton",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 48,
-          "atBats": 198,
-          "plateAppearances": 217,
-          "avg": ".258",
-          "homeRuns": 17,
-          "rbi": 27,
-          "ops": ".894"
-        },
-        {
           "player": "Jeff McNeil",
           "team": "Athletics",
           "leagueId": 103,
@@ -20381,6 +20369,18 @@
           "homeRuns": 2,
           "rbi": 15,
           "ops": ".673"
+        },
+        {
+          "player": "Byron Buxton",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 48,
+          "atBats": 199,
+          "plateAppearances": 219,
+          "avg": ".256",
+          "homeRuns": 17,
+          "rbi": 27,
+          "ops": ".893"
         },
         {
           "player": "Sal Stewart",
@@ -20419,18 +20419,6 @@
           "ops": ".849"
         },
         {
-          "player": "Brooks Lee",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 189,
-          "plateAppearances": 205,
-          "avg": ".254",
-          "homeRuns": 6,
-          "rbi": 30,
-          "ops": ".716"
-        },
-        {
           "player": "Will Smith",
           "team": "Los Angeles Dodgers",
           "leagueId": 104,
@@ -20441,6 +20429,18 @@
           "homeRuns": 5,
           "rbi": 22,
           "ops": ".714"
+        },
+        {
+          "player": "Brooks Lee",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 190,
+          "plateAppearances": 206,
+          "avg": ".253",
+          "homeRuns": 6,
+          "rbi": 30,
+          "ops": ".712"
         },
         {
           "player": "Aaron Judge",
@@ -20575,16 +20575,16 @@
           "ops": ".705"
         },
         {
-          "player": "Jo Adell",
-          "team": "Los Angeles Angels",
+          "player": "Munetaka Murakami",
+          "team": "Chicago White Sox",
           "leagueId": 103,
-          "gamesPlayed": 57,
-          "atBats": 218,
-          "plateAppearances": 235,
-          "avg": ".243",
-          "homeRuns": 8,
-          "rbi": 29,
-          "ops": ".679"
+          "gamesPlayed": 56,
+          "atBats": 198,
+          "plateAppearances": 243,
+          "avg": ".242",
+          "homeRuns": 20,
+          "rbi": 41,
+          "ops": ".945"
         },
         {
           "player": "Cole Young",
@@ -20597,6 +20597,18 @@
           "homeRuns": 3,
           "rbi": 27,
           "ops": ".669"
+        },
+        {
+          "player": "Jo Adell",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 57,
+          "atBats": 219,
+          "plateAppearances": 236,
+          "avg": ".242",
+          "homeRuns": 8,
+          "rbi": 29,
+          "ops": ".676"
         },
         {
           "player": "Rafael Devers",
@@ -20623,16 +20635,16 @@
           "ops": ".694"
         },
         {
-          "player": "Munetaka Murakami",
-          "team": "Chicago White Sox",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
           "leagueId": 103,
           "gamesPlayed": 56,
           "atBats": 197,
-          "plateAppearances": 241,
+          "plateAppearances": 252,
           "avg": ".239",
-          "homeRuns": 20,
-          "rbi": 40,
-          "ops": ".931"
+          "homeRuns": 13,
+          "rbi": 30,
+          "ops": ".892"
         },
         {
           "player": "Hunter Goodman",
@@ -20719,30 +20731,6 @@
           "ops": ".694"
         },
         {
-          "player": "Mike Trout",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 56,
-          "atBats": 196,
-          "plateAppearances": 250,
-          "avg": ".235",
-          "homeRuns": 13,
-          "rbi": 28,
-          "ops": ".880"
-        },
-        {
-          "player": "Miguel Vargas",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 55,
-          "atBats": 192,
-          "plateAppearances": 236,
-          "avg": ".234",
-          "homeRuns": 12,
-          "rbi": 31,
-          "ops": ".843"
-        },
-        {
           "player": "JJ Wetherholt",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -20779,6 +20767,30 @@
           "ops": ".668"
         },
         {
+          "player": "Zach Neto",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 57,
+          "atBats": 223,
+          "plateAppearances": 261,
+          "avg": ".233",
+          "homeRuns": 10,
+          "rbi": 26,
+          "ops": ".776"
+        },
+        {
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 55,
+          "atBats": 202,
+          "plateAppearances": 231,
+          "avg": ".233",
+          "homeRuns": 13,
+          "rbi": 34,
+          "ops": ".804"
+        },
+        {
           "player": "Michael Busch",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -20791,16 +20803,16 @@
           "ops": ".755"
         },
         {
-          "player": "Dillon Dingler",
-          "team": "Detroit Tigers",
+          "player": "Miguel Vargas",
+          "team": "Chicago White Sox",
           "leagueId": 103,
-          "gamesPlayed": 51,
-          "atBats": 181,
-          "plateAppearances": 206,
+          "gamesPlayed": 55,
+          "atBats": 194,
+          "plateAppearances": 238,
           "avg": ".232",
-          "homeRuns": 10,
-          "rbi": 32,
-          "ops": ".778"
+          "homeRuns": 12,
+          "rbi": 31,
+          "ops": ".835"
         },
         {
           "player": "Justin Crawford",
@@ -20827,6 +20839,18 @@
           "ops": ".744"
         },
         {
+          "player": "Dillon Dingler",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 51,
+          "atBats": 182,
+          "plateAppearances": 208,
+          "avg": ".231",
+          "homeRuns": 10,
+          "rbi": 32,
+          "ops": ".776"
+        },
+        {
           "player": "Masyn Winn",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -20849,30 +20873,6 @@
           "homeRuns": 3,
           "rbi": 21,
           "ops": ".651"
-        },
-        {
-          "player": "Colson Montgomery",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 55,
-          "atBats": 200,
-          "plateAppearances": 229,
-          "avg": ".230",
-          "homeRuns": 13,
-          "rbi": 34,
-          "ops": ".803"
-        },
-        {
-          "player": "Zach Neto",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 57,
-          "atBats": 222,
-          "plateAppearances": 259,
-          "avg": ".230",
-          "homeRuns": 10,
-          "rbi": 26,
-          "ops": ".768"
         },
         {
           "player": "Matt Chapman",
@@ -21079,6 +21079,18 @@
           "ops": ".782"
         },
         {
+          "player": "Jorge Soler",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 195,
+          "plateAppearances": 222,
+          "avg": ".215",
+          "homeRuns": 9,
+          "rbi": 31,
+          "ops": ".697"
+        },
+        {
           "player": "Ezequiel Tovar",
           "team": "Colorado Rockies",
           "leagueId": 104,
@@ -21191,24 +21203,12 @@
           "team": "Minnesota Twins",
           "leagueId": 103,
           "gamesPlayed": 54,
-          "atBats": 194,
-          "plateAppearances": 214,
-          "avg": ".211",
+          "atBats": 195,
+          "plateAppearances": 215,
+          "avg": ".210",
           "homeRuns": 5,
           "rbi": 29,
-          "ops": ".606"
-        },
-        {
-          "player": "Jorge Soler",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 194,
-          "plateAppearances": 221,
-          "avg": ".211",
-          "homeRuns": 9,
-          "rbi": 30,
-          "ops": ".691"
+          "ops": ".602"
         },
         {
           "player": "Tyler Soderstrom",
@@ -21233,18 +21233,6 @@
           "homeRuns": 5,
           "rbi": 18,
           "ops": ".631"
-        },
-        {
-          "player": "Spencer Torkelson",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 56,
-          "atBats": 183,
-          "plateAppearances": 213,
-          "avg": ".208",
-          "homeRuns": 8,
-          "rbi": 21,
-          "ops": ".719"
         },
         {
           "player": "Steven Kwan",
@@ -21305,6 +21293,18 @@
           "homeRuns": 7,
           "rbi": 29,
           "ops": ".714"
+        },
+        {
+          "player": "Spencer Torkelson",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 56,
+          "atBats": 185,
+          "plateAppearances": 215,
+          "avg": ".205",
+          "homeRuns": 8,
+          "rbi": 21,
+          "ops": ".712"
         },
         {
           "player": "Adolis García",
@@ -21506,11 +21506,11 @@
           "leagueId": 103,
           "gamesPlayed": 7,
           "atBats": 17,
-          "plateAppearances": 17,
+          "plateAppearances": 18,
           "avg": ".471",
           "homeRuns": 0,
           "rbi": 1,
-          "ops": "1.000"
+          "ops": "1.029"
         },
         {
           "player": "Tommy Troy",
@@ -21547,18 +21547,6 @@
           "homeRuns": 0,
           "rbi": 4,
           "ops": ".922"
-        },
-        {
-          "player": "Wade Meckler",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 6,
-          "atBats": 17,
-          "plateAppearances": 18,
-          "avg": ".353",
-          "homeRuns": 1,
-          "rbi": 3,
-          "ops": ".918"
         },
         {
           "player": "Jared Young",
@@ -21655,6 +21643,18 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".666"
+        },
+        {
+          "player": "Wade Meckler",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 6,
+          "atBats": 18,
+          "plateAppearances": 19,
+          "avg": ".333",
+          "homeRuns": 1,
+          "rbi": 3,
+          "ops": ".868"
         },
         {
           "player": "Ryan Ward",
@@ -21849,18 +21849,6 @@
           "ops": ".761"
         },
         {
-          "player": "Riley Greene",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 57,
-          "atBats": 202,
-          "plateAppearances": 234,
-          "avg": ".307",
-          "homeRuns": 4,
-          "rbi": 25,
-          "ops": ".843"
-        },
-        {
           "player": "Carson Kelly",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -21883,6 +21871,18 @@
           "homeRuns": 2,
           "rbi": 16,
           "ops": ".847"
+        },
+        {
+          "player": "Riley Greene",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 57,
+          "atBats": 204,
+          "plateAppearances": 236,
+          "avg": ".304",
+          "homeRuns": 4,
+          "rbi": 25,
+          "ops": ".834"
         },
         {
           "player": "Drake Baldwin",
@@ -22161,18 +22161,6 @@
           "ops": ".709"
         },
         {
-          "player": "Kevin McGonigle",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 55,
-          "atBats": 204,
-          "plateAppearances": 239,
-          "avg": ".294",
-          "homeRuns": 3,
-          "rbi": 21,
-          "ops": ".823"
-        },
-        {
           "player": "Ernie Clement",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -22214,11 +22202,11 @@
           "leagueId": 103,
           "gamesPlayed": 52,
           "atBats": 154,
-          "plateAppearances": 165,
+          "plateAppearances": 166,
           "avg": ".292",
           "homeRuns": 0,
           "rbi": 7,
-          "ops": ".690"
+          "ops": ".694"
         },
         {
           "player": "Jacob Wilson",
@@ -22243,6 +22231,18 @@
           "homeRuns": 0,
           "rbi": 1,
           "ops": ".667"
+        },
+        {
+          "player": "Kevin McGonigle",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 55,
+          "atBats": 206,
+          "plateAppearances": 241,
+          "avg": ".291",
+          "homeRuns": 3,
+          "rbi": 21,
+          "ops": ".816"
         },
         {
           "player": "Casey Schmitt",
@@ -22339,6 +22339,18 @@
           "homeRuns": 6,
           "rbi": 25,
           "ops": ".850"
+        },
+        {
+          "player": "Sam Antonacci",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 39,
+          "atBats": 125,
+          "plateAppearances": 149,
+          "avg": ".288",
+          "homeRuns": 1,
+          "rbi": 13,
+          "ops": ".772"
         },
         {
           "player": "Jake Bauers",
@@ -22459,18 +22471,6 @@
           "homeRuns": 5,
           "rbi": 23,
           "ops": ".791"
-        },
-        {
-          "player": "Sam Antonacci",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 39,
-          "atBats": 123,
-          "plateAppearances": 147,
-          "avg": ".285",
-          "homeRuns": 1,
-          "rbi": 13,
-          "ops": ".768"
         },
         {
           "player": "Austin Martin",
@@ -22615,18 +22615,6 @@
           "homeRuns": 0,
           "rbi": 4,
           "ops": ".699"
-        },
-        {
-          "player": "Ryan Kreidler",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 17,
-          "atBats": 43,
-          "plateAppearances": 48,
-          "avg": ".279",
-          "homeRuns": 3,
-          "rbi": 8,
-          "ops": ".889"
         },
         {
           "player": "Ezequiel Duran",
@@ -22845,6 +22833,18 @@
           "ops": ".951"
         },
         {
+          "player": "Randal Grichuk",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 34,
+          "atBats": 66,
+          "plateAppearances": 70,
+          "avg": ".273",
+          "homeRuns": 4,
+          "rbi": 15,
+          "ops": ".830"
+        },
+        {
           "player": "Darell Hernaiz",
           "team": "Athletics",
           "leagueId": 103,
@@ -22884,7 +22884,7 @@
           "player": "Jose Siri",
           "team": "Los Angeles Angels",
           "leagueId": 103,
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "atBats": 11,
           "plateAppearances": 12,
           "avg": ".273",
@@ -22917,18 +22917,6 @@
           "ops": ".830"
         },
         {
-          "player": "Chase Meidroth",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 54,
-          "atBats": 199,
-          "plateAppearances": 228,
-          "avg": ".271",
-          "homeRuns": 5,
-          "rbi": 18,
-          "ops": ".736"
-        },
-        {
           "player": "Nolan Arenado",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -22939,6 +22927,18 @@
           "homeRuns": 7,
           "rbi": 27,
           "ops": ".810"
+        },
+        {
+          "player": "Chase Meidroth",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 54,
+          "atBats": 200,
+          "plateAppearances": 230,
+          "avg": ".270",
+          "homeRuns": 5,
+          "rbi": 18,
+          "ops": ".735"
         },
         {
           "player": "Brandon Lowe",
@@ -22977,18 +22977,6 @@
           "ops": ".727"
         },
         {
-          "player": "Oswald Peraza",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 51,
-          "atBats": 145,
-          "plateAppearances": 161,
-          "avg": ".269",
-          "homeRuns": 6,
-          "rbi": 14,
-          "ops": ".786"
-        },
-        {
           "player": "Jonny DeLuca",
           "team": "Tampa Bay Rays",
           "leagueId": 103,
@@ -22999,6 +22987,18 @@
           "homeRuns": 2,
           "rbi": 19,
           "ops": ".710"
+        },
+        {
+          "player": "Tristan Peters",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 134,
+          "plateAppearances": 152,
+          "avg": ".269",
+          "homeRuns": 2,
+          "rbi": 13,
+          "ops": ".719"
         },
         {
           "player": "Ozzie Albies",
@@ -23073,6 +23073,18 @@
           "ops": ".699"
         },
         {
+          "player": "Oswald Peraza",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 51,
+          "atBats": 146,
+          "plateAppearances": 162,
+          "avg": ".267",
+          "homeRuns": 6,
+          "rbi": 14,
+          "ops": ".780"
+        },
+        {
           "player": "Miguel Andujar",
           "team": "San Diego Padres",
           "leagueId": 104,
@@ -23107,6 +23119,18 @@
           "homeRuns": 8,
           "rbi": 22,
           "ops": ".810"
+        },
+        {
+          "player": "Ryan Kreidler",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 17,
+          "atBats": 45,
+          "plateAppearances": 50,
+          "avg": ".267",
+          "homeRuns": 3,
+          "rbi": 9,
+          "ops": ".851"
         },
         {
           "player": "Heliot Ramos",
@@ -23145,18 +23169,6 @@
           "ops": ".787"
         },
         {
-          "player": "Randal Grichuk",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 34,
-          "atBats": 64,
-          "plateAppearances": 68,
-          "avg": ".266",
-          "homeRuns": 4,
-          "rbi": 12,
-          "ops": ".810"
-        },
-        {
           "player": "Paul Goldschmidt",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -23167,30 +23179,6 @@
           "homeRuns": 5,
           "rbi": 15,
           "ops": ".863"
-        },
-        {
-          "player": "Trevor Larnach",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 45,
-          "atBats": 132,
-          "plateAppearances": 156,
-          "avg": ".265",
-          "homeRuns": 2,
-          "rbi": 14,
-          "ops": ".764"
-        },
-        {
-          "player": "Tristan Peters",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 132,
-          "plateAppearances": 150,
-          "avg": ".265",
-          "homeRuns": 2,
-          "rbi": 12,
-          "ops": ".715"
         },
         {
           "player": "Miguel Rojas",
@@ -23287,6 +23275,30 @@
           "homeRuns": 4,
           "rbi": 27,
           "ops": ".706"
+        },
+        {
+          "player": "Trevor Larnach",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 45,
+          "atBats": 133,
+          "plateAppearances": 157,
+          "avg": ".263",
+          "homeRuns": 2,
+          "rbi": 14,
+          "ops": ".759"
+        },
+        {
+          "player": "Donovan Walton",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 6,
+          "atBats": 19,
+          "plateAppearances": 20,
+          "avg": ".263",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".616"
         },
         {
           "player": "Maikel Garcia",
@@ -23541,18 +23553,6 @@
           "ops": ".754"
         },
         {
-          "player": "Byron Buxton",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 48,
-          "atBats": 198,
-          "plateAppearances": 217,
-          "avg": ".258",
-          "homeRuns": 17,
-          "rbi": 27,
-          "ops": ".894"
-        },
-        {
           "player": "Jeff McNeil",
           "team": "Athletics",
           "leagueId": 103,
@@ -23623,6 +23623,18 @@
           "homeRuns": 2,
           "rbi": 6,
           "ops": ".677"
+        },
+        {
+          "player": "Byron Buxton",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 48,
+          "atBats": 199,
+          "plateAppearances": 219,
+          "avg": ".256",
+          "homeRuns": 17,
+          "rbi": 27,
+          "ops": ".893"
         },
         {
           "player": "Dalton Rushing",
@@ -23709,18 +23721,6 @@
           "ops": ".646"
         },
         {
-          "player": "Brooks Lee",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 189,
-          "plateAppearances": 205,
-          "avg": ".254",
-          "homeRuns": 6,
-          "rbi": 30,
-          "ops": ".716"
-        },
-        {
           "player": "Will Smith",
           "team": "Los Angeles Dodgers",
           "leagueId": 104,
@@ -23731,6 +23731,18 @@
           "homeRuns": 5,
           "rbi": 22,
           "ops": ".714"
+        },
+        {
+          "player": "Brooks Lee",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 190,
+          "plateAppearances": 206,
+          "avg": ".253",
+          "homeRuns": 6,
+          "rbi": 30,
+          "ops": ".712"
         },
         {
           "player": "Aaron Judge",
@@ -23851,18 +23863,6 @@
           "homeRuns": 3,
           "rbi": 12,
           "ops": ".758"
-        },
-        {
-          "player": "Rikuu Nishida",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 4,
-          "atBats": 8,
-          "plateAppearances": 8,
-          "avg": ".250",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".500"
         },
         {
           "player": "Joc Pederson",
@@ -24117,18 +24117,6 @@
           "ops": ".705"
         },
         {
-          "player": "Jo Adell",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 57,
-          "atBats": 218,
-          "plateAppearances": 235,
-          "avg": ".243",
-          "homeRuns": 8,
-          "rbi": 29,
-          "ops": ".679"
-        },
-        {
           "player": "Dylan Beavers",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -24151,6 +24139,18 @@
           "homeRuns": 1,
           "rbi": 1,
           "ops": ".629"
+        },
+        {
+          "player": "Munetaka Murakami",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 56,
+          "atBats": 198,
+          "plateAppearances": 243,
+          "avg": ".242",
+          "homeRuns": 20,
+          "rbi": 41,
+          "ops": ".945"
         },
         {
           "player": "Yohel Pozo",
@@ -24189,6 +24189,18 @@
           "ops": ".691"
         },
         {
+          "player": "Jo Adell",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 57,
+          "atBats": 219,
+          "plateAppearances": 236,
+          "avg": ".242",
+          "homeRuns": 8,
+          "rbi": 29,
+          "ops": ".676"
+        },
+        {
           "player": "Rafael Devers",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -24223,6 +24235,18 @@
           "homeRuns": 4,
           "rbi": 10,
           "ops": ".710"
+        },
+        {
+          "player": "Tristan Gray",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 30,
+          "atBats": 83,
+          "plateAppearances": 93,
+          "avg": ".241",
+          "homeRuns": 3,
+          "rbi": 14,
+          "ops": ".677"
         },
         {
           "player": "Myles Straw",
@@ -24285,16 +24309,16 @@
           "ops": ".694"
         },
         {
-          "player": "Munetaka Murakami",
-          "team": "Chicago White Sox",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
           "leagueId": 103,
           "gamesPlayed": 56,
           "atBats": 197,
-          "plateAppearances": 241,
+          "plateAppearances": 252,
           "avg": ".239",
-          "homeRuns": 20,
-          "rbi": 40,
-          "ops": ".931"
+          "homeRuns": 13,
+          "rbi": 30,
+          "ops": ".892"
         },
         {
           "player": "Hunter Goodman",
@@ -24477,18 +24501,6 @@
           "ops": ".568"
         },
         {
-          "player": "Donovan Walton",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 6,
-          "atBats": 17,
-          "plateAppearances": 18,
-          "avg": ".235",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".572"
-        },
-        {
           "player": "Jake Burger",
           "team": "Texas Rangers",
           "leagueId": 103,
@@ -24511,30 +24523,6 @@
           "homeRuns": 5,
           "rbi": 11,
           "ops": ".694"
-        },
-        {
-          "player": "Mike Trout",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 56,
-          "atBats": 196,
-          "plateAppearances": 250,
-          "avg": ".235",
-          "homeRuns": 13,
-          "rbi": 28,
-          "ops": ".880"
-        },
-        {
-          "player": "Miguel Vargas",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 55,
-          "atBats": 192,
-          "plateAppearances": 236,
-          "avg": ".234",
-          "homeRuns": 12,
-          "rbi": 31,
-          "ops": ".843"
         },
         {
           "player": "JJ Wetherholt",
@@ -24609,6 +24597,30 @@
           "ops": ".668"
         },
         {
+          "player": "Zach Neto",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 57,
+          "atBats": 223,
+          "plateAppearances": 261,
+          "avg": ".233",
+          "homeRuns": 10,
+          "rbi": 26,
+          "ops": ".776"
+        },
+        {
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 55,
+          "atBats": 202,
+          "plateAppearances": 231,
+          "avg": ".233",
+          "homeRuns": 13,
+          "rbi": 34,
+          "ops": ".804"
+        },
+        {
           "player": "Dustin Harris",
           "team": "Houston Astros",
           "leagueId": 103,
@@ -24645,16 +24657,16 @@
           "ops": ".755"
         },
         {
-          "player": "Dillon Dingler",
-          "team": "Detroit Tigers",
+          "player": "Miguel Vargas",
+          "team": "Chicago White Sox",
           "leagueId": 103,
-          "gamesPlayed": 51,
-          "atBats": 181,
-          "plateAppearances": 206,
+          "gamesPlayed": 55,
+          "atBats": 194,
+          "plateAppearances": 238,
           "avg": ".232",
-          "homeRuns": 10,
-          "rbi": 32,
-          "ops": ".778"
+          "homeRuns": 12,
+          "rbi": 31,
+          "ops": ".835"
         },
         {
           "player": "Jake Fraley",
@@ -24667,30 +24679,6 @@
           "homeRuns": 2,
           "rbi": 5,
           "ops": ".690"
-        },
-        {
-          "player": "Tristan Gray",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 30,
-          "atBats": 82,
-          "plateAppearances": 92,
-          "avg": ".232",
-          "homeRuns": 3,
-          "rbi": 14,
-          "ops": ".651"
-        },
-        {
-          "player": "Kody Clemens",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 45,
-          "atBats": 147,
-          "plateAppearances": 167,
-          "avg": ".231",
-          "homeRuns": 5,
-          "rbi": 15,
-          "ops": ".730"
         },
         {
           "player": "Justin Crawford",
@@ -24715,6 +24703,18 @@
           "homeRuns": 10,
           "rbi": 33,
           "ops": ".744"
+        },
+        {
+          "player": "Dillon Dingler",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 51,
+          "atBats": 182,
+          "plateAppearances": 208,
+          "avg": ".231",
+          "homeRuns": 10,
+          "rbi": 32,
+          "ops": ".776"
         },
         {
           "player": "Masyn Winn",
@@ -24753,16 +24753,16 @@
           "ops": ".663"
         },
         {
-          "player": "Colson Montgomery",
-          "team": "Chicago White Sox",
+          "player": "Kody Clemens",
+          "team": "Minnesota Twins",
           "leagueId": 103,
-          "gamesPlayed": 55,
-          "atBats": 200,
-          "plateAppearances": 229,
+          "gamesPlayed": 45,
+          "atBats": 148,
+          "plateAppearances": 168,
           "avg": ".230",
-          "homeRuns": 13,
-          "rbi": 34,
-          "ops": ".803"
+          "homeRuns": 5,
+          "rbi": 15,
+          "ops": ".725"
         },
         {
           "player": "Adam Frazier",
@@ -24775,18 +24775,6 @@
           "homeRuns": 1,
           "rbi": 6,
           "ops": ".670"
-        },
-        {
-          "player": "Zach Neto",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 57,
-          "atBats": 222,
-          "plateAppearances": 259,
-          "avg": ".230",
-          "homeRuns": 10,
-          "rbi": 26,
-          "ops": ".768"
         },
         {
           "player": "Roman Anthony",
@@ -24871,6 +24859,18 @@
           "homeRuns": 2,
           "rbi": 5,
           "ops": ".852"
+        },
+        {
+          "player": "Vaughn Grissom",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 34,
+          "atBats": 110,
+          "plateAppearances": 127,
+          "avg": ".227",
+          "homeRuns": 3,
+          "rbi": 21,
+          "ops": ".675"
         },
         {
           "player": "Leo Jiménez",
@@ -25077,18 +25077,6 @@
           "ops": ".616"
         },
         {
-          "player": "Vaughn Grissom",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 34,
-          "atBats": 108,
-          "plateAppearances": 125,
-          "avg": ".222",
-          "homeRuns": 3,
-          "rbi": 20,
-          "ops": ".659"
-        },
-        {
           "player": "Gunnar Henderson",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -25123,6 +25111,18 @@
           "homeRuns": 6,
           "rbi": 23,
           "ops": ".689"
+        },
+        {
+          "player": "Rikuu Nishida",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 4,
+          "atBats": 9,
+          "plateAppearances": 9,
+          "avg": ".222",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".444"
         },
         {
           "player": "Kyle Manzardo",
@@ -25341,6 +25341,18 @@
           "ops": ".782"
         },
         {
+          "player": "Jorge Soler",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 195,
+          "plateAppearances": 222,
+          "avg": ".215",
+          "homeRuns": 9,
+          "rbi": 31,
+          "ops": ".697"
+        },
+        {
           "player": "Lane Thomas",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -25437,18 +25449,6 @@
           "ops": ".515"
         },
         {
-          "player": "Matt Vierling",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 47,
-          "atBats": 141,
-          "plateAppearances": 158,
-          "avg": ".213",
-          "homeRuns": 4,
-          "rbi": 21,
-          "ops": ".640"
-        },
-        {
           "player": "Connor Norby",
           "team": "Miami Marlins",
           "leagueId": 104,
@@ -25521,30 +25521,6 @@
           "ops": ".643"
         },
         {
-          "player": "Josh Bell",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "gamesPlayed": 54,
-          "atBats": 194,
-          "plateAppearances": 214,
-          "avg": ".211",
-          "homeRuns": 5,
-          "rbi": 29,
-          "ops": ".606"
-        },
-        {
-          "player": "Jorge Soler",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 194,
-          "plateAppearances": 221,
-          "avg": ".211",
-          "homeRuns": 9,
-          "rbi": 30,
-          "ops": ".691"
-        },
-        {
           "player": "George Springer",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -25555,6 +25531,18 @@
           "homeRuns": 5,
           "rbi": 14,
           "ops": ".657"
+        },
+        {
+          "player": "Matt Vierling",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 47,
+          "atBats": 142,
+          "plateAppearances": 159,
+          "avg": ".211",
+          "homeRuns": 4,
+          "rbi": 21,
+          "ops": ".636"
         },
         {
           "player": "Jackson Holliday",
@@ -25591,6 +25579,18 @@
           "homeRuns": 1,
           "rbi": 5,
           "ops": ".575"
+        },
+        {
+          "player": "Josh Bell",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 54,
+          "atBats": 195,
+          "plateAppearances": 215,
+          "avg": ".210",
+          "homeRuns": 5,
+          "rbi": 29,
+          "ops": ".602"
         },
         {
           "player": "Brice Matthews",
@@ -25651,18 +25651,6 @@
           "homeRuns": 5,
           "rbi": 18,
           "ops": ".631"
-        },
-        {
-          "player": "Spencer Torkelson",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 56,
-          "atBats": 183,
-          "plateAppearances": 213,
-          "avg": ".208",
-          "homeRuns": 8,
-          "rbi": 21,
-          "ops": ".719"
         },
         {
           "player": "Steven Kwan",
@@ -25759,6 +25747,18 @@
           "homeRuns": 7,
           "rbi": 29,
           "ops": ".714"
+        },
+        {
+          "player": "Spencer Torkelson",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 56,
+          "atBats": 185,
+          "plateAppearances": 215,
+          "avg": ".205",
+          "homeRuns": 8,
+          "rbi": 21,
+          "ops": ".712"
         },
         {
           "player": "Kyle Higashioka",
@@ -26505,18 +26505,6 @@
           "ops": ".639"
         },
         {
-          "player": "Edgar Quero",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 40,
-          "atBats": 106,
-          "plateAppearances": 127,
-          "avg": ".179",
-          "homeRuns": 1,
-          "rbi": 13,
-          "ops": ".489"
-        },
-        {
           "player": "Jorge Polanco",
           "team": "New York Mets",
           "leagueId": 104,
@@ -26529,16 +26517,16 @@
           "ops": ".532"
         },
         {
-          "player": "Victor Caratini",
-          "team": "Minnesota Twins",
+          "player": "Edgar Quero",
+          "team": "Chicago White Sox",
           "leagueId": 103,
-          "gamesPlayed": 41,
-          "atBats": 124,
-          "plateAppearances": 150,
-          "avg": ".177",
-          "homeRuns": 2,
-          "rbi": 17,
-          "ops": ".514"
+          "gamesPlayed": 40,
+          "atBats": 107,
+          "plateAppearances": 128,
+          "avg": ".178",
+          "homeRuns": 1,
+          "rbi": 13,
+          "ops": ".485"
         },
         {
           "player": "Jorge Barrosa",
@@ -26589,6 +26577,18 @@
           "ops": ".616"
         },
         {
+          "player": "Victor Caratini",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 41,
+          "atBats": 125,
+          "plateAppearances": 151,
+          "avg": ".176",
+          "homeRuns": 2,
+          "rbi": 17,
+          "ops": ".510"
+        },
+        {
           "player": "Austin Wells",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -26635,6 +26635,18 @@
           "homeRuns": 6,
           "rbi": 18,
           "ops": ".637"
+        },
+        {
+          "player": "Wenceel Pérez",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 41,
+          "atBats": 126,
+          "plateAppearances": 136,
+          "avg": ".175",
+          "homeRuns": 4,
+          "rbi": 10,
+          "ops": ".537"
         },
         {
           "player": "Luisangel Acuña",
@@ -26719,18 +26731,6 @@
           "homeRuns": 9,
           "rbi": 27,
           "ops": ".604"
-        },
-        {
-          "player": "Wenceel Pérez",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 41,
-          "atBats": 125,
-          "plateAppearances": 135,
-          "avg": ".168",
-          "homeRuns": 4,
-          "rbi": 10,
-          "ops": ".518"
         },
         {
           "player": "Harrison Bader",
@@ -26853,28 +26853,16 @@
           "ops": ".334"
         },
         {
-          "player": "Gage Workman",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "gamesPlayed": 14,
-          "atBats": 36,
-          "plateAppearances": 36,
-          "avg": ".167",
-          "homeRuns": 2,
-          "rbi": 5,
-          "ops": ".584"
-        },
-        {
           "player": "Zach McKinstry",
           "team": "Detroit Tigers",
           "leagueId": 103,
           "gamesPlayed": 35,
           "atBats": 103,
-          "plateAppearances": 114,
+          "plateAppearances": 116,
           "avg": ".165",
           "homeRuns": 1,
           "rbi": 9,
-          "ops": ".451"
+          "ops": ".464"
         },
         {
           "player": "Graham Pauley",
@@ -26935,6 +26923,18 @@
           "homeRuns": 3,
           "rbi": 13,
           "ops": ".506"
+        },
+        {
+          "player": "Gage Workman",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 15,
+          "atBats": 37,
+          "plateAppearances": 37,
+          "avg": ".162",
+          "homeRuns": 2,
+          "rbi": 5,
+          "ops": ".567"
         },
         {
           "player": "Cal Raleigh",
@@ -27189,18 +27189,6 @@
           "ops": ".516"
         },
         {
-          "player": "Sebastián Rivero",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 20,
-          "atBats": 36,
-          "plateAppearances": 39,
-          "avg": ".139",
-          "homeRuns": 0,
-          "rbi": 1,
-          "ops": ".323"
-        },
-        {
           "player": "Noelvi Marte",
           "team": "Cincinnati Reds",
           "leagueId": 104,
@@ -27235,6 +27223,18 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".503"
+        },
+        {
+          "player": "Sebastián Rivero",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 20,
+          "atBats": 38,
+          "plateAppearances": 41,
+          "avg": ".132",
+          "homeRuns": 0,
+          "rbi": 1,
+          "ops": ".307"
         },
         {
           "player": "Leo Rivas",
@@ -27559,6 +27559,18 @@
           "homeRuns": 0,
           "rbi": 2,
           "ops": ".305"
+        },
+        {
+          "player": "Travis Adams",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "gamesPlayed": 7,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
         },
         {
           "player": "Kevin Alcántara",
@@ -27933,18 +27945,6 @@
           "ops": ".071"
         },
         {
-          "player": "Drew Pomeranz",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 18,
-          "atBats": 0,
-          "plateAppearances": 0,
-          "avg": ".000",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".000"
-        },
-        {
           "player": "Logan Porter",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -28077,6 +28077,18 @@
           "ops": ".000"
         },
         {
+          "player": "Ricky Vanasco",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 5,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
+        },
+        {
           "player": "Gus Varland",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -28147,6 +28159,18 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": "1.000"
+        },
+        {
+          "player": "Ryan Zeferjahn",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 20,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
         }
       ],
       "rookieQualified": [
@@ -28167,24 +28191,24 @@
           "team": "Detroit Tigers",
           "leagueId": 103,
           "gamesPlayed": 55,
-          "atBats": 204,
-          "plateAppearances": 239,
-          "avg": ".294",
+          "atBats": 206,
+          "plateAppearances": 241,
+          "avg": ".291",
           "homeRuns": 3,
           "rbi": 21,
-          "ops": ".823"
+          "ops": ".816"
         },
         {
           "player": "Sam Antonacci",
           "team": "Chicago White Sox",
           "leagueId": 103,
           "gamesPlayed": 39,
-          "atBats": 123,
-          "plateAppearances": 147,
-          "avg": ".285",
+          "atBats": 125,
+          "plateAppearances": 149,
+          "avg": ".288",
           "homeRuns": 1,
           "rbi": 13,
-          "ops": ".768"
+          "ops": ".772"
         },
         {
           "player": "TJ Rumfield",
@@ -28199,6 +28223,18 @@
           "ops": ".807"
         },
         {
+          "player": "Tristan Peters",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 134,
+          "plateAppearances": 152,
+          "avg": ".269",
+          "homeRuns": 2,
+          "rbi": 13,
+          "ops": ".719"
+        },
+        {
           "player": "Samuel Basallo",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -28209,18 +28245,6 @@
           "homeRuns": 8,
           "rbi": 22,
           "ops": ".810"
-        },
-        {
-          "player": "Tristan Peters",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 132,
-          "plateAppearances": 150,
-          "avg": ".265",
-          "homeRuns": 2,
-          "rbi": 12,
-          "ops": ".715"
         },
         {
           "player": "Konnor Griffin",
@@ -28323,12 +28347,12 @@
           "team": "Chicago White Sox",
           "leagueId": 103,
           "gamesPlayed": 56,
-          "atBats": 197,
-          "plateAppearances": 241,
-          "avg": ".239",
+          "atBats": 198,
+          "plateAppearances": 243,
+          "avg": ".242",
           "homeRuns": 20,
-          "rbi": 40,
-          "ops": ".931"
+          "rbi": 41,
+          "ops": ".945"
         },
         {
           "player": "Moisés Ballesteros",
@@ -28453,18 +28477,6 @@
           "ops": "1.083"
         },
         {
-          "player": "Wade Meckler",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "gamesPlayed": 6,
-          "atBats": 17,
-          "plateAppearances": 18,
-          "avg": ".353",
-          "homeRuns": 1,
-          "rbi": 3,
-          "ops": ".918"
-        },
-        {
           "player": "Tyler Black",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -28487,6 +28499,18 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".666"
+        },
+        {
+          "player": "Wade Meckler",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "gamesPlayed": 6,
+          "atBats": 18,
+          "plateAppearances": 19,
+          "avg": ".333",
+          "homeRuns": 1,
+          "rbi": 3,
+          "ops": ".868"
         },
         {
           "player": "Ryan Ward",
@@ -28565,12 +28589,12 @@
           "team": "Detroit Tigers",
           "leagueId": 103,
           "gamesPlayed": 55,
-          "atBats": 204,
-          "plateAppearances": 239,
-          "avg": ".294",
+          "atBats": 206,
+          "plateAppearances": 241,
+          "avg": ".291",
           "homeRuns": 3,
           "rbi": 21,
-          "ops": ".823"
+          "ops": ".816"
         },
         {
           "player": "Yohendrick Piñango",
@@ -28583,6 +28607,18 @@
           "homeRuns": 2,
           "rbi": 12,
           "ops": ".743"
+        },
+        {
+          "player": "Sam Antonacci",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 39,
+          "atBats": 125,
+          "plateAppearances": 149,
+          "avg": ".288",
+          "homeRuns": 1,
+          "rbi": 13,
+          "ops": ".772"
         },
         {
           "player": "Deyvison De Los Santos",
@@ -28609,18 +28645,6 @@
           "ops": ".804"
         },
         {
-          "player": "Sam Antonacci",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 39,
-          "atBats": 123,
-          "plateAppearances": 147,
-          "avg": ".285",
-          "homeRuns": 1,
-          "rbi": 13,
-          "ops": ".768"
-        },
-        {
           "player": "TJ Rumfield",
           "team": "Colorado Rockies",
           "leagueId": 104,
@@ -28645,6 +28669,18 @@
           "ops": ".699"
         },
         {
+          "player": "Tristan Peters",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 53,
+          "atBats": 134,
+          "plateAppearances": 152,
+          "avg": ".269",
+          "homeRuns": 2,
+          "rbi": 13,
+          "ops": ".719"
+        },
+        {
           "player": "Samuel Basallo",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -28655,18 +28691,6 @@
           "homeRuns": 8,
           "rbi": 22,
           "ops": ".810"
-        },
-        {
-          "player": "Tristan Peters",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 53,
-          "atBats": 132,
-          "plateAppearances": 150,
-          "avg": ".265",
-          "homeRuns": 2,
-          "rbi": 12,
-          "ops": ".715"
         },
         {
           "player": "Konnor Griffin",
@@ -28741,18 +28765,6 @@
           "ops": ".696"
         },
         {
-          "player": "Rikuu Nishida",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "gamesPlayed": 4,
-          "atBats": 8,
-          "plateAppearances": 8,
-          "avg": ".250",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".500"
-        },
-        {
           "player": "Brandon Valenzuela",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -28805,12 +28817,12 @@
           "team": "Chicago White Sox",
           "leagueId": 103,
           "gamesPlayed": 56,
-          "atBats": 197,
-          "plateAppearances": 241,
-          "avg": ".239",
+          "atBats": 198,
+          "plateAppearances": 243,
+          "avg": ".242",
           "homeRuns": 20,
-          "rbi": 40,
-          "ops": ".931"
+          "rbi": 41,
+          "ops": ".945"
         },
         {
           "player": "Jhostynxon Garcia",
@@ -28907,6 +28919,18 @@
           "homeRuns": 6,
           "rbi": 23,
           "ops": ".689"
+        },
+        {
+          "player": "Rikuu Nishida",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 4,
+          "atBats": 9,
+          "plateAppearances": 9,
+          "avg": ".222",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".444"
         },
         {
           "player": "Kazuma Okamoto",
@@ -29104,13 +29128,13 @@
           "player": "Gage Workman",
           "team": "Detroit Tigers",
           "leagueId": 103,
-          "gamesPlayed": 14,
-          "atBats": 36,
-          "plateAppearances": 36,
-          "avg": ".167",
+          "gamesPlayed": 15,
+          "atBats": 37,
+          "plateAppearances": 37,
+          "avg": ".162",
           "homeRuns": 2,
           "rbi": 5,
-          "ops": ".584"
+          "ops": ".567"
         },
         {
           "player": "Felix Reyes",
@@ -29303,6 +29327,18 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".000"
+        },
+        {
+          "player": "Ricky Vanasco",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "gamesPlayed": 5,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
         }
       ]
     },
@@ -29372,10 +29408,10 @@
           "player": "Davis Martin",
           "team": "Chicago White Sox",
           "leagueId": 103,
-          "inningsPitched": "64.0",
-          "era": "1.97",
-          "whip": "0.98",
-          "strikeOuts": 68,
+          "inningsPitched": "66.2",
+          "era": "2.03",
+          "whip": "1.01",
+          "strikeOuts": 71,
           "saves": 0
         },
         {
@@ -30911,6 +30947,16 @@
           "saves": 0
         },
         {
+          "player": "Brenan Hanifee",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "inningsPitched": "11.1",
+          "era": "1.59",
+          "whip": "1.24",
+          "strikeOuts": 6,
+          "saves": 0
+        },
+        {
           "player": "Daniel Lynch IV",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -31018,16 +31064,6 @@
           "era": "1.71",
           "whip": "0.95",
           "strikeOuts": 39,
-          "saves": 0
-        },
-        {
-          "player": "Brenan Hanifee",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "inningsPitched": "10.1",
-          "era": "1.74",
-          "whip": "1.26",
-          "strikeOuts": 5,
           "saves": 0
         },
         {
@@ -31161,16 +31197,6 @@
           "saves": 0
         },
         {
-          "player": "Davis Martin",
-          "team": "Chicago White Sox",
-          "leagueId": 103,
-          "inningsPitched": "64.0",
-          "era": "1.97",
-          "whip": "0.98",
-          "strikeOuts": 68,
-          "saves": 0
-        },
-        {
           "player": "Taylor Clarke",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -31218,6 +31244,16 @@
           "era": "2.03",
           "whip": "1.28",
           "strikeOuts": 29,
+          "saves": 0
+        },
+        {
+          "player": "Davis Martin",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "inningsPitched": "66.2",
+          "era": "2.03",
+          "whip": "1.01",
+          "strikeOuts": 71,
           "saves": 0
         },
         {
@@ -31441,6 +31477,16 @@
           "saves": 0
         },
         {
+          "player": "Sam Bachman",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "inningsPitched": "27.0",
+          "era": "2.33",
+          "whip": "1.11",
+          "strikeOuts": 28,
+          "saves": 0
+        },
+        {
           "player": "Jared Shuster",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -31519,16 +31565,6 @@
           "whip": "0.99",
           "strikeOuts": 26,
           "saves": 14
-        },
-        {
-          "player": "Sam Bachman",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "inningsPitched": "26.0",
-          "era": "2.42",
-          "whip": "1.04",
-          "strikeOuts": 27,
-          "saves": 0
         },
         {
           "player": "Carlos Carrasco",
@@ -31729,6 +31765,16 @@
           "whip": "1.10",
           "strikeOuts": 28,
           "saves": 1
+        },
+        {
+          "player": "José Fermin",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "inningsPitched": "13.2",
+          "era": "2.63",
+          "whip": "1.24",
+          "strikeOuts": 15,
+          "saves": 0
         },
         {
           "player": "Braydon Fisher",
@@ -32059,16 +32105,6 @@
           "whip": "1.03",
           "strikeOuts": 16,
           "saves": 1
-        },
-        {
-          "player": "José Fermin",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "inningsPitched": "12.2",
-          "era": "2.84",
-          "whip": "1.26",
-          "strikeOuts": 14,
-          "saves": 0
         },
         {
           "player": "Hogan Harris",
@@ -33491,6 +33527,16 @@
           "saves": 1
         },
         {
+          "player": "Andrew Morris",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "inningsPitched": "23.2",
+          "era": "4.18",
+          "whip": "1.52",
+          "strikeOuts": 20,
+          "saves": 1
+        },
+        {
           "player": "Abner Uribe",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -33639,16 +33685,6 @@
           "whip": "1.24",
           "strikeOuts": 62,
           "saves": 0
-        },
-        {
-          "player": "Andrew Morris",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "inningsPitched": "22.1",
-          "era": "4.43",
-          "whip": "1.52",
-          "strikeOuts": 17,
-          "saves": 1
         },
         {
           "player": "Matt Festa",
@@ -33991,6 +34027,16 @@
           "saves": 6
         },
         {
+          "player": "Ryan Zeferjahn",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "inningsPitched": "24.2",
+          "era": "4.74",
+          "whip": "1.26",
+          "strikeOuts": 30,
+          "saves": 1
+        },
+        {
           "player": "Jack Leiter",
           "team": "Texas Rangers",
           "leagueId": 103,
@@ -34099,16 +34145,6 @@
           "whip": "1.40",
           "strikeOuts": 23,
           "saves": 0
-        },
-        {
-          "player": "Ryan Zeferjahn",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "inningsPitched": "24.1",
-          "era": "4.81",
-          "whip": "1.23",
-          "strikeOuts": 30,
-          "saves": 1
         },
         {
           "player": "AJ Blubaugh",
@@ -35281,6 +35317,16 @@
           "saves": 0
         },
         {
+          "player": "Drew Pomeranz",
+          "team": "Los Angeles Angels",
+          "leagueId": 103,
+          "inningsPitched": "16.0",
+          "era": "6.75",
+          "whip": "1.63",
+          "strikeOuts": 13,
+          "saves": 0
+        },
+        {
           "player": "Ken Waldichuk",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -35351,16 +35397,6 @@
           "saves": 6
         },
         {
-          "player": "Simeon Woods Richardson",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "inningsPitched": "47.0",
-          "era": "7.09",
-          "whip": "1.81",
-          "strikeOuts": 25,
-          "saves": 0
-        },
-        {
           "player": "Jayden Murray",
           "team": "Houston Astros",
           "leagueId": 103,
@@ -35371,6 +35407,16 @@
           "saves": 0
         },
         {
+          "player": "Travis Adams",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "inningsPitched": "10.0",
+          "era": "7.20",
+          "whip": "1.50",
+          "strikeOuts": 12,
+          "saves": 1
+        },
+        {
           "player": "Gage Jump",
           "team": "Athletics",
           "leagueId": 103,
@@ -35378,16 +35424,6 @@
           "era": "7.20",
           "whip": "2.00",
           "strikeOuts": 5,
-          "saves": 0
-        },
-        {
-          "player": "Drew Pomeranz",
-          "team": "Los Angeles Angels",
-          "leagueId": 103,
-          "inningsPitched": "15.0",
-          "era": "7.20",
-          "whip": "1.73",
-          "strikeOuts": 12,
           "saves": 0
         },
         {
@@ -35551,6 +35587,16 @@
           "saves": 0
         },
         {
+          "player": "Simeon Woods Richardson",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "inningsPitched": "47.2",
+          "era": "7.74",
+          "whip": "1.89",
+          "strikeOuts": 26,
+          "saves": 0
+        },
+        {
           "player": "Will Vest",
           "team": "Detroit Tigers",
           "leagueId": 103,
@@ -35559,16 +35605,6 @@
           "whip": "1.50",
           "strikeOuts": 17,
           "saves": 0
-        },
-        {
-          "player": "Travis Adams",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "inningsPitched": "9.0",
-          "era": "8.00",
-          "whip": "1.67",
-          "strikeOuts": 11,
-          "saves": 1
         },
         {
           "player": "Victor Vodnik",
@@ -36221,16 +36257,6 @@
           "saves": 0
         },
         {
-          "player": "Ricky Vanasco",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "inningsPitched": "4.1",
-          "era": "14.54",
-          "whip": "3.23",
-          "strikeOuts": 3,
-          "saves": 0
-        },
-        {
           "player": "Tyler Heineman",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -36258,6 +36284,16 @@
           "era": "15.43",
           "whip": "2.57",
           "strikeOuts": 0,
+          "saves": 0
+        },
+        {
+          "player": "Ricky Vanasco",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "inningsPitched": "6.1",
+          "era": "15.63",
+          "whip": "3.16",
+          "strikeOuts": 4,
           "saves": 0
         },
         {
@@ -37345,6 +37381,16 @@
           "saves": 0
         },
         {
+          "player": "Andrew Morris",
+          "team": "Minnesota Twins",
+          "leagueId": 103,
+          "inningsPitched": "23.2",
+          "era": "4.18",
+          "whip": "1.52",
+          "strikeOuts": 20,
+          "saves": 1
+        },
+        {
           "player": "Cody Laweryson",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -37383,16 +37429,6 @@
           "whip": "1.09",
           "strikeOuts": 75,
           "saves": 0
-        },
-        {
-          "player": "Andrew Morris",
-          "team": "Minnesota Twins",
-          "leagueId": 103,
-          "inningsPitched": "22.1",
-          "era": "4.43",
-          "whip": "1.52",
-          "strikeOuts": 17,
-          "saves": 1
         },
         {
           "player": "Dax Fulton",
@@ -37895,16 +37931,6 @@
           "saves": 0
         },
         {
-          "player": "Ricky Vanasco",
-          "team": "Detroit Tigers",
-          "leagueId": 103,
-          "inningsPitched": "4.1",
-          "era": "14.54",
-          "whip": "3.23",
-          "strikeOuts": 3,
-          "saves": 0
-        },
-        {
           "player": "Ryan Johnson",
           "team": "Los Angeles Angels",
           "leagueId": 103,
@@ -37912,6 +37938,16 @@
           "era": "15.12",
           "whip": "2.64",
           "strikeOuts": 5,
+          "saves": 0
+        },
+        {
+          "player": "Ricky Vanasco",
+          "team": "Detroit Tigers",
+          "leagueId": 103,
+          "inningsPitched": "6.1",
+          "era": "15.63",
+          "whip": "3.16",
+          "strikeOuts": 4,
           "saves": 0
         },
         {

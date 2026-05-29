@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-05-29T18:43:57.333Z",
+  "generatedAt": "2026-05-29T19:38:11.125Z",
   "date": "2026-05-28",
   "slateDate": "2026-05-29",
   "gameOfDay": 824834,
@@ -7841,7 +7841,7 @@
     },
     {
       "gamePk": 823377,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "PNC Park",
       "startTime": "2026-05-29T22:45:00Z",
       "away": {
@@ -7857,7 +7857,7 @@
     },
     {
       "gamePk": 824835,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Oriole Park at Camden Yards",
       "startTime": "2026-05-29T23:05:00Z",
       "away": {
@@ -7873,7 +7873,7 @@
     },
     {
       "gamePk": 824433,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Progressive Field",
       "startTime": "2026-05-29T23:10:00Z",
       "away": {
@@ -7889,7 +7889,7 @@
     },
     {
       "gamePk": 822978,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Tropicana Field",
       "startTime": "2026-05-29T23:10:00Z",
       "away": {
@@ -7905,7 +7905,7 @@
     },
     {
       "gamePk": 823623,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Citi Field",
       "startTime": "2026-05-29T23:10:00Z",
       "away": {
@@ -7921,7 +7921,7 @@
     },
     {
       "gamePk": 823055,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Busch Stadium",
       "startTime": "2026-05-29T23:15:00Z",
       "away": {
@@ -7937,7 +7937,7 @@
     },
     {
       "gamePk": 824594,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Rate Field",
       "startTime": "2026-05-29T23:40:00Z",
       "away": {
@@ -12364,6 +12364,18 @@
           "ops": ".765"
         },
         {
+          "player": "Blaze Alexander",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 48,
+          "atBats": 121,
+          "plateAppearances": 133,
+          "avg": ".264",
+          "homeRuns": 1,
+          "rbi": 14,
+          "ops": ".670"
+        },
+        {
           "player": "Luke Raley",
           "team": "Seattle Mariners",
           "leagueId": 103,
@@ -12818,18 +12830,6 @@
           "homeRuns": 2,
           "rbi": 6,
           "ops": ".677"
-        },
-        {
-          "player": "Blaze Alexander",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 48,
-          "atBats": 121,
-          "plateAppearances": 133,
-          "avg": ".256",
-          "homeRuns": 1,
-          "rbi": 14,
-          "ops": ".655"
         },
         {
           "player": "Taylor Ward",
@@ -21802,16 +21802,6 @@
           "saves": 2
         },
         {
-          "player": "Griffin Jax",
-          "team": "Tampa Bay Rays",
-          "leagueId": 103,
-          "inningsPitched": "30.0",
-          "era": "3.30",
-          "whip": "1.37",
-          "strikeOuts": 27,
-          "saves": 0
-        },
-        {
           "player": "Landen Roupp",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -22089,6 +22079,16 @@
           "era": "3.60",
           "whip": "1.40",
           "strikeOuts": 13,
+          "saves": 0
+        },
+        {
+          "player": "Griffin Jax",
+          "team": "Tampa Bay Rays",
+          "leagueId": 103,
+          "inningsPitched": "30.0",
+          "era": "3.60",
+          "whip": "1.40",
+          "strikeOuts": 27,
           "saves": 0
         },
         {

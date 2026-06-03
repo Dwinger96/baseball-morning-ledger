@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-03T20:42:53.513Z",
+  "generatedAt": "2026-06-03T21:38:34.849Z",
   "date": "2026-06-02",
   "slateDate": "2026-06-03",
   "gameOfDay": 824511,
@@ -19607,7 +19607,7 @@
     },
     {
       "gamePk": 824671,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Wrigley Field",
       "startTime": "2026-06-04T00:05:00Z",
       "away": {
@@ -20492,6 +20492,18 @@
           "ops": ".777"
         },
         {
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 45,
+          "atBats": 166,
+          "plateAppearances": 192,
+          "avg": ".295",
+          "homeRuns": 13,
+          "rbi": 29,
+          "ops": ".948"
+        },
+        {
           "player": "Brayan Rocchio",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -20660,18 +20672,6 @@
           "ops": ".787"
         },
         {
-          "player": "Randy Arozarena",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 63,
-          "atBats": 230,
-          "plateAppearances": 266,
-          "avg": ".283",
-          "homeRuns": 6,
-          "rbi": 26,
-          "ops": ".807"
-        },
-        {
           "player": "Jordan Walker",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -20718,6 +20718,18 @@
           "homeRuns": 11,
           "rbi": 33,
           "ops": ".878"
+        },
+        {
+          "player": "Randy Arozarena",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 63,
+          "atBats": 231,
+          "plateAppearances": 267,
+          "avg": ".281",
+          "homeRuns": 6,
+          "rbi": 26,
+          "ops": ".804"
         },
         {
           "player": "Elly De La Cruz",
@@ -21092,18 +21104,6 @@
           "ops": ".878"
         },
         {
-          "player": "Julio Rodríguez",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 63,
-          "atBats": 252,
-          "plateAppearances": 274,
-          "avg": ".258",
-          "homeRuns": 13,
-          "rbi": 32,
-          "ops": ".778"
-        },
-        {
           "player": "Sal Stewart",
           "team": "Cincinnati Reds",
           "leagueId": 104,
@@ -21126,6 +21126,18 @@
           "homeRuns": 2,
           "rbi": 17,
           "ops": ".705"
+        },
+        {
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 63,
+          "atBats": 253,
+          "plateAppearances": 275,
+          "avg": ".257",
+          "homeRuns": 13,
+          "rbi": 32,
+          "ops": ".775"
         },
         {
           "player": "Daulton Varsho",
@@ -21164,6 +21176,18 @@
           "ops": ".699"
         },
         {
+          "player": "Carson Benge",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 59,
+          "atBats": 209,
+          "plateAppearances": 229,
+          "avg": ".254",
+          "homeRuns": 6,
+          "rbi": 24,
+          "ops": ".702"
+        },
+        {
           "player": "Byron Buxton",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -21200,18 +21224,6 @@
           "ops": ".726"
         },
         {
-          "player": "Josh Naylor",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 58,
-          "atBats": 226,
-          "plateAppearances": 249,
-          "avg": ".252",
-          "homeRuns": 6,
-          "rbi": 25,
-          "ops": ".669"
-        },
-        {
           "player": "Jeff McNeil",
           "team": "Athletics",
           "leagueId": 103,
@@ -21224,16 +21236,28 @@
           "ops": ".655"
         },
         {
-          "player": "Carson Benge",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 59,
-          "atBats": 207,
-          "plateAppearances": 227,
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 63,
+          "atBats": 219,
+          "plateAppearances": 248,
+          "avg": ".251",
+          "homeRuns": 4,
+          "rbi": 30,
+          "ops": ".685"
+        },
+        {
+          "player": "Josh Naylor",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 58,
+          "atBats": 227,
+          "plateAppearances": 250,
           "avg": ".251",
           "homeRuns": 6,
-          "rbi": 24,
-          "ops": ".699"
+          "rbi": 25,
+          "ops": ".665"
         },
         {
           "player": "Daylen Lile",
@@ -21270,18 +21294,6 @@
           "homeRuns": 9,
           "rbi": 25,
           "ops": ".757"
-        },
-        {
-          "player": "Cole Young",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 63,
-          "atBats": 217,
-          "plateAppearances": 246,
-          "avg": ".249",
-          "homeRuns": 4,
-          "rbi": 30,
-          "ops": ".681"
         },
         {
           "player": "Mauricio Dubón",
@@ -21704,18 +21716,6 @@
           "ops": ".646"
         },
         {
-          "player": "Brett Baty",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 58,
-          "atBats": 182,
-          "plateAppearances": 204,
-          "avg": ".231",
-          "homeRuns": 3,
-          "rbi": 23,
-          "ops": ".635"
-        },
-        {
           "player": "Zach Neto",
           "team": "Los Angeles Angels",
           "leagueId": 103,
@@ -21726,6 +21726,18 @@
           "homeRuns": 10,
           "rbi": 27,
           "ops": ".766"
+        },
+        {
+          "player": "Brett Baty",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 58,
+          "atBats": 183,
+          "plateAppearances": 205,
+          "avg": ".230",
+          "homeRuns": 3,
+          "rbi": 23,
+          "ops": ".632"
         },
         {
           "player": "Josh Bell",
@@ -21776,6 +21788,18 @@
           "ops": ".740"
         },
         {
+          "player": "Bo Bichette",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 62,
+          "atBats": 248,
+          "plateAppearances": 270,
+          "avg": ".226",
+          "homeRuns": 5,
+          "rbi": 30,
+          "ops": ".591"
+        },
+        {
           "player": "Sal Frelick",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -21786,6 +21810,18 @@
           "homeRuns": 3,
           "rbi": 19,
           "ops": ".604"
+        },
+        {
+          "player": "J.P. Crawford",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 54,
+          "atBats": 191,
+          "plateAppearances": 230,
+          "avg": ".225",
+          "homeRuns": 10,
+          "rbi": 23,
+          "ops": ".760"
         },
         {
           "player": "Geraldo Perdomo",
@@ -21812,18 +21848,6 @@
           "ops": ".656"
         },
         {
-          "player": "Marcus Semien",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 62,
-          "atBats": 220,
-          "plateAppearances": 241,
-          "avg": ".223",
-          "homeRuns": 6,
-          "rbi": 23,
-          "ops": ".616"
-        },
-        {
           "player": "Colson Montgomery",
           "team": "Chicago White Sox",
           "leagueId": 103,
@@ -21834,6 +21858,18 @@
           "homeRuns": 15,
           "rbi": 36,
           "ops": ".787"
+        },
+        {
+          "player": "Marcus Semien",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 62,
+          "atBats": 221,
+          "plateAppearances": 242,
+          "avg": ".222",
+          "homeRuns": 6,
+          "rbi": 23,
+          "ops": ".613"
         },
         {
           "player": "Jorge Soler",
@@ -21860,18 +21896,6 @@
           "ops": ".689"
         },
         {
-          "player": "J.P. Crawford",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 54,
-          "atBats": 190,
-          "plateAppearances": 229,
-          "avg": ".221",
-          "homeRuns": 10,
-          "rbi": 23,
-          "ops": ".754"
-        },
-        {
           "player": "Kazuma Okamoto",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -21894,18 +21918,6 @@
           "homeRuns": 13,
           "rbi": 32,
           "ops": ".700"
-        },
-        {
-          "player": "Bo Bichette",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 62,
-          "atBats": 246,
-          "plateAppearances": 268,
-          "avg": ".220",
-          "homeRuns": 5,
-          "rbi": 28,
-          "ops": ".581"
         },
         {
           "player": "Mark Vientos",
@@ -22702,6 +22714,18 @@
           "ops": ".737"
         },
         {
+          "player": "Jared Young",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 19,
+          "atBats": 43,
+          "plateAppearances": 50,
+          "avg": ".302",
+          "homeRuns": 2,
+          "rbi": 5,
+          "ops": ".892"
+        },
+        {
           "player": "Orlando Arcia",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -22726,18 +22750,6 @@
           "ops": ".967"
         },
         {
-          "player": "Juan Soto",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 45,
-          "atBats": 164,
-          "plateAppearances": 190,
-          "avg": ".299",
-          "homeRuns": 13,
-          "rbi": 29,
-          "ops": ".959"
-        },
-        {
           "player": "Isiah Kiner-Falefa",
           "team": "Boston Red Sox",
           "leagueId": 103,
@@ -22760,6 +22772,18 @@
           "homeRuns": 3,
           "rbi": 24,
           "ops": ".777"
+        },
+        {
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 45,
+          "atBats": 166,
+          "plateAppearances": 192,
+          "avg": ".295",
+          "homeRuns": 13,
+          "rbi": 29,
+          "ops": ".948"
         },
         {
           "player": "Ryan Jeffers",
@@ -22880,18 +22904,6 @@
           "homeRuns": 10,
           "rbi": 33,
           "ops": ".927"
-        },
-        {
-          "player": "Jared Young",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 19,
-          "atBats": 41,
-          "plateAppearances": 48,
-          "avg": ".293",
-          "homeRuns": 2,
-          "rbi": 4,
-          "ops": ".863"
         },
         {
           "player": "Andy Pages",
@@ -23314,18 +23326,6 @@
           "ops": ".728"
         },
         {
-          "player": "Randy Arozarena",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 63,
-          "atBats": 230,
-          "plateAppearances": 266,
-          "avg": ".283",
-          "homeRuns": 6,
-          "rbi": 26,
-          "ops": ".807"
-        },
-        {
           "player": "Jordan Walker",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -23362,18 +23362,6 @@
           "ops": ".852"
         },
         {
-          "player": "Jhonny Pereda",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 13,
-          "atBats": 39,
-          "plateAppearances": 43,
-          "avg": ".282",
-          "homeRuns": 2,
-          "rbi": 4,
-          "ops": ".785"
-        },
-        {
           "player": "Casey Schmitt",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -23396,6 +23384,18 @@
           "homeRuns": 11,
           "rbi": 33,
           "ops": ".878"
+        },
+        {
+          "player": "Randy Arozarena",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 63,
+          "atBats": 231,
+          "plateAppearances": 267,
+          "avg": ".281",
+          "homeRuns": 6,
+          "rbi": 26,
+          "ops": ".804"
         },
         {
           "player": "Elly De La Cruz",
@@ -23612,6 +23612,18 @@
           "homeRuns": 2,
           "rbi": 22,
           "ops": ".764"
+        },
+        {
+          "player": "Jhonny Pereda",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 13,
+          "atBats": 40,
+          "plateAppearances": 44,
+          "avg": ".275",
+          "homeRuns": 2,
+          "rbi": 4,
+          "ops": ".766"
         },
         {
           "player": "Brice Turang",
@@ -23854,6 +23866,18 @@
           "ops": ".705"
         },
         {
+          "player": "Dominic Canzone",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 54,
+          "atBats": 131,
+          "plateAppearances": 148,
+          "avg": ".267",
+          "homeRuns": 7,
+          "rbi": 23,
+          "ops": ".842"
+        },
+        {
           "player": "Heliot Ramos",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -23876,30 +23900,6 @@
           "homeRuns": 4,
           "rbi": 13,
           "ops": ".904"
-        },
-        {
-          "player": "Luke Raley",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 57,
-          "atBats": 158,
-          "plateAppearances": 174,
-          "avg": ".266",
-          "homeRuns": 13,
-          "rbi": 31,
-          "ops": ".886"
-        },
-        {
-          "player": "Colt Emerson",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 16,
-          "atBats": 49,
-          "plateAppearances": 55,
-          "avg": ".265",
-          "homeRuns": 3,
-          "rbi": 8,
-          "ops": ".916"
         },
         {
           "player": "Matt Olson",
@@ -23962,6 +23962,18 @@
           "ops": ".768"
         },
         {
+          "player": "Luke Raley",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 57,
+          "atBats": 160,
+          "plateAppearances": 176,
+          "avg": ".263",
+          "homeRuns": 13,
+          "rbi": 31,
+          "ops": ".876"
+        },
+        {
           "player": "Starling Marte",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -24008,18 +24020,6 @@
           "homeRuns": 4,
           "rbi": 24,
           "ops": ".700"
-        },
-        {
-          "player": "Dominic Canzone",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 54,
-          "atBats": 130,
-          "plateAppearances": 147,
-          "avg": ".262",
-          "homeRuns": 7,
-          "rbi": 23,
-          "ops": ".833"
         },
         {
           "player": "Miguel Rojas",
@@ -24118,6 +24118,18 @@
           "ops": ".692"
         },
         {
+          "player": "Colt Emerson",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 16,
+          "atBats": 50,
+          "plateAppearances": 56,
+          "avg": ".260",
+          "homeRuns": 3,
+          "rbi": 8,
+          "ops": ".899"
+        },
+        {
           "player": "Trevor Larnach",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -24202,18 +24214,6 @@
           "ops": ".878"
         },
         {
-          "player": "Julio Rodríguez",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 63,
-          "atBats": 252,
-          "plateAppearances": 274,
-          "avg": ".258",
-          "homeRuns": 13,
-          "rbi": 32,
-          "ops": ".778"
-        },
-        {
           "player": "Jose Fernandez",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -24284,6 +24284,18 @@
           "homeRuns": 0,
           "rbi": 2,
           "ops": ".721"
+        },
+        {
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 63,
+          "atBats": 253,
+          "plateAppearances": 275,
+          "avg": ".257",
+          "homeRuns": 13,
+          "rbi": 32,
+          "ops": ".775"
         },
         {
           "player": "Javier Báez",
@@ -24406,6 +24418,18 @@
           "ops": ".793"
         },
         {
+          "player": "Carson Benge",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 59,
+          "atBats": 209,
+          "plateAppearances": 229,
+          "avg": ".254",
+          "homeRuns": 6,
+          "rbi": 24,
+          "ops": ".702"
+        },
+        {
           "player": "Byron Buxton",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -24490,18 +24514,6 @@
           "ops": ".642"
         },
         {
-          "player": "Josh Naylor",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 58,
-          "atBats": 226,
-          "plateAppearances": 249,
-          "avg": ".252",
-          "homeRuns": 6,
-          "rbi": 25,
-          "ops": ".669"
-        },
-        {
           "player": "Nick Fortes",
           "team": "Tampa Bay Rays",
           "leagueId": 103,
@@ -24538,16 +24550,28 @@
           "ops": ".655"
         },
         {
-          "player": "Carson Benge",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 59,
-          "atBats": 207,
-          "plateAppearances": 227,
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 63,
+          "atBats": 219,
+          "plateAppearances": 248,
+          "avg": ".251",
+          "homeRuns": 4,
+          "rbi": 30,
+          "ops": ".685"
+        },
+        {
+          "player": "Josh Naylor",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 58,
+          "atBats": 227,
+          "plateAppearances": 250,
           "avg": ".251",
           "homeRuns": 6,
-          "rbi": 24,
-          "ops": ".699"
+          "rbi": 25,
+          "ops": ".665"
         },
         {
           "player": "Steward Berroa",
@@ -24742,18 +24766,6 @@
           "ops": ".757"
         },
         {
-          "player": "Cole Young",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 63,
-          "atBats": 217,
-          "plateAppearances": 246,
-          "avg": ".249",
-          "homeRuns": 4,
-          "rbi": 30,
-          "ops": ".681"
-        },
-        {
           "player": "Mauricio Dubón",
           "team": "Atlanta Braves",
           "leagueId": 104,
@@ -24872,6 +24884,18 @@
           "homeRuns": 5,
           "rbi": 18,
           "ops": ".672"
+        },
+        {
+          "player": "A.J. Ewing",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 22,
+          "atBats": 73,
+          "plateAppearances": 84,
+          "avg": ".247",
+          "homeRuns": 1,
+          "rbi": 6,
+          "ops": ".658"
         },
         {
           "player": "Rafael Devers",
@@ -25390,18 +25414,6 @@
           "ops": ".673"
         },
         {
-          "player": "A.J. Ewing",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 22,
-          "atBats": 72,
-          "plateAppearances": 83,
-          "avg": ".236",
-          "homeRuns": 1,
-          "rbi": 6,
-          "ops": ".640"
-        },
-        {
           "player": "Jacob Young",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -25606,18 +25618,6 @@
           "ops": ".646"
         },
         {
-          "player": "Brett Baty",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 58,
-          "atBats": 182,
-          "plateAppearances": 204,
-          "avg": ".231",
-          "homeRuns": 3,
-          "rbi": 23,
-          "ops": ".635"
-        },
-        {
           "player": "Zach Neto",
           "team": "Los Angeles Angels",
           "leagueId": 103,
@@ -25664,6 +25664,18 @@
           "homeRuns": 2,
           "rbi": 14,
           "ops": ".663"
+        },
+        {
+          "player": "Brett Baty",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 58,
+          "atBats": 183,
+          "plateAppearances": 205,
+          "avg": ".230",
+          "homeRuns": 3,
+          "rbi": 23,
+          "ops": ".632"
         },
         {
           "player": "Kody Clemens",
@@ -25858,6 +25870,18 @@
           "ops": ".740"
         },
         {
+          "player": "Bo Bichette",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 62,
+          "atBats": 248,
+          "plateAppearances": 270,
+          "avg": ".226",
+          "homeRuns": 5,
+          "rbi": 30,
+          "ops": ".591"
+        },
+        {
           "player": "Francisco Lindor",
           "team": "New York Mets",
           "leagueId": 104,
@@ -25880,6 +25904,18 @@
           "homeRuns": 3,
           "rbi": 19,
           "ops": ".604"
+        },
+        {
+          "player": "J.P. Crawford",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 54,
+          "atBats": 191,
+          "plateAppearances": 230,
+          "avg": ".225",
+          "homeRuns": 10,
+          "rbi": 23,
+          "ops": ".760"
         },
         {
           "player": "Geraldo Perdomo",
@@ -25930,18 +25966,6 @@
           "ops": ".664"
         },
         {
-          "player": "Marcus Semien",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 62,
-          "atBats": 220,
-          "plateAppearances": 241,
-          "avg": ".223",
-          "homeRuns": 6,
-          "rbi": 23,
-          "ops": ".616"
-        },
-        {
           "player": "Victor Bericoto",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -25988,6 +26012,18 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".586"
+        },
+        {
+          "player": "Marcus Semien",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 62,
+          "atBats": 221,
+          "plateAppearances": 242,
+          "avg": ".222",
+          "homeRuns": 6,
+          "rbi": 23,
+          "ops": ".613"
         },
         {
           "player": "Jorge Soler",
@@ -26050,18 +26086,6 @@
           "ops": ".665"
         },
         {
-          "player": "J.P. Crawford",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 54,
-          "atBats": 190,
-          "plateAppearances": 229,
-          "avg": ".221",
-          "homeRuns": 10,
-          "rbi": 23,
-          "ops": ".754"
-        },
-        {
           "player": "Kazuma Okamoto",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -26120,18 +26144,6 @@
           "homeRuns": 13,
           "rbi": 32,
           "ops": ".700"
-        },
-        {
-          "player": "Bo Bichette",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 62,
-          "atBats": 246,
-          "plateAppearances": 268,
-          "avg": ".220",
-          "homeRuns": 5,
-          "rbi": 28,
-          "ops": ".581"
         },
         {
           "player": "Mark Vientos",
@@ -26446,6 +26458,18 @@
           "ops": ".515"
         },
         {
+          "player": "Luis Torrens",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 38,
+          "atBats": 99,
+          "plateAppearances": 109,
+          "avg": ".212",
+          "homeRuns": 0,
+          "rbi": 13,
+          "ops": ".554"
+        },
+        {
           "player": "Ezequiel Tovar",
           "team": "Colorado Rockies",
           "leagueId": 104,
@@ -26480,6 +26504,18 @@
           "homeRuns": 3,
           "rbi": 16,
           "ops": ".594"
+        },
+        {
+          "player": "MJ Melendez",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 39,
+          "atBats": 81,
+          "plateAppearances": 98,
+          "avg": ".210",
+          "homeRuns": 3,
+          "rbi": 10,
+          "ops": ".725"
         },
         {
           "player": "Trent Grisham",
@@ -26660,18 +26696,6 @@
           "homeRuns": 5,
           "rbi": 14,
           "ops": ".632"
-        },
-        {
-          "player": "Luis Torrens",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 38,
-          "atBats": 97,
-          "plateAppearances": 107,
-          "avg": ".206",
-          "homeRuns": 0,
-          "rbi": 13,
-          "ops": ".545"
         },
         {
           "player": "Trevor Story",
@@ -26888,18 +26912,6 @@
           "homeRuns": 7,
           "rbi": 20,
           "ops": ".652"
-        },
-        {
-          "player": "MJ Melendez",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 39,
-          "atBats": 80,
-          "plateAppearances": 96,
-          "avg": ".200",
-          "homeRuns": 3,
-          "rbi": 9,
-          "ops": ".691"
         },
         {
           "player": "Logan O'Hoppe",
@@ -29188,12 +29200,12 @@
           "team": "New York Mets",
           "leagueId": 104,
           "gamesPlayed": 59,
-          "atBats": 207,
-          "plateAppearances": 227,
-          "avg": ".251",
+          "atBats": 209,
+          "plateAppearances": 229,
+          "avg": ".254",
           "homeRuns": 6,
           "rbi": 24,
-          "ops": ".699"
+          "ops": ".702"
         },
         {
           "player": "JJ Wetherholt",
@@ -29594,18 +29606,6 @@
           "ops": ".729"
         },
         {
-          "player": "Colt Emerson",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "gamesPlayed": 16,
-          "atBats": 49,
-          "plateAppearances": 55,
-          "avg": ".265",
-          "homeRuns": 3,
-          "rbi": 8,
-          "ops": ".916"
-        },
-        {
           "player": "Chase DeLauter",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -29616,6 +29616,18 @@
           "homeRuns": 7,
           "rbi": 32,
           "ops": ".768"
+        },
+        {
+          "player": "Colt Emerson",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "gamesPlayed": 16,
+          "atBats": 50,
+          "plateAppearances": 56,
+          "avg": ".260",
+          "homeRuns": 3,
+          "rbi": 8,
+          "ops": ".899"
         },
         {
           "player": "Jose Fernandez",
@@ -29658,12 +29670,12 @@
           "team": "New York Mets",
           "leagueId": 104,
           "gamesPlayed": 59,
-          "atBats": 207,
-          "plateAppearances": 227,
-          "avg": ".251",
+          "atBats": 209,
+          "plateAppearances": 229,
+          "avg": ".254",
           "homeRuns": 6,
           "rbi": 24,
-          "ops": ".699"
+          "ops": ".702"
         },
         {
           "player": "Jase Bowen",
@@ -29738,6 +29750,18 @@
           "ops": ".672"
         },
         {
+          "player": "A.J. Ewing",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 22,
+          "atBats": 73,
+          "plateAppearances": 84,
+          "avg": ".247",
+          "homeRuns": 1,
+          "rbi": 6,
+          "ops": ".658"
+        },
+        {
           "player": "Dylan Beavers",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -29772,18 +29796,6 @@
           "homeRuns": 3,
           "rbi": 10,
           "ops": ".673"
-        },
-        {
-          "player": "A.J. Ewing",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 22,
-          "atBats": 72,
-          "plateAppearances": 83,
-          "avg": ".236",
-          "homeRuns": 1,
-          "rbi": 6,
-          "ops": ".640"
         },
         {
           "player": "Justin Crawford",
@@ -30608,6 +30620,16 @@
           "saves": 0
         },
         {
+          "player": "Freddy Peralta",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "inningsPitched": "72.0",
+          "era": "3.38",
+          "whip": "1.31",
+          "strikeOuts": 74,
+          "saves": 0
+        },
+        {
           "player": "Bryan Woo",
           "team": "Seattle Mariners",
           "leagueId": 103,
@@ -30658,16 +30680,6 @@
           "saves": 0
         },
         {
-          "player": "Freddy Peralta",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "inningsPitched": "69.0",
-          "era": "3.52",
-          "whip": "1.32",
-          "strikeOuts": 70,
-          "saves": 0
-        },
-        {
           "player": "Seth Lugo",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -30675,16 +30687,6 @@
           "era": "3.55",
           "whip": "1.35",
           "strikeOuts": 60,
-          "saves": 0
-        },
-        {
-          "player": "George Kirby",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "inningsPitched": "77.1",
-          "era": "3.61",
-          "whip": "1.23",
-          "strikeOuts": 63,
           "saves": 0
         },
         {
@@ -30755,6 +30757,16 @@
           "era": "3.98",
           "whip": "1.26",
           "strikeOuts": 36,
+          "saves": 0
+        },
+        {
+          "player": "George Kirby",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "inningsPitched": "78.0",
+          "era": "4.04",
+          "whip": "1.28",
+          "strikeOuts": 64,
           "saves": 0
         },
         {
@@ -31760,6 +31772,16 @@
           "saves": 0
         },
         {
+          "player": "José A. Ferrer",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "inningsPitched": "27.2",
+          "era": "1.63",
+          "whip": "1.19",
+          "strikeOuts": 24,
+          "saves": 3
+        },
+        {
           "player": "Tyler Phillips",
           "team": "Miami Marlins",
           "leagueId": 104,
@@ -31818,16 +31840,6 @@
           "whip": "1.31",
           "strikeOuts": 5,
           "saves": 1
-        },
-        {
-          "player": "José A. Ferrer",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "inningsPitched": "26.2",
-          "era": "1.69",
-          "whip": "1.20",
-          "strikeOuts": 23,
-          "saves": 3
         },
         {
           "player": "Jakob Junis",
@@ -32030,16 +32042,6 @@
           "saves": 1
         },
         {
-          "player": "Eduard Bazardo",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "inningsPitched": "27.0",
-          "era": "2.00",
-          "whip": "1.33",
-          "strikeOuts": 23,
-          "saves": 0
-        },
-        {
           "player": "Jacob Latz",
           "team": "Texas Rangers",
           "leagueId": 103,
@@ -32207,6 +32209,16 @@
           "era": "2.24",
           "whip": "1.19",
           "strikeOuts": 52,
+          "saves": 0
+        },
+        {
+          "player": "Eduard Bazardo",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "inningsPitched": "28.0",
+          "era": "2.25",
+          "whip": "1.36",
+          "strikeOuts": 25,
           "saves": 0
         },
         {
@@ -33480,6 +33492,16 @@
           "saves": 0
         },
         {
+          "player": "Freddy Peralta",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "inningsPitched": "72.0",
+          "era": "3.38",
+          "whip": "1.31",
+          "strikeOuts": 74,
+          "saves": 0
+        },
+        {
           "player": "Ranger Suarez",
           "team": "Boston Red Sox",
           "leagueId": 103,
@@ -33680,16 +33702,6 @@
           "saves": 0
         },
         {
-          "player": "Freddy Peralta",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "inningsPitched": "69.0",
-          "era": "3.52",
-          "whip": "1.32",
-          "strikeOuts": 70,
-          "saves": 0
-        },
-        {
           "player": "Kumar Rocker",
           "team": "Texas Rangers",
           "leagueId": 103,
@@ -33787,16 +33799,6 @@
           "era": "3.60",
           "whip": "1.03",
           "strikeOuts": 25,
-          "saves": 0
-        },
-        {
-          "player": "George Kirby",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "inningsPitched": "77.1",
-          "era": "3.61",
-          "whip": "1.23",
-          "strikeOuts": 63,
           "saves": 0
         },
         {
@@ -34258,6 +34260,16 @@
           "whip": "1.25",
           "strikeOuts": 23,
           "saves": 5
+        },
+        {
+          "player": "George Kirby",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "inningsPitched": "78.0",
+          "era": "4.04",
+          "whip": "1.28",
+          "strikeOuts": 64,
+          "saves": 0
         },
         {
           "player": "Tobias Myers",

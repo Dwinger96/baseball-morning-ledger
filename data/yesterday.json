@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-03T20:41:52.683Z",
+  "generatedAt": "2026-06-03T20:42:53.513Z",
   "date": "2026-06-02",
   "slateDate": "2026-06-03",
   "gameOfDay": 824511,
@@ -25210,18 +25210,6 @@
           "ops": ".938"
         },
         {
-          "player": "A.J. Ewing",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 22,
-          "atBats": 71,
-          "plateAppearances": 82,
-          "avg": ".239",
-          "homeRuns": 1,
-          "rbi": 6,
-          "ops": ".649"
-        },
-        {
           "player": "Jazz Chisholm Jr.",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -25400,6 +25388,18 @@
           "homeRuns": 3,
           "rbi": 10,
           "ops": ".673"
+        },
+        {
+          "player": "A.J. Ewing",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 22,
+          "atBats": 72,
+          "plateAppearances": 83,
+          "avg": ".236",
+          "homeRuns": 1,
+          "rbi": 6,
+          "ops": ".640"
         },
         {
           "player": "Jacob Young",
@@ -29762,18 +29762,6 @@
           "ops": ".938"
         },
         {
-          "player": "A.J. Ewing",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 22,
-          "atBats": 71,
-          "plateAppearances": 82,
-          "avg": ".239",
-          "homeRuns": 1,
-          "rbi": 6,
-          "ops": ".649"
-        },
-        {
           "player": "Alex Freeland",
           "team": "Los Angeles Dodgers",
           "leagueId": 104,
@@ -29784,6 +29772,18 @@
           "homeRuns": 3,
           "rbi": 10,
           "ops": ".673"
+        },
+        {
+          "player": "A.J. Ewing",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 22,
+          "atBats": 72,
+          "plateAppearances": 83,
+          "avg": ".236",
+          "homeRuns": 1,
+          "rbi": 6,
+          "ops": ".640"
         },
         {
           "player": "Justin Crawford",
@@ -30678,6 +30678,16 @@
           "saves": 0
         },
         {
+          "player": "George Kirby",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "inningsPitched": "77.1",
+          "era": "3.61",
+          "whip": "1.23",
+          "strikeOuts": 63,
+          "saves": 0
+        },
+        {
           "player": "Cade Cavalli",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -30685,16 +30695,6 @@
           "era": "3.62",
           "whip": "1.42",
           "strikeOuts": 74,
-          "saves": 0
-        },
-        {
-          "player": "George Kirby",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "inningsPitched": "77.0",
-          "era": "3.62",
-          "whip": "1.23",
-          "strikeOuts": 63,
           "saves": 0
         },
         {
@@ -33790,6 +33790,16 @@
           "saves": 0
         },
         {
+          "player": "George Kirby",
+          "team": "Seattle Mariners",
+          "leagueId": 103,
+          "inningsPitched": "77.1",
+          "era": "3.61",
+          "whip": "1.23",
+          "strikeOuts": 63,
+          "saves": 0
+        },
+        {
           "player": "Cade Cavalli",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -33807,16 +33817,6 @@
           "era": "3.62",
           "whip": "0.99",
           "strikeOuts": 26,
-          "saves": 0
-        },
-        {
-          "player": "George Kirby",
-          "team": "Seattle Mariners",
-          "leagueId": 103,
-          "inningsPitched": "77.0",
-          "era": "3.62",
-          "whip": "1.23",
-          "strikeOuts": 63,
           "saves": 0
         },
         {

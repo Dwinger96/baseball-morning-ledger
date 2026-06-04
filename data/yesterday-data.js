@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-04T18:29:33.167Z",
+  "generatedAt": "2026-06-04T18:32:39.957Z",
   "date": "2026-06-03",
   "slateDate": "2026-06-04",
   "gameOfDay": 824671,
@@ -20595,11 +20595,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 56,
           "atBats": 219,
-          "plateAppearances": 245,
+          "plateAppearances": 246,
           "avg": ".288",
           "homeRuns": 4,
-          "rbi": 36,
-          "ops": ".739"
+          "rbi": 37,
+          "ops": ".738"
         },
         {
           "player": "CJ Abrams",
@@ -20870,12 +20870,12 @@ window.ledgerEdition = {
           "team": "Milwaukee Brewers",
           "leagueId": 104,
           "gamesPlayed": 57,
-          "atBats": 204,
-          "plateAppearances": 253,
-          "avg": ".275",
+          "atBats": 205,
+          "plateAppearances": 254,
+          "avg": ".273",
           "homeRuns": 7,
           "rbi": 35,
-          "ops": ".858"
+          "ops": ".855"
         },
         {
           "player": "Matt Olson",
@@ -23045,11 +23045,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 56,
           "atBats": 219,
-          "plateAppearances": 245,
+          "plateAppearances": 246,
           "avg": ".288",
           "homeRuns": 4,
-          "rbi": 36,
-          "ops": ".739"
+          "rbi": 37,
+          "ops": ".738"
         },
         {
           "player": "CJ Abrams",
@@ -23436,18 +23436,6 @@ window.ledgerEdition = {
           "ops": ".942"
         },
         {
-          "player": "Travis Bazzana",
-          "team": "Cleveland Guardians",
-          "leagueId": 103,
-          "gamesPlayed": 33,
-          "atBats": 118,
-          "plateAppearances": 136,
-          "avg": ".280",
-          "homeRuns": 3,
-          "rbi": 15,
-          "ops": ".800"
-        },
-        {
           "player": "Jesús Sánchez",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -23556,6 +23544,18 @@ window.ledgerEdition = {
           "ops": ".733"
         },
         {
+          "player": "Travis Bazzana",
+          "team": "Cleveland Guardians",
+          "leagueId": 103,
+          "gamesPlayed": 33,
+          "atBats": 119,
+          "plateAppearances": 137,
+          "avg": ".277",
+          "homeRuns": 3,
+          "rbi": 15,
+          "ops": ".794"
+        },
+        {
           "player": "Ryan Vilade",
           "team": "Tampa Bay Rays",
           "leagueId": 103,
@@ -23652,18 +23652,6 @@ window.ledgerEdition = {
           "ops": ".855"
         },
         {
-          "player": "Brice Turang",
-          "team": "Milwaukee Brewers",
-          "leagueId": 104,
-          "gamesPlayed": 57,
-          "atBats": 204,
-          "plateAppearances": 253,
-          "avg": ".275",
-          "homeRuns": 7,
-          "rbi": 35,
-          "ops": ".858"
-        },
-        {
           "player": "Brendan Donovan",
           "team": "Seattle Mariners",
           "leagueId": 103,
@@ -23674,6 +23662,18 @@ window.ledgerEdition = {
           "homeRuns": 3,
           "rbi": 8,
           "ops": ".838"
+        },
+        {
+          "player": "Brice Turang",
+          "team": "Milwaukee Brewers",
+          "leagueId": 104,
+          "gamesPlayed": 57,
+          "atBats": 205,
+          "plateAppearances": 254,
+          "avg": ".273",
+          "homeRuns": 7,
+          "rbi": 35,
+          "ops": ".855"
         },
         {
           "player": "Nick Allen",
@@ -24252,18 +24252,6 @@ window.ledgerEdition = {
           "ops": ".818"
         },
         {
-          "player": "Connor Wong",
-          "team": "Boston Red Sox",
-          "leagueId": 103,
-          "gamesPlayed": 25,
-          "atBats": 66,
-          "plateAppearances": 76,
-          "avg": ".258",
-          "homeRuns": 0,
-          "rbi": 10,
-          "ops": ".717"
-        },
-        {
           "player": "Austin Martin",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -24406,6 +24394,18 @@ window.ledgerEdition = {
           "homeRuns": 3,
           "rbi": 12,
           "ops": ".705"
+        },
+        {
+          "player": "Connor Wong",
+          "team": "Boston Red Sox",
+          "leagueId": 103,
+          "gamesPlayed": 25,
+          "atBats": 67,
+          "plateAppearances": 77,
+          "avg": ".254",
+          "homeRuns": 0,
+          "rbi": 10,
+          "ops": ".706"
         },
         {
           "player": "Brandon Lowe",
@@ -26052,18 +26052,6 @@ window.ledgerEdition = {
           "ops": ".670"
         },
         {
-          "player": "Carlos Narváez",
-          "team": "Boston Red Sox",
-          "leagueId": 103,
-          "gamesPlayed": 38,
-          "atBats": 109,
-          "plateAppearances": 122,
-          "avg": ".220",
-          "homeRuns": 2,
-          "rbi": 3,
-          "ops": ".619"
-        },
-        {
           "player": "Luis Torrens",
           "team": "New York Mets",
           "leagueId": 104,
@@ -26218,6 +26206,18 @@ window.ledgerEdition = {
           "homeRuns": 3,
           "rbi": 16,
           "ops": ".642"
+        },
+        {
+          "player": "Carlos Narváez",
+          "team": "Boston Red Sox",
+          "leagueId": 103,
+          "gamesPlayed": 38,
+          "atBats": 110,
+          "plateAppearances": 123,
+          "avg": ".218",
+          "homeRuns": 2,
+          "rbi": 3,
+          "ops": ".613"
         },
         {
           "player": "Nick Loftin",
@@ -29178,12 +29178,12 @@ window.ledgerEdition = {
           "team": "Cleveland Guardians",
           "leagueId": 103,
           "gamesPlayed": 33,
-          "atBats": 118,
-          "plateAppearances": 136,
-          "avg": ".280",
+          "atBats": 119,
+          "plateAppearances": 137,
+          "avg": ".277",
           "homeRuns": 3,
           "rbi": 15,
-          "ops": ".800"
+          "ops": ".794"
         },
         {
           "player": "Samuel Basallo",
@@ -29612,12 +29612,12 @@ window.ledgerEdition = {
           "team": "Cleveland Guardians",
           "leagueId": 103,
           "gamesPlayed": 33,
-          "atBats": 118,
-          "plateAppearances": 136,
-          "avg": ".280",
+          "atBats": 119,
+          "plateAppearances": 137,
+          "avg": ".277",
           "homeRuns": 3,
           "rbi": 15,
-          "ops": ".800"
+          "ops": ".794"
         },
         {
           "player": "Samuel Basallo",
@@ -32944,6 +32944,16 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Carlos Rodón",
+          "team": "New York Yankees",
+          "leagueId": 103,
+          "inningsPitched": "22.1",
+          "era": "2.82",
+          "whip": "1.25",
+          "strikeOuts": 25,
+          "saves": 0
+        },
+        {
           "player": "Cade Smith",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -33002,16 +33012,6 @@ window.ledgerEdition = {
           "whip": "0.88",
           "strikeOuts": 34,
           "saves": 8
-        },
-        {
-          "player": "Carlos Rodón",
-          "team": "New York Yankees",
-          "leagueId": 103,
-          "inningsPitched": "22.0",
-          "era": "2.86",
-          "whip": "1.27",
-          "strikeOuts": 24,
-          "saves": 0
         },
         {
           "player": "J.T. Ginn",
@@ -35804,6 +35804,16 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Adrian Houser",
+          "team": "San Francisco Giants",
+          "leagueId": 104,
+          "inningsPitched": "57.0",
+          "era": "5.53",
+          "whip": "1.56",
+          "strikeOuts": 35,
+          "saves": 0
+        },
+        {
           "player": "Luis Castillo",
           "team": "Seattle Mariners",
           "leagueId": 103,
@@ -35831,16 +35841,6 @@ window.ledgerEdition = {
           "era": "5.55",
           "whip": "1.39",
           "strikeOuts": 64,
-          "saves": 0
-        },
-        {
-          "player": "Adrian Houser",
-          "team": "San Francisco Giants",
-          "leagueId": 104,
-          "inningsPitched": "56.2",
-          "era": "5.56",
-          "whip": "1.57",
-          "strikeOuts": 35,
           "saves": 0
         },
         {
@@ -36284,6 +36284,16 @@ window.ledgerEdition = {
           "saves": 6
         },
         {
+          "player": "Trevor Rogers",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "inningsPitched": "51.2",
+          "era": "6.45",
+          "whip": "1.47",
+          "strikeOuts": 40,
+          "saves": 0
+        },
+        {
           "player": "Lucas Erceg",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -36321,16 +36331,6 @@ window.ledgerEdition = {
           "era": "6.55",
           "whip": "1.45",
           "strikeOuts": 8,
-          "saves": 0
-        },
-        {
-          "player": "Trevor Rogers",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "inningsPitched": "50.2",
-          "era": "6.57",
-          "whip": "1.50",
-          "strikeOuts": 40,
           "saves": 0
         },
         {

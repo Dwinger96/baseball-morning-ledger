@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-09T17:31:57.867Z",
+  "generatedAt": "2026-06-09T17:34:27.589Z",
   "date": "2026-06-08",
   "slateDate": "2026-06-09",
   "gameOfDay": 824025,
@@ -14253,18 +14253,6 @@ window.ledgerEdition = {
           "ops": "1.068"
         },
         {
-          "player": "Samad Taylor",
-          "team": "San Diego Padres",
-          "leagueId": 104,
-          "gamesPlayed": 3,
-          "atBats": 8,
-          "plateAppearances": 10,
-          "avg": ".375",
-          "homeRuns": 0,
-          "rbi": 3,
-          "ops": ".875"
-        },
-        {
           "player": "Andrew Vaughn",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -15103,6 +15091,18 @@ window.ledgerEdition = {
           "homeRuns": 5,
           "rbi": 24,
           "ops": ".775"
+        },
+        {
+          "player": "Samad Taylor",
+          "team": "San Diego Padres",
+          "leagueId": 104,
+          "gamesPlayed": 3,
+          "atBats": 7,
+          "plateAppearances": 10,
+          "avg": ".286",
+          "homeRuns": 0,
+          "rbi": 3,
+          "ops": ".730"
         },
         {
           "player": "Joey Wiemer",
@@ -25680,7 +25680,7 @@ window.ledgerEdition = {
           "leagueId": 104,
           "inningsPitched": "13.0",
           "era": "3.46",
-          "whip": "1.23",
+          "whip": "1.15",
           "strikeOuts": 12,
           "saves": 1
         },

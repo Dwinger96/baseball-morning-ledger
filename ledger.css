@@ -246,6 +246,10 @@ th {
   text-transform: uppercase;
 }
 
+.is-hidden {
+  display: none;
+}
+
 .leader-tab,
 .sortable-heading {
   appearance: none;

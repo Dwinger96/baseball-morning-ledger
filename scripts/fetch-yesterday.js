@@ -341,10 +341,13 @@ function pitchingRow(split) {
     player: split.player?.fullName || split.person?.fullName || "Pitcher",
     team: teamName,
     leagueId: split.team?.league?.id || TEAM_LEAGUES[teamName] || null,
+    gamesPitched: Number(stat.gamesPitched || stat.gamesPlayed || 0),
+    gamesStarted: Number(stat.gamesStarted || 0),
     inningsPitched: stat.inningsPitched || "0.0",
     era: stat.era || "0.00",
     whip: stat.whip || "0.00",
     strikeOuts: Number(stat.strikeOuts || 0),
+    holds: Number(stat.holds || 0),
     saves: Number(stat.saves || 0),
   };
 }

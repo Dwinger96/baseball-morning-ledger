@@ -17,7 +17,7 @@
     <meta name="twitter:description" content="Sortable hitting, pitching, league, and rookie leaders.">
     <meta name="twitter:image" content="https://baseballmorningledger.com/social-card.png">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="ledger.css">
+    <link rel="stylesheet" href="ledger.css?v=20260609-pitching-roles">
   </head>
   <body>
     <main id="top" class="page">
@@ -50,6 +50,11 @@
           <button id="hitting-leaders-tab" class="leader-tab active" type="button">Hitting</button>
           <button id="pitching-leaders-tab" class="leader-tab" type="button">Pitching</button>
         </div>
+        <div id="pitching-role-controls" class="leader-controls is-hidden" aria-label="Pitching role tabs">
+          <button id="starter-pitchers-tab" class="leader-tab active" type="button">Starters</button>
+          <button id="relief-pitchers-tab" class="leader-tab" type="button">Relievers</button>
+          <button id="all-pitchers-tab" class="leader-tab" type="button">All Pitchers</button>
+        </div>
         <table id="leaders-table" class="data-table">
           <caption>Overall Hitting Leaders</caption>
           <thead>
@@ -70,6 +75,6 @@
     </main>
 
     <script src="data/yesterday-data.js"></script>
-    <script src="leaders-page.js"></script>
+    <script src="leaders-page.js?v=20260609-pitching-roles"></script>
   </body>
 </html>

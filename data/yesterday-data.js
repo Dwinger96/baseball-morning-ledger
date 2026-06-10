@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-10T19:44:06.296Z",
+  "generatedAt": "2026-06-10T19:45:40.041Z",
   "date": "2026-06-09",
   "slateDate": "2026-06-10",
   "gameOfDay": 824830,
@@ -20659,7 +20659,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 822970,
-      "status": "In Progress",
+      "status": "Game Over",
       "venue": "Tropicana Field",
       "startTime": "2026-06-10T17:10:00Z",
       "away": {
@@ -20835,7 +20835,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 824590,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Rate Field",
       "startTime": "2026-06-10T23:40:00Z",
       "away": {

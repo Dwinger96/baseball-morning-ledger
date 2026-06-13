@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-13T15:22:20.830Z",
+  "generatedAt": "2026-06-13T15:54:58.144Z",
   "date": "2026-06-12",
   "slateDate": "2026-06-13",
   "gameOfDay": 824425,
@@ -19268,7 +19268,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 823694,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Target Field",
       "startTime": "2026-06-13T18:10:00Z",
       "away": {
@@ -19284,7 +19284,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 822802,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Rogers Centre",
       "startTime": "2026-06-13T19:07:00Z",
       "away": {

@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-14T15:30:21.120Z",
+  "generatedAt": "2026-06-14T15:59:14.216Z",
   "date": "2026-06-13",
   "slateDate": "2026-06-14",
   "gameOfDay": 823369,
@@ -657,8 +657,8 @@ window.ledgerEdition = {
           "half": "top",
           "batter": "Pedro Pagés",
           "pitcher": "Connor Prielipp",
-          "result": "Strikeout Double Play",
-          "description": "Pedro Pagés strikes out swinging, catcher Alex Jackson to second baseman Luke Keaschall to catcher Alex Jackson. José Fermín out at 2nd.",
+          "result": "Strikeout",
+          "description": "Pedro Pagés strikes out swinging, catcher Alex Jackson to second baseman Luke Keaschall. Pedro Pagés out at , catcher Alex Jackson.",
           "rbi": 0,
           "awayScore": 4,
           "homeScore": 4
@@ -19730,7 +19730,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 823368,
-      "status": "Pre-Game",
+      "status": "Warmup",
       "venue": "PNC Park",
       "startTime": "2026-06-14T16:15:00Z",
       "away": {

@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-17T13:03:25.532Z",
+  "generatedAt": "2026-06-17T14:04:19.306Z",
   "date": "2026-06-16",
   "slateDate": "2026-06-17",
   "gameOfDay": 823775,
@@ -17662,7 +17662,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 824503,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Great American Ball Park",
       "startTime": "2026-06-17T16:40:00Z",
       "away": {
@@ -17678,7 +17678,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 822721,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Nationals Park",
       "startTime": "2026-06-17T17:05:00Z",
       "away": {

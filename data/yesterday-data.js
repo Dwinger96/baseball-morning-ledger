@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-18T12:41:14.142Z",
+  "generatedAt": "2026-06-18T13:43:54.819Z",
   "date": "2026-06-17",
   "slateDate": "2026-06-18",
   "gameOfDay": 823940,
@@ -30064,6 +30064,18 @@ window.ledgerEdition = {
           "ops": "2.800"
         },
         {
+          "player": "Jair Camargo",
+          "team": "Atlanta Braves",
+          "leagueId": 104,
+          "gamesPlayed": 1,
+          "atBats": 2,
+          "plateAppearances": 2,
+          "avg": ".500",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": "1.500"
+        },
+        {
           "player": "Gabriel Gonzalez",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -42092,6 +42104,19 @@ window.ledgerEdition = {
           "era": "3.60",
           "whip": "1.50",
           "strikeOuts": 7,
+          "holds": 0,
+          "saves": 0
+        },
+        {
+          "player": "Carson Whisenhunt",
+          "team": "San Francisco Giants",
+          "leagueId": 104,
+          "gamesPitched": 1,
+          "gamesStarted": 1,
+          "inningsPitched": "5.0",
+          "era": "3.60",
+          "whip": "1.60",
+          "strikeOuts": 2,
           "holds": 0,
           "saves": 0
         },

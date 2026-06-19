@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-06-19T13:01:35.978Z",
+  "generatedAt": "2026-06-19T13:51:13.668Z",
   "date": "2026-06-18",
   "slateDate": "2026-06-19",
   "gameOfDay": 824911,
@@ -21891,6 +21891,18 @@ window.ledgerEdition = {
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".083"
+        },
+        {
+          "player": "Junior Perez",
+          "team": "Chicago White Sox",
+          "leagueId": 103,
+          "gamesPlayed": 1,
+          "atBats": 2,
+          "plateAppearances": 2,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
         },
         {
           "player": "César Prieto",

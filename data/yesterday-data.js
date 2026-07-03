@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-07-03T11:55:52.096Z",
+  "generatedAt": "2026-07-03T12:20:58.730Z",
   "date": "2026-07-02",
   "slateDate": "2026-07-03",
   "gameOfDay": 824416,
@@ -34102,7 +34102,7 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
-          "player": "Lou Trivino",
+          "player": "Lou Trivino III",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
           "gamesPitched": 4,

@@ -1,25 +1,1452 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-07-16T11:55:08.995Z",
-  "date": "2026-07-15",
-  "slateDate": "2026-07-16",
-  "gameOfDay": null,
-  "games": [],
-  "todaySlate": [
+  "generatedAt": "2026-07-17T10:57:44.418Z",
+  "date": "2026-07-16",
+  "slateDate": "2026-07-17",
+  "gameOfDay": 823440,
+  "games": [
     {
       "gamePk": 823440,
-      "status": "Scheduled",
+      "status": "Final",
       "venue": "Citizens Bank Park",
-      "startTime": "2026-07-16T23:10:00Z",
+      "startTime": "2026-07-16T22:10:00Z",
       "away": {
+        "id": 121,
         "name": "New York Mets",
         "abbreviation": "New York Mets",
-        "probablePitcher": "Christian Scott"
+        "leagueId": null,
+        "leagueName": "",
+        "score": 4,
+        "hits": 7,
+        "errors": 1
       },
       "home": {
+        "id": 143,
         "name": "Philadelphia Phillies",
         "abbreviation": "Philadelphia Phillies",
-        "probablePitcher": "Aaron Nola"
+        "leagueId": null,
+        "leagueName": "",
+        "score": 1,
+        "hits": 4,
+        "errors": 1
+      },
+      "innings": [
+        {
+          "num": 1,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 2,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 3,
+          "away": 1,
+          "home": 0
+        },
+        {
+          "num": 4,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 5,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 6,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 7,
+          "away": 2,
+          "home": 0
+        },
+        {
+          "num": 8,
+          "away": 0,
+          "home": 1
+        },
+        {
+          "num": 9,
+          "away": 1,
+          "home": 0
+        }
+      ],
+      "scoringPlays": [
+        {
+          "inning": 3,
+          "half": "top",
+          "play": "Francisco Alvarez homers (10) on a fly ball to center field.",
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "play": "Brett Baty homers (5) on a fly ball to right center field.",
+          "awayScore": 2,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "play": "Francisco Alvarez homers (11) on a line drive to left field.",
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "play": "Trea Turner homers (11) on a fly ball to left field.",
+          "awayScore": 3,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "play": "A.J. Ewing doubles (10) on a ground ball to left fielder Brandon Marsh. Jared Young scores.",
+          "awayScore": 4,
+          "homeScore": 1
+        }
+      ],
+      "playLog": [
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "A.J. Ewing",
+          "pitcher": "Aaron Nola",
+          "result": "Strikeout",
+          "description": "A.J. Ewing strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "Juan Soto",
+          "pitcher": "Aaron Nola",
+          "result": "Single",
+          "description": "Juan Soto singles on a ground ball to center fielder Justin Crawford, deflected by shortstop Trea Turner.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "Bo Bichette",
+          "pitcher": "Aaron Nola",
+          "result": "Grounded Into DP",
+          "description": "Bo Bichette grounds into a double play, first baseman Bryce Harper to shortstop Trea Turner to first baseman Bryce Harper. Juan Soto out at 2nd. Bo Bichette out at 1st.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "bottom",
+          "batter": "Trea Turner",
+          "pitcher": "Christian Scott",
+          "result": "Lineout",
+          "description": "Trea Turner lines out to center fielder A.J. Ewing.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "bottom",
+          "batter": "Kyle Schwarber",
+          "pitcher": "Christian Scott",
+          "result": "Flyout",
+          "description": "Kyle Schwarber flies out to center fielder A.J. Ewing.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "bottom",
+          "batter": "Bryce Harper",
+          "pitcher": "Christian Scott",
+          "result": "Strikeout",
+          "description": "Bryce Harper strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Francisco Lindor",
+          "pitcher": "Aaron Nola",
+          "result": "Flyout",
+          "description": "Francisco Lindor flies out to right fielder Gabriel Rincones Jr.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Carson Benge",
+          "pitcher": "Aaron Nola",
+          "result": "Single",
+          "description": "Carson Benge singles on a ground ball to left fielder Brandon Marsh.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Jorge Polanco",
+          "pitcher": "Aaron Nola",
+          "result": "Pop Out",
+          "description": "Jorge Polanco pops out to shortstop Trea Turner.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Jared Young",
+          "pitcher": "Aaron Nola",
+          "result": "Strikeout",
+          "description": "Jared Young strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Brandon Marsh",
+          "pitcher": "Christian Scott",
+          "result": "Groundout",
+          "description": "Brandon Marsh grounds out to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Alec Bohm",
+          "pitcher": "Christian Scott",
+          "result": "Groundout",
+          "description": "Alec Bohm grounds out, third baseman Bo Bichette to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Bryson Stott",
+          "pitcher": "Christian Scott",
+          "result": "Strikeout",
+          "description": "Bryson Stott strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Brett Baty",
+          "pitcher": "Aaron Nola",
+          "result": "Flyout",
+          "description": "Brett Baty flies out to center fielder Justin Crawford.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Francisco Alvarez",
+          "pitcher": "Aaron Nola",
+          "result": "Home Run",
+          "description": "Francisco Alvarez homers (10) on a fly ball to center field.",
+          "rbi": 1,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "A.J. Ewing",
+          "pitcher": "Aaron Nola",
+          "result": "Strikeout",
+          "description": "A.J. Ewing strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Juan Soto",
+          "pitcher": "Aaron Nola",
+          "result": "Walk",
+          "description": "Juan Soto walks.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Bo Bichette",
+          "pitcher": "Aaron Nola",
+          "result": "Strikeout",
+          "description": "Bo Bichette strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "J.T. Realmuto",
+          "pitcher": "Christian Scott",
+          "result": "Single",
+          "description": "J.T. Realmuto singles on a ground ball to center fielder A.J. Ewing.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Gabriel Rincones Jr.",
+          "pitcher": "Christian Scott",
+          "result": "Strikeout",
+          "description": "Gabriel Rincones Jr. strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Justin Crawford",
+          "pitcher": "Christian Scott",
+          "result": "Pop Out",
+          "description": "Justin Crawford pops out to pitcher Christian Scott in foul territory.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Trea Turner",
+          "pitcher": "Christian Scott",
+          "result": "Strikeout",
+          "description": "Trea Turner strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Francisco Lindor",
+          "pitcher": "Aaron Nola",
+          "result": "Groundout",
+          "description": "Francisco Lindor grounds out, second baseman Bryson Stott to first baseman Bryce Harper.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Carson Benge",
+          "pitcher": "Aaron Nola",
+          "result": "Groundout",
+          "description": "Carson Benge grounds out, second baseman Bryson Stott to first baseman Bryce Harper.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Jorge Polanco",
+          "pitcher": "Aaron Nola",
+          "result": "Groundout",
+          "description": "Jorge Polanco grounds out, shortstop Trea Turner to first baseman Bryce Harper.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Kyle Schwarber",
+          "pitcher": "Christian Scott",
+          "result": "Strikeout",
+          "description": "Kyle Schwarber strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Bryce Harper",
+          "pitcher": "Christian Scott",
+          "result": "Double",
+          "description": "Bryce Harper doubles (18) on a ground ball to right fielder Carson Benge.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Brandon Marsh",
+          "pitcher": "Christian Scott",
+          "result": "Flyout",
+          "description": "Brandon Marsh flies out to left fielder Juan Soto.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Alec Bohm",
+          "pitcher": "Christian Scott",
+          "result": "Pop Out",
+          "description": "Alec Bohm pops out to first baseman Jared Young in foul territory.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Jared Young",
+          "pitcher": "Aaron Nola",
+          "result": "Walk",
+          "description": "Jared Young walks.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Brett Baty",
+          "pitcher": "Aaron Nola",
+          "result": "Single",
+          "description": "Brett Baty singles on a sharp line drive to center fielder Justin Crawford. Jared Young to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Francisco Alvarez",
+          "pitcher": "Aaron Nola",
+          "result": "Walk",
+          "description": "Francisco Alvarez walks. Jared Young to 3rd. Brett Baty to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "A.J. Ewing",
+          "pitcher": "Aaron Nola",
+          "result": "Double Play",
+          "description": "A.J. Ewing lines into an unassisted double play, first baseman Bryce Harper. Francisco Alvarez out at 1st.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Juan Soto",
+          "pitcher": "Aaron Nola",
+          "result": "Intent Walk",
+          "description": "Aaron Nola intentionally walks Juan Soto.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Bo Bichette",
+          "pitcher": "Aaron Nola",
+          "result": "Flyout",
+          "description": "Bo Bichette flies out to right fielder Gabriel Rincones Jr.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Bryson Stott",
+          "pitcher": "Christian Scott",
+          "result": "Strikeout",
+          "description": "Bryson Stott strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "J.T. Realmuto",
+          "pitcher": "Christian Scott",
+          "result": "Groundout",
+          "description": "J.T. Realmuto grounds out, second baseman Brett Baty to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Gabriel Rincones Jr.",
+          "pitcher": "Christian Scott",
+          "result": "Strikeout",
+          "description": "Gabriel Rincones Jr. challenged (pitch result), call on the field was confirmed: Gabriel Rincones Jr. called out on strikes.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Francisco Lindor",
+          "pitcher": "Aaron Nola",
+          "result": "Groundout",
+          "description": "Francisco Lindor grounds out, second baseman Bryson Stott to first baseman Bryce Harper.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Carson Benge",
+          "pitcher": "Aaron Nola",
+          "result": "Field Error",
+          "description": "Carson Benge reaches on a fielding error by shortstop Trea Turner. Carson Benge to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Jorge Polanco",
+          "pitcher": "Aaron Nola",
+          "result": "Strikeout",
+          "description": "Jorge Polanco strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Jared Young",
+          "pitcher": "Aaron Nola",
+          "result": "Strikeout",
+          "description": "Jared Young strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Justin Crawford",
+          "pitcher": "Christian Scott",
+          "result": "Groundout",
+          "description": "Justin Crawford grounds out, shortstop Francisco Lindor to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Trea Turner",
+          "pitcher": "Christian Scott",
+          "result": "Lineout",
+          "description": "Trea Turner lines out to second baseman Brett Baty.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Kyle Schwarber",
+          "pitcher": "Christian Scott",
+          "result": "Double",
+          "description": "Umpire reviewed (home run), call on the field was upheld: Kyle Schwarber doubles (10) on a fly ball to right fielder Carson Benge.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Bryce Harper",
+          "pitcher": "Brooks Raley",
+          "result": "Walk",
+          "description": "Bryce Harper walks.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Brandon Marsh",
+          "pitcher": "Brooks Raley",
+          "result": "Strikeout",
+          "description": "Brandon Marsh strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Brett Baty",
+          "pitcher": "Aaron Nola",
+          "result": "Home Run",
+          "description": "Brett Baty homers (5) on a fly ball to right center field.",
+          "rbi": 1,
+          "awayScore": 2,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Francisco Alvarez",
+          "pitcher": "Aaron Nola",
+          "result": "Home Run",
+          "description": "Francisco Alvarez homers (11) on a line drive to left field.",
+          "rbi": 1,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "A.J. Ewing",
+          "pitcher": "Jonathan Bowlan",
+          "result": "Groundout",
+          "description": "A.J. Ewing grounds out to first baseman Bryce Harper.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Juan Soto",
+          "pitcher": "Jonathan Bowlan",
+          "result": "Walk",
+          "description": "Juan Soto walks.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Bo Bichette",
+          "pitcher": "Jonathan Bowlan",
+          "result": "Grounded Into DP",
+          "description": "Bo Bichette grounds into a double play, shortstop Trea Turner to first baseman Bryce Harper. Juan Soto out at 2nd. Bo Bichette out at 1st.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Alec Bohm",
+          "pitcher": "Huascar Brazobán",
+          "result": "Groundout",
+          "description": "Alec Bohm grounds out, third baseman Bo Bichette to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Bryson Stott",
+          "pitcher": "Huascar Brazobán",
+          "result": "Flyout",
+          "description": "Bryson Stott flies out to center fielder A.J. Ewing.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "J.T. Realmuto",
+          "pitcher": "Huascar Brazobán",
+          "result": "Groundout",
+          "description": "J.T. Realmuto grounds out, shortstop Francisco Lindor to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Francisco Lindor",
+          "pitcher": "Seth Johnson",
+          "result": "Flyout",
+          "description": "Francisco Lindor flies out to shortstop Trea Turner.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Carson Benge",
+          "pitcher": "Seth Johnson",
+          "result": "Groundout",
+          "description": "Carson Benge grounds out, second baseman Bryson Stott to first baseman Bryce Harper.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Jorge Polanco",
+          "pitcher": "Seth Johnson",
+          "result": "Lineout",
+          "description": "Jorge Polanco lines out sharply to left fielder Brandon Marsh.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Gabriel Rincones Jr.",
+          "pitcher": "Luke Weaver",
+          "result": "Flyout",
+          "description": "Gabriel Rincones Jr. flies out sharply to center fielder A.J. Ewing.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Justin Crawford",
+          "pitcher": "Luke Weaver",
+          "result": "Pop Out",
+          "description": "Justin Crawford pops out to third baseman Bo Bichette.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 0
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Trea Turner",
+          "pitcher": "Luke Weaver",
+          "result": "Home Run",
+          "description": "Trea Turner homers (11) on a fly ball to left field.",
+          "rbi": 1,
+          "awayScore": 3,
+          "homeScore": 1
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Kyle Schwarber",
+          "pitcher": "Luke Weaver",
+          "result": "Groundout",
+          "description": "Kyle Schwarber grounds out, second baseman Brett Baty to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Jared Young",
+          "pitcher": "Seth Johnson",
+          "result": "Walk",
+          "description": "Jared Young walks.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Brett Baty",
+          "pitcher": "Seth Johnson",
+          "result": "Flyout",
+          "description": "Brett Baty flies out to left fielder Brandon Marsh.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Francisco Alvarez",
+          "pitcher": "Seth Johnson",
+          "result": "Strikeout",
+          "description": "Francisco Alvarez strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 3,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "A.J. Ewing",
+          "pitcher": "Seth Johnson",
+          "result": "Double",
+          "description": "A.J. Ewing doubles (10) on a ground ball to left fielder Brandon Marsh. Jared Young scores.",
+          "rbi": 1,
+          "awayScore": 4,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Tyrone Taylor",
+          "pitcher": "Seth Johnson",
+          "result": "Strikeout",
+          "description": "Tyrone Taylor strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 4,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "bottom",
+          "batter": "Bryce Harper",
+          "pitcher": "Devin Williams",
+          "result": "Groundout",
+          "description": "Bryce Harper grounds out, second baseman Brett Baty to first baseman Jared Young.",
+          "rbi": 0,
+          "awayScore": 4,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "bottom",
+          "batter": "Brandon Marsh",
+          "pitcher": "Devin Williams",
+          "result": "Lineout",
+          "description": "Brandon Marsh lines out to left fielder Tyrone Taylor.",
+          "rbi": 0,
+          "awayScore": 4,
+          "homeScore": 1
+        },
+        {
+          "inning": 9,
+          "half": "bottom",
+          "batter": "Alec Bohm",
+          "pitcher": "Devin Williams",
+          "result": "Strikeout",
+          "description": "Alec Bohm strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 4,
+          "homeScore": 1
+        }
+      ],
+      "boxScore": {
+        "away": {
+          "batting": [
+            {
+              "name": "A.J. Ewing",
+              "position": "CF",
+              "atBats": 5,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 1,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Juan Soto",
+              "position": "LF",
+              "atBats": 1,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 3,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Tyrone Taylor",
+              "position": "LF",
+              "atBats": 1,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Bo Bichette",
+              "position": "3B",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Francisco Lindor",
+              "position": "SS",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Carson Benge",
+              "position": "RF",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Jorge Polanco",
+              "position": "DH",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Jared Young",
+              "position": "1B",
+              "atBats": 2,
+              "runs": 1,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 2,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Brett Baty",
+              "position": "2B",
+              "atBats": 4,
+              "runs": 1,
+              "hits": 2,
+              "homeRuns": 1,
+              "rbi": 1,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Francisco Alvarez",
+              "position": "C",
+              "atBats": 3,
+              "runs": 2,
+              "hits": 2,
+              "homeRuns": 2,
+              "rbi": 2,
+              "walks": 1,
+              "strikeOuts": 1
+            }
+          ],
+          "pitching": [
+            {
+              "name": "Christian Scott",
+              "inningsPitched": "5.2",
+              "hits": 3,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 7,
+              "homeRuns": 0,
+              "pitches": 79
+            },
+            {
+              "name": "Brooks Raley",
+              "inningsPitched": "0.1",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 1,
+              "strikeOuts": 1,
+              "homeRuns": 0,
+              "pitches": 7
+            },
+            {
+              "name": "Huascar Brazobán",
+              "inningsPitched": "1.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 12
+            },
+            {
+              "name": "Luke Weaver",
+              "inningsPitched": "1.0",
+              "hits": 1,
+              "runs": 1,
+              "earnedRuns": 1,
+              "walks": 0,
+              "strikeOuts": 0,
+              "homeRuns": 1,
+              "pitches": 9
+            },
+            {
+              "name": "Devin Williams",
+              "inningsPitched": "1.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 1,
+              "homeRuns": 0,
+              "pitches": 13
+            }
+          ]
+        },
+        "home": {
+          "batting": [
+            {
+              "name": "Trea Turner",
+              "position": "SS",
+              "atBats": 4,
+              "runs": 1,
+              "hits": 1,
+              "homeRuns": 1,
+              "rbi": 1,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Kyle Schwarber",
+              "position": "DH",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Bryce Harper",
+              "position": "1B",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Brandon Marsh",
+              "position": "LF",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Alec Bohm",
+              "position": "3B",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Bryson Stott",
+              "position": "2B",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "J.T. Realmuto",
+              "position": "C",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Gabriel Rincones Jr.",
+              "position": "RF",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Justin Crawford",
+              "position": "CF",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            }
+          ],
+          "pitching": [
+            {
+              "name": "Aaron Nola",
+              "inningsPitched": "6.0",
+              "hits": 6,
+              "runs": 3,
+              "earnedRuns": 3,
+              "walks": 4,
+              "strikeOuts": 6,
+              "homeRuns": 3,
+              "pitches": 97
+            },
+            {
+              "name": "Jonathan Bowlan",
+              "inningsPitched": "1.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 1,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 14
+            },
+            {
+              "name": "Seth Johnson",
+              "inningsPitched": "2.0",
+              "hits": 1,
+              "runs": 1,
+              "earnedRuns": 1,
+              "walks": 1,
+              "strikeOuts": 2,
+              "homeRuns": 0,
+              "pitches": 27
+            }
+          ]
+        }
+      },
+      "probablePitchers": {
+        "away": "Christian Scott",
+        "home": "Aaron Nola"
+      },
+      "decisions": {
+        "winner": null,
+        "loser": null,
+        "save": null
+      }
+    }
+  ],
+  "todaySlate": [
+    {
+      "gamePk": 824766,
+      "status": "Scheduled",
+      "venue": "Fenway Park",
+      "startTime": "2026-07-17T17:35:00Z",
+      "away": {
+        "name": "Tampa Bay Rays",
+        "abbreviation": "Tampa Bay Rays",
+        "probablePitcher": "Griffin Jax"
+      },
+      "home": {
+        "name": "Boston Red Sox",
+        "abbreviation": "Boston Red Sox",
+        "probablePitcher": "Jake Bennett"
+      }
+    },
+    {
+      "gamePk": 824737,
+      "status": "Scheduled",
+      "venue": "Fenway Park",
+      "startTime": "2026-07-17T23:10:00Z",
+      "away": {
+        "name": "Tampa Bay Rays",
+        "abbreviation": "Tampa Bay Rays",
+        "probablePitcher": null
+      },
+      "home": {
+        "name": "Boston Red Sox",
+        "abbreviation": "Boston Red Sox",
+        "probablePitcher": null
+      }
+    },
+    {
+      "gamePk": 823524,
+      "status": "Scheduled",
+      "venue": "Yankee Stadium",
+      "startTime": "2026-07-17T23:05:00Z",
+      "away": {
+        "name": "Los Angeles Dodgers",
+        "abbreviation": "Los Angeles Dodgers",
+        "probablePitcher": "Roki Sasaki"
+      },
+      "home": {
+        "name": "New York Yankees",
+        "abbreviation": "New York Yankees",
+        "probablePitcher": "Gerrit Cole"
+      }
+    },
+    {
+      "gamePk": 824414,
+      "status": "Scheduled",
+      "venue": "Progressive Field",
+      "startTime": "2026-07-17T23:10:00Z",
+      "away": {
+        "name": "Pittsburgh Pirates",
+        "abbreviation": "Pittsburgh Pirates",
+        "probablePitcher": "Jared Jones"
+      },
+      "home": {
+        "name": "Cleveland Guardians",
+        "abbreviation": "Cleveland Guardians",
+        "probablePitcher": "Gavin Williams"
+      }
+    },
+    {
+      "gamePk": 824901,
+      "status": "Scheduled",
+      "venue": "Truist Park",
+      "startTime": "2026-07-17T23:15:00Z",
+      "away": {
+        "name": "Texas Rangers",
+        "abbreviation": "Texas Rangers",
+        "probablePitcher": "Cal Quantrill"
+      },
+      "home": {
+        "name": "Atlanta Braves",
+        "abbreviation": "Atlanta Braves",
+        "probablePitcher": "Chris Sale"
+      }
+    },
+    {
+      "gamePk": 822789,
+      "status": "Scheduled",
+      "venue": "Rogers Centre",
+      "startTime": "2026-07-17T23:15:00Z",
+      "away": {
+        "name": "Chicago White Sox",
+        "abbreviation": "Chicago White Sox",
+        "probablePitcher": "Anthony Kay"
+      },
+      "home": {
+        "name": "Toronto Blue Jays",
+        "abbreviation": "Toronto Blue Jays",
+        "probablePitcher": "Spencer Miles"
+      }
+    },
+    {
+      "gamePk": 823766,
+      "status": "Scheduled",
+      "venue": "American Family Field",
+      "startTime": "2026-07-17T23:40:00Z",
+      "away": {
+        "name": "Miami Marlins",
+        "abbreviation": "Miami Marlins",
+        "probablePitcher": "Sandy Alcantara"
+      },
+      "home": {
+        "name": "Milwaukee Brewers",
+        "abbreviation": "Milwaukee Brewers",
+        "probablePitcher": "Logan Henderson"
+      }
+    },
+    {
+      "gamePk": 824655,
+      "status": "Scheduled",
+      "venue": "Wrigley Field",
+      "startTime": "2026-07-18T00:05:00Z",
+      "away": {
+        "name": "Minnesota Twins",
+        "abbreviation": "Minnesota Twins",
+        "probablePitcher": "Bailey Ober"
+      },
+      "home": {
+        "name": "Chicago Cubs",
+        "abbreviation": "Chicago Cubs",
+        "probablePitcher": "Colin Rea"
+      }
+    },
+    {
+      "gamePk": 824170,
+      "status": "Scheduled",
+      "venue": "Daikin Park",
+      "startTime": "2026-07-18T00:10:00Z",
+      "away": {
+        "name": "Baltimore Orioles",
+        "abbreviation": "Baltimore Orioles",
+        "probablePitcher": "Dean Kremer"
+      },
+      "home": {
+        "name": "Houston Astros",
+        "abbreviation": "Houston Astros",
+        "probablePitcher": "Peter Lambert"
+      }
+    },
+    {
+      "gamePk": 824090,
+      "status": "Scheduled",
+      "venue": "Kauffman Stadium",
+      "startTime": "2026-07-18T00:10:00Z",
+      "away": {
+        "name": "San Diego Padres",
+        "abbreviation": "San Diego Padres",
+        "probablePitcher": "Michael King"
+      },
+      "home": {
+        "name": "Kansas City Royals",
+        "abbreviation": "Kansas City Royals",
+        "probablePitcher": "Seth Lugo"
+      }
+    },
+    {
+      "gamePk": 824332,
+      "status": "Scheduled",
+      "venue": "Coors Field",
+      "startTime": "2026-07-18T00:40:00Z",
+      "away": {
+        "name": "Cincinnati Reds",
+        "abbreviation": "Cincinnati Reds",
+        "probablePitcher": "Brady Singer"
+      },
+      "home": {
+        "name": "Colorado Rockies",
+        "abbreviation": "Colorado Rockies",
+        "probablePitcher": "Gabriel Hughes"
+      }
+    },
+    {
+      "gamePk": 824009,
+      "status": "Scheduled",
+      "venue": "Angel Stadium",
+      "startTime": "2026-07-18T01:38:00Z",
+      "away": {
+        "name": "Detroit Tigers",
+        "abbreviation": "Detroit Tigers",
+        "probablePitcher": "Troy Melton"
+      },
+      "home": {
+        "name": "Los Angeles Angels",
+        "abbreviation": "Los Angeles Angels",
+        "probablePitcher": "Reid Detmers"
+      }
+    },
+    {
+      "gamePk": 824981,
+      "status": "Scheduled",
+      "venue": "Sutter Health Park",
+      "startTime": "2026-07-18T01:40:00Z",
+      "away": {
+        "name": "Washington Nationals",
+        "abbreviation": "Washington Nationals",
+        "probablePitcher": "Cade Cavalli"
+      },
+      "home": {
+        "name": "Athletics",
+        "abbreviation": "Athletics",
+        "probablePitcher": "Gage Jump"
+      }
+    },
+    {
+      "gamePk": 825060,
+      "status": "Scheduled",
+      "venue": "Chase Field",
+      "startTime": "2026-07-18T01:40:00Z",
+      "away": {
+        "name": "St. Louis Cardinals",
+        "abbreviation": "St. Louis Cardinals",
+        "probablePitcher": null
+      },
+      "home": {
+        "name": "Arizona Diamondbacks",
+        "abbreviation": "Arizona Diamondbacks",
+        "probablePitcher": "Merrill Kelly"
+      }
+    },
+    {
+      "gamePk": 823115,
+      "status": "Scheduled",
+      "venue": "T-Mobile Park",
+      "startTime": "2026-07-18T02:10:00Z",
+      "away": {
+        "name": "San Francisco Giants",
+        "abbreviation": "San Francisco Giants",
+        "probablePitcher": "Landen Roupp"
+      },
+      "home": {
+        "name": "Seattle Mariners",
+        "abbreviation": "Seattle Mariners",
+        "probablePitcher": "Bryce Miller"
       }
     }
   ],
@@ -226,12 +1653,12 @@
           {
             "team": "Phillies",
             "wins": 54,
-            "losses": 43,
-            "pct": ".557",
-            "gamesBack": "2.0",
-            "wildCardGamesBack": "+2.0",
+            "losses": 44,
+            "pct": ".551",
+            "gamesBack": "2.5",
+            "wildCardGamesBack": "+1.5",
             "lastTen": "",
-            "streak": "W2"
+            "streak": "L1"
           },
           {
             "team": "Marlins",
@@ -255,13 +1682,13 @@
           },
           {
             "team": "Mets",
-            "wins": 40,
+            "wins": 41,
             "losses": 57,
-            "pct": ".412",
-            "gamesBack": "16.0",
-            "wildCardGamesBack": "12.0",
+            "pct": ".418",
+            "gamesBack": "15.5",
+            "wildCardGamesBack": "11.5",
             "lastTen": "",
-            "streak": "L3"
+            "streak": "W1"
           }
         ]
       },
@@ -538,12 +1965,12 @@
           {
             "team": "Phillies",
             "wins": 54,
-            "losses": 43,
-            "pct": ".557",
-            "gamesBack": "2.0",
-            "wildCardGamesBack": "+2.0",
+            "losses": 44,
+            "pct": ".551",
+            "gamesBack": "2.5",
+            "wildCardGamesBack": "+1.5",
             "lastTen": "",
-            "streak": "W2"
+            "streak": "L1"
           },
           {
             "team": "Marlins",
@@ -627,13 +2054,13 @@
           },
           {
             "team": "Mets",
-            "wins": 40,
+            "wins": 41,
             "losses": 57,
-            "pct": ".412",
-            "gamesBack": "16.0",
-            "wildCardGamesBack": "12.0",
+            "pct": ".418",
+            "gamesBack": "15.5",
+            "wildCardGamesBack": "11.5",
             "lastTen": "",
-            "streak": "L3"
+            "streak": "W1"
           },
           {
             "team": "Rockies",
@@ -749,18 +2176,6 @@
           "ops": ".863"
         },
         {
-          "player": "Brandon Marsh",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 92,
-          "atBats": 339,
-          "plateAppearances": 363,
-          "avg": ".301",
-          "homeRuns": 15,
-          "rbi": 46,
-          "ops": ".829"
-        },
-        {
           "player": "Troy Johnston",
           "team": "Colorado Rockies",
           "leagueId": 104,
@@ -782,6 +2197,18 @@
           "avg": ".298",
           "homeRuns": 9,
           "rbi": 34,
+          "ops": ".819"
+        },
+        {
+          "player": "Brandon Marsh",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 93,
+          "atBats": 343,
+          "plateAppearances": 367,
+          "avg": ".297",
+          "homeRuns": 15,
+          "rbi": 46,
           "ops": ".819"
         },
         {
@@ -857,6 +2284,18 @@
           "ops": ".952"
         },
         {
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 79,
+          "atBats": 277,
+          "plateAppearances": 338,
+          "avg": ".292",
+          "homeRuns": 21,
+          "rbi": 51,
+          "ops": ".975"
+        },
+        {
           "player": "Pete Crow-Armstrong",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -879,18 +2318,6 @@
           "homeRuns": 15,
           "rbi": 49,
           "ops": ".862"
-        },
-        {
-          "player": "Juan Soto",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 78,
-          "atBats": 276,
-          "plateAppearances": 334,
-          "avg": ".290",
-          "homeRuns": 21,
-          "rbi": 51,
-          "ops": ".967"
         },
         {
           "player": "Liam Hicks",
@@ -1328,13 +2755,13 @@
           "player": "Carson Benge",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 94,
-          "atBats": 353,
-          "plateAppearances": 386,
+          "gamesPlayed": 95,
+          "atBats": 357,
+          "plateAppearances": 390,
           "avg": ".263",
           "homeRuns": 11,
           "rbi": 37,
-          "ops": ".728"
+          "ops": ".727"
         },
         {
           "player": "Brandon Nimmo",
@@ -1385,6 +2812,18 @@
           "ops": ".831"
         },
         {
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 98,
+          "atBats": 345,
+          "plateAppearances": 412,
+          "avg": ".261",
+          "homeRuns": 20,
+          "rbi": 57,
+          "ops": ".866"
+        },
+        {
           "player": "Wilyer Abreu",
           "team": "Boston Red Sox",
           "leagueId": 103,
@@ -1407,18 +2846,6 @@
           "homeRuns": 7,
           "rbi": 37,
           "ops": ".709"
-        },
-        {
-          "player": "Bryce Harper",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 97,
-          "atBats": 342,
-          "plateAppearances": 408,
-          "avg": ".260",
-          "homeRuns": 20,
-          "rbi": 57,
-          "ops": ".862"
         },
         {
           "player": "Jac Caglianone",
@@ -1529,18 +2956,6 @@
           "ops": ".772"
         },
         {
-          "player": "Bo Bichette",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 96,
-          "atBats": 380,
-          "plateAppearances": 413,
-          "avg": ".255",
-          "homeRuns": 10,
-          "rbi": 51,
-          "ops": ".676"
-        },
-        {
           "player": "Taylor Ward",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -1580,13 +2995,13 @@
           "player": "Kyle Schwarber",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
-          "gamesPlayed": 93,
-          "atBats": 350,
-          "plateAppearances": 414,
+          "gamesPlayed": 94,
+          "atBats": 354,
+          "plateAppearances": 418,
           "avg": ".254",
           "homeRuns": 32,
           "rbi": 59,
-          "ops": ".927"
+          "ops": ".925"
         },
         {
           "player": "Isaac Paredes",
@@ -1623,6 +3038,18 @@
           "homeRuns": 11,
           "rbi": 43,
           "ops": ".707"
+        },
+        {
+          "player": "Bo Bichette",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 97,
+          "atBats": 384,
+          "plateAppearances": 417,
+          "avg": ".253",
+          "homeRuns": 10,
+          "rbi": 51,
+          "ops": ".669"
         },
         {
           "player": "Corbin Carroll",
@@ -1697,18 +3124,6 @@
           "ops": ".737"
         },
         {
-          "player": "Bryson Stott",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 91,
-          "atBats": 321,
-          "plateAppearances": 353,
-          "avg": ".249",
-          "homeRuns": 7,
-          "rbi": 42,
-          "ops": ".701"
-        },
-        {
           "player": "Iván Herrera",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -1743,6 +3158,18 @@
           "homeRuns": 13,
           "rbi": 60,
           "ops": ".736"
+        },
+        {
+          "player": "Bryson Stott",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 92,
+          "atBats": 324,
+          "plateAppearances": 356,
+          "avg": ".247",
+          "homeRuns": 7,
+          "rbi": 42,
+          "ops": ".694"
         },
         {
           "player": "Spencer Steer",
@@ -2036,13 +3463,13 @@
           "player": "Trea Turner",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
-          "gamesPlayed": 94,
-          "atBats": 386,
-          "plateAppearances": 415,
+          "gamesPlayed": 95,
+          "atBats": 390,
+          "plateAppearances": 419,
           "avg": ".236",
-          "homeRuns": 10,
-          "rbi": 33,
-          "ops": ".639"
+          "homeRuns": 11,
+          "rbi": 34,
+          "ops": ".646"
         },
         {
           "player": "Trent Grisham",
@@ -2153,6 +3580,18 @@
           "ops": ".614"
         },
         {
+          "player": "Brett Baty",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 94,
+          "atBats": 294,
+          "plateAppearances": 332,
+          "avg": ".224",
+          "homeRuns": 5,
+          "rbi": 32,
+          "ops": ".626"
+        },
+        {
           "player": "Gunnar Henderson",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -2199,18 +3638,6 @@
           "homeRuns": 14,
           "rbi": 40,
           "ops": ".748"
-        },
-        {
-          "player": "Brett Baty",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 93,
-          "atBats": 290,
-          "plateAppearances": 328,
-          "avg": ".221",
-          "homeRuns": 4,
-          "rbi": 31,
-          "ops": ".611"
         },
         {
           "player": "Ian Happ",
@@ -2273,18 +3700,6 @@
           "ops": ".669"
         },
         {
-          "player": "Alec Bohm",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 92,
-          "atBats": 339,
-          "plateAppearances": 374,
-          "avg": ".215",
-          "homeRuns": 11,
-          "rbi": 47,
-          "ops": ".632"
-        },
-        {
           "player": "Kyle Manzardo",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -2307,6 +3722,18 @@
           "homeRuns": 9,
           "rbi": 29,
           "ops": ".612"
+        },
+        {
+          "player": "Alec Bohm",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 93,
+          "atBats": 343,
+          "plateAppearances": 378,
+          "avg": ".213",
+          "homeRuns": 11,
+          "rbi": 47,
+          "ops": ".625"
         },
         {
           "player": "Dansby Swanson",
@@ -2863,18 +4290,6 @@
           "ops": ".863"
         },
         {
-          "player": "Brandon Marsh",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 92,
-          "atBats": 339,
-          "plateAppearances": 363,
-          "avg": ".301",
-          "homeRuns": 15,
-          "rbi": 46,
-          "ops": ".829"
-        },
-        {
           "player": "Gabriel Moreno",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -2932,6 +4347,18 @@
           "avg": ".298",
           "homeRuns": 9,
           "rbi": 34,
+          "ops": ".819"
+        },
+        {
+          "player": "Brandon Marsh",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 93,
+          "atBats": 343,
+          "plateAppearances": 367,
+          "avg": ".297",
+          "homeRuns": 15,
+          "rbi": 46,
           "ops": ".819"
         },
         {
@@ -3055,6 +4482,18 @@
           "ops": ".952"
         },
         {
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 79,
+          "atBats": 277,
+          "plateAppearances": 338,
+          "avg": ".292",
+          "homeRuns": 21,
+          "rbi": 51,
+          "ops": ".975"
+        },
+        {
           "player": "Ryan Jeffers",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -3125,18 +4564,6 @@
           "homeRuns": 3,
           "rbi": 17,
           "ops": ".755"
-        },
-        {
-          "player": "Juan Soto",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 78,
-          "atBats": 276,
-          "plateAppearances": 334,
-          "avg": ".290",
-          "homeRuns": 21,
-          "rbi": 51,
-          "ops": ".967"
         },
         {
           "player": "Liam Hicks",
@@ -3619,18 +5046,6 @@
           "ops": ".736"
         },
         {
-          "player": "A.J. Ewing",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 57,
-          "atBats": 196,
-          "plateAppearances": 222,
-          "avg": ".276",
-          "homeRuns": 7,
-          "rbi": 24,
-          "ops": ".789"
-        },
-        {
           "player": "CJ Abrams",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -3737,6 +5152,18 @@
           "homeRuns": 3,
           "rbi": 8,
           "ops": ".838"
+        },
+        {
+          "player": "A.J. Ewing",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 58,
+          "atBats": 201,
+          "plateAppearances": 227,
+          "avg": ".274",
+          "homeRuns": 7,
+          "rbi": 25,
+          "ops": ".785"
         },
         {
           "player": "Zack Gelof",
@@ -4138,25 +5565,13 @@
           "player": "Carson Benge",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 94,
-          "atBats": 353,
-          "plateAppearances": 386,
+          "gamesPlayed": 95,
+          "atBats": 357,
+          "plateAppearances": 390,
           "avg": ".263",
           "homeRuns": 11,
           "rbi": 37,
-          "ops": ".728"
-        },
-        {
-          "player": "Justin Crawford",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 88,
-          "atBats": 266,
-          "plateAppearances": 287,
-          "avg": ".263",
-          "homeRuns": 2,
-          "rbi": 21,
-          "ops": ".665"
+          "ops": ".727"
         },
         {
           "player": "Dominic Smith",
@@ -4279,6 +5694,18 @@
           "ops": ".693"
         },
         {
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 98,
+          "atBats": 345,
+          "plateAppearances": 412,
+          "avg": ".261",
+          "homeRuns": 20,
+          "rbi": 57,
+          "ops": ".866"
+        },
+        {
           "player": "Ben Malgeri",
           "team": "Detroit Tigers",
           "leagueId": 103,
@@ -4327,16 +5754,16 @@
           "ops": ".709"
         },
         {
-          "player": "Bryce Harper",
+          "player": "Justin Crawford",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
-          "gamesPlayed": 97,
-          "atBats": 342,
-          "plateAppearances": 408,
+          "gamesPlayed": 89,
+          "atBats": 269,
+          "plateAppearances": 290,
           "avg": ".260",
-          "homeRuns": 20,
-          "rbi": 57,
-          "ops": ".862"
+          "homeRuns": 2,
+          "rbi": 21,
+          "ops": ".658"
         },
         {
           "player": "Jac Caglianone",
@@ -4409,6 +5836,18 @@
           "homeRuns": 4,
           "rbi": 20,
           "ops": ".702"
+        },
+        {
+          "player": "Francisco Alvarez",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 65,
+          "atBats": 212,
+          "plateAppearances": 236,
+          "avg": ".259",
+          "homeRuns": 11,
+          "rbi": 24,
+          "ops": ".773"
         },
         {
           "player": "Max Muncy",
@@ -4675,18 +6114,6 @@
           "ops": ".724"
         },
         {
-          "player": "Bo Bichette",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 96,
-          "atBats": 380,
-          "plateAppearances": 413,
-          "avg": ".255",
-          "homeRuns": 10,
-          "rbi": 51,
-          "ops": ".676"
-        },
-        {
           "player": "Hao-Yu Lee",
           "team": "Detroit Tigers",
           "leagueId": 103,
@@ -4762,13 +6189,13 @@
           "player": "Kyle Schwarber",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
-          "gamesPlayed": 93,
-          "atBats": 350,
-          "plateAppearances": 414,
+          "gamesPlayed": 94,
+          "atBats": 354,
+          "plateAppearances": 418,
           "avg": ".254",
           "homeRuns": 32,
           "rbi": 59,
-          "ops": ".927"
+          "ops": ".925"
         },
         {
           "player": "Dalton Rushing",
@@ -4819,18 +6246,6 @@
           "ops": ".766"
         },
         {
-          "player": "Francisco Alvarez",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 64,
-          "atBats": 209,
-          "plateAppearances": 232,
-          "avg": ".254",
-          "homeRuns": 9,
-          "rbi": 22,
-          "ops": ".733"
-        },
-        {
           "player": "Adley Rutschman",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -4853,6 +6268,18 @@
           "homeRuns": 11,
           "rbi": 43,
           "ops": ".707"
+        },
+        {
+          "player": "Bo Bichette",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 97,
+          "atBats": 384,
+          "plateAppearances": 417,
+          "avg": ".253",
+          "homeRuns": 10,
+          "rbi": 51,
+          "ops": ".669"
         },
         {
           "player": "Ben Williamson",
@@ -5071,18 +6498,6 @@
           "ops": ".737"
         },
         {
-          "player": "Bryson Stott",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 91,
-          "atBats": 321,
-          "plateAppearances": 353,
-          "avg": ".249",
-          "homeRuns": 7,
-          "rbi": 42,
-          "ops": ".701"
-        },
-        {
           "player": "Austin Martin",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -5141,18 +6556,6 @@
           "homeRuns": 6,
           "rbi": 23,
           "ops": ".688"
-        },
-        {
-          "player": "Jared Young",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 51,
-          "atBats": 141,
-          "plateAppearances": 157,
-          "avg": ".248",
-          "homeRuns": 6,
-          "rbi": 18,
-          "ops": ".744"
         },
         {
           "player": "Samuel Basallo",
@@ -5225,6 +6628,18 @@
           "homeRuns": 17,
           "rbi": 44,
           "ops": ".843"
+        },
+        {
+          "player": "Bryson Stott",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 92,
+          "atBats": 324,
+          "plateAppearances": 356,
+          "avg": ".247",
+          "homeRuns": 7,
+          "rbi": 42,
+          "ops": ".694"
         },
         {
           "player": "Spencer Steer",
@@ -5369,6 +6784,18 @@
           "homeRuns": 21,
           "rbi": 59,
           "ops": ".848"
+        },
+        {
+          "player": "Jared Young",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 52,
+          "atBats": 143,
+          "plateAppearances": 161,
+          "avg": ".245",
+          "homeRuns": 6,
+          "rbi": 18,
+          "ops": ".743"
         },
         {
           "player": "Jo Adell",
@@ -6082,13 +7509,13 @@
           "player": "Trea Turner",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
-          "gamesPlayed": 94,
-          "atBats": 386,
-          "plateAppearances": 415,
+          "gamesPlayed": 95,
+          "atBats": 390,
+          "plateAppearances": 419,
           "avg": ".236",
-          "homeRuns": 10,
-          "rbi": 33,
-          "ops": ".639"
+          "homeRuns": 11,
+          "rbi": 34,
+          "ops": ".646"
         },
         {
           "player": "Trent Grisham",
@@ -6679,6 +8106,18 @@
           "ops": ".614"
         },
         {
+          "player": "Brett Baty",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 94,
+          "atBats": 294,
+          "plateAppearances": 332,
+          "avg": ".224",
+          "homeRuns": 5,
+          "rbi": 32,
+          "ops": ".626"
+        },
+        {
           "player": "Gunnar Henderson",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -6833,18 +8272,6 @@
           "homeRuns": 1,
           "rbi": 10,
           "ops": ".562"
-        },
-        {
-          "player": "Brett Baty",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 93,
-          "atBats": 290,
-          "plateAppearances": 328,
-          "avg": ".221",
-          "homeRuns": 4,
-          "rbi": 31,
-          "ops": ".611"
         },
         {
           "player": "Kyle Higashioka",
@@ -7027,18 +8454,6 @@
           "ops": ".625"
         },
         {
-          "player": "Tyrone Taylor",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 55,
-          "atBats": 120,
-          "plateAppearances": 129,
-          "avg": ".217",
-          "homeRuns": 6,
-          "rbi": 17,
-          "ops": ".665"
-        },
-        {
           "player": "Victor Robles",
           "team": "Seattle Mariners",
           "leagueId": 103,
@@ -7087,18 +8502,6 @@
           "ops": ".646"
         },
         {
-          "player": "Francisco Lindor",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 40,
-          "atBats": 153,
-          "plateAppearances": 171,
-          "avg": ".216",
-          "homeRuns": 5,
-          "rbi": 12,
-          "ops": ".671"
-        },
-        {
           "player": "Joey Loperfido",
           "team": "Houston Astros",
           "leagueId": 103,
@@ -7111,18 +8514,6 @@
           "ops": ".647"
         },
         {
-          "player": "Alec Bohm",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 92,
-          "atBats": 339,
-          "plateAppearances": 374,
-          "avg": ".215",
-          "homeRuns": 11,
-          "rbi": 47,
-          "ops": ".632"
-        },
-        {
           "player": "Leo Jiménez",
           "team": "Miami Marlins",
           "leagueId": 104,
@@ -7133,6 +8524,18 @@
           "homeRuns": 2,
           "rbi": 8,
           "ops": ".617"
+        },
+        {
+          "player": "Tyrone Taylor",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 56,
+          "atBats": 121,
+          "plateAppearances": 130,
+          "avg": ".215",
+          "homeRuns": 6,
+          "rbi": 17,
+          "ops": ".659"
         },
         {
           "player": "Kyle Manzardo",
@@ -7255,6 +8658,18 @@
           "ops": ".599"
         },
         {
+          "player": "Alec Bohm",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 93,
+          "atBats": 343,
+          "plateAppearances": 378,
+          "avg": ".213",
+          "homeRuns": 11,
+          "rbi": 47,
+          "ops": ".625"
+        },
+        {
           "player": "Bryce Teodosio",
           "team": "Los Angeles Angels",
           "leagueId": 103,
@@ -7375,6 +8790,18 @@
           "ops": ".684"
         },
         {
+          "player": "Francisco Lindor",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 41,
+          "atBats": 157,
+          "plateAppearances": 175,
+          "avg": ".210",
+          "homeRuns": 5,
+          "rbi": 12,
+          "ops": ".654"
+        },
+        {
           "player": "Jackson Holliday",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -7459,6 +8886,18 @@
           "ops": ".718"
         },
         {
+          "player": "J.T. Realmuto",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 69,
+          "atBats": 231,
+          "plateAppearances": 260,
+          "avg": ".208",
+          "homeRuns": 7,
+          "rbi": 33,
+          "ops": ".634"
+        },
+        {
           "player": "Brenton Doyle",
           "team": "Colorado Rockies",
           "leagueId": 104,
@@ -7481,18 +8920,6 @@
           "homeRuns": 9,
           "rbi": 42,
           "ops": ".617"
-        },
-        {
-          "player": "J.T. Realmuto",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 68,
-          "atBats": 228,
-          "plateAppearances": 257,
-          "avg": ".206",
-          "homeRuns": 7,
-          "rbi": 33,
-          "ops": ".634"
         },
         {
           "player": "Trevor Story",
@@ -8323,18 +9750,6 @@
           "ops": ".597"
         },
         {
-          "player": "Gabriel Rincones Jr.",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 21,
-          "atBats": 67,
-          "plateAppearances": 71,
-          "avg": ".179",
-          "homeRuns": 2,
-          "rbi": 6,
-          "ops": ".524"
-        },
-        {
           "player": "Garrett Stubbs",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
@@ -8345,18 +9760,6 @@
           "homeRuns": 0,
           "rbi": 2,
           "ops": ".429"
-        },
-        {
-          "player": "Jorge Polanco",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPlayed": 19,
-          "atBats": 73,
-          "plateAppearances": 79,
-          "avg": ".178",
-          "homeRuns": 1,
-          "rbi": 3,
-          "ops": ".515"
         },
         {
           "player": "Bryce Johnson",
@@ -8491,6 +9894,18 @@
           "ops": ".371"
         },
         {
+          "player": "Gabriel Rincones Jr.",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 22,
+          "atBats": 70,
+          "plateAppearances": 74,
+          "avg": ".171",
+          "homeRuns": 2,
+          "rbi": 6,
+          "ops": ".503"
+        },
+        {
           "player": "Danny Jansen",
           "team": "Texas Rangers",
           "leagueId": 103,
@@ -8537,6 +9952,18 @@
           "homeRuns": 9,
           "rbi": 29,
           "ops": ".581"
+        },
+        {
+          "player": "Jorge Polanco",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPlayed": 20,
+          "atBats": 77,
+          "plateAppearances": 83,
+          "avg": ".169",
+          "homeRuns": 1,
+          "rbi": 3,
+          "ops": ".489"
         },
         {
           "player": "Andrés Chaparro",
@@ -10258,7 +11685,7 @@
           "player": "Luke Weaver",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 37,
+          "gamesPlayed": 38,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -10306,7 +11733,7 @@
           "player": "Devin Williams",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 35,
+          "gamesPlayed": 36,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -10416,13 +11843,13 @@
           "player": "A.J. Ewing",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 57,
-          "atBats": 196,
-          "plateAppearances": 222,
-          "avg": ".276",
+          "gamesPlayed": 58,
+          "atBats": 201,
+          "plateAppearances": 227,
+          "avg": ".274",
           "homeRuns": 7,
-          "rbi": 24,
-          "ops": ".789"
+          "rbi": 25,
+          "ops": ".785"
         },
         {
           "player": "Bryce Eldridge",
@@ -10452,25 +11879,13 @@
           "player": "Carson Benge",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 94,
-          "atBats": 353,
-          "plateAppearances": 386,
+          "gamesPlayed": 95,
+          "atBats": 357,
+          "plateAppearances": 390,
           "avg": ".263",
           "homeRuns": 11,
           "rbi": 37,
-          "ops": ".728"
-        },
-        {
-          "player": "Justin Crawford",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 88,
-          "atBats": 266,
-          "plateAppearances": 287,
-          "avg": ".263",
-          "homeRuns": 2,
-          "rbi": 21,
-          "ops": ".665"
+          "ops": ".727"
         },
         {
           "player": "Henry Bolte",
@@ -10483,6 +11898,18 @@
           "homeRuns": 3,
           "rbi": 16,
           "ops": ".690"
+        },
+        {
+          "player": "Justin Crawford",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 89,
+          "atBats": 269,
+          "plateAppearances": 290,
+          "avg": ".260",
+          "homeRuns": 2,
+          "rbi": 21,
+          "ops": ".658"
         },
         {
           "player": "JJ Wetherholt",
@@ -10970,13 +12397,13 @@
           "player": "A.J. Ewing",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 57,
-          "atBats": 196,
-          "plateAppearances": 222,
-          "avg": ".276",
+          "gamesPlayed": 58,
+          "atBats": 201,
+          "plateAppearances": 227,
+          "avg": ".274",
           "homeRuns": 7,
-          "rbi": 24,
-          "ops": ".789"
+          "rbi": 25,
+          "ops": ".785"
         },
         {
           "player": "Cole Carrigg",
@@ -11042,25 +12469,13 @@
           "player": "Carson Benge",
           "team": "New York Mets",
           "leagueId": 104,
-          "gamesPlayed": 94,
-          "atBats": 353,
-          "plateAppearances": 386,
+          "gamesPlayed": 95,
+          "atBats": 357,
+          "plateAppearances": 390,
           "avg": ".263",
           "homeRuns": 11,
           "rbi": 37,
-          "ops": ".728"
-        },
-        {
-          "player": "Justin Crawford",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 88,
-          "atBats": 266,
-          "plateAppearances": 287,
-          "avg": ".263",
-          "homeRuns": 2,
-          "rbi": 21,
-          "ops": ".665"
+          "ops": ".727"
         },
         {
           "player": "Daniel Susac",
@@ -11109,6 +12524,18 @@
           "homeRuns": 0,
           "rbi": 4,
           "ops": ".661"
+        },
+        {
+          "player": "Justin Crawford",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 89,
+          "atBats": 269,
+          "plateAppearances": 290,
+          "avg": ".260",
+          "homeRuns": 2,
+          "rbi": 21,
+          "ops": ".658"
         },
         {
           "player": "JJ Wetherholt",
@@ -11687,18 +13114,6 @@
           "ops": ".436"
         },
         {
-          "player": "Gabriel Rincones Jr.",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPlayed": 21,
-          "atBats": 67,
-          "plateAppearances": 71,
-          "avg": ".179",
-          "homeRuns": 2,
-          "rbi": 6,
-          "ops": ".524"
-        },
-        {
           "player": "Juan Brito",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -11721,6 +13136,18 @@
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".371"
+        },
+        {
+          "player": "Gabriel Rincones Jr.",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPlayed": 22,
+          "atBats": 70,
+          "plateAppearances": 74,
+          "avg": ".171",
+          "homeRuns": 2,
+          "rbi": 6,
+          "ops": ".503"
         },
         {
           "player": "LuJames Groover",
@@ -12881,12 +14308,12 @@
           "player": "Aaron Nola",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
-          "gamesPitched": 19,
-          "gamesStarted": 19,
-          "inningsPitched": "97.0",
-          "era": "5.75",
-          "whip": "1.43",
-          "strikeOuts": 102,
+          "gamesPitched": 20,
+          "gamesStarted": 20,
+          "inningsPitched": "103.0",
+          "era": "5.68",
+          "whip": "1.45",
+          "strikeOuts": 108,
           "holds": 0,
           "saves": 0
         },
@@ -13712,19 +15139,6 @@
           "saves": 0
         },
         {
-          "player": "Luke Weaver",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPitched": 37,
-          "gamesStarted": 0,
-          "inningsPitched": "39.0",
-          "era": "1.85",
-          "whip": "0.82",
-          "strikeOuts": 43,
-          "holds": 12,
-          "saves": 1
-        },
-        {
           "player": "Ben Brown",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -13803,6 +15217,32 @@
           "saves": 0
         },
         {
+          "player": "Brooks Raley",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPitched": 40,
+          "gamesStarted": 0,
+          "inningsPitched": "35.2",
+          "era": "2.02",
+          "whip": "1.15",
+          "strikeOuts": 37,
+          "holds": 13,
+          "saves": 0
+        },
+        {
+          "player": "Luke Weaver",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPitched": 38,
+          "gamesStarted": 0,
+          "inningsPitched": "40.0",
+          "era": "2.03",
+          "whip": "0.83",
+          "strikeOuts": 43,
+          "holds": 13,
+          "saves": 1
+        },
+        {
           "player": "DL Hall",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -13839,19 +15279,6 @@
           "whip": "1.13",
           "strikeOuts": 16,
           "holds": 0,
-          "saves": 0
-        },
-        {
-          "player": "Brooks Raley",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPitched": 39,
-          "gamesStarted": 0,
-          "inningsPitched": "35.1",
-          "era": "2.04",
-          "whip": "1.13",
-          "strikeOuts": 36,
-          "holds": 12,
           "saves": 0
         },
         {
@@ -14713,6 +16140,19 @@
           "saves": 18
         },
         {
+          "player": "Huascar Brazobán",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPitched": 40,
+          "gamesStarted": 6,
+          "inningsPitched": "46.2",
+          "era": "2.70",
+          "whip": "1.07",
+          "strikeOuts": 44,
+          "holds": 7,
+          "saves": 0
+        },
+        {
           "player": "Ryan Fernandez",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -14788,19 +16228,6 @@
           "whip": "1.07",
           "strikeOuts": 110,
           "holds": 0,
-          "saves": 0
-        },
-        {
-          "player": "Huascar Brazobán",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPitched": 39,
-          "gamesStarted": 6,
-          "inningsPitched": "45.2",
-          "era": "2.76",
-          "whip": "1.09",
-          "strikeOuts": 44,
-          "holds": 6,
           "saves": 0
         },
         {
@@ -14934,6 +16361,19 @@
           "saves": 0
         },
         {
+          "player": "Jonathan Bowlan",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPitched": 34,
+          "gamesStarted": 0,
+          "inningsPitched": "31.2",
+          "era": "2.84",
+          "whip": "1.07",
+          "strikeOuts": 38,
+          "holds": 5,
+          "saves": 0
+        },
+        {
           "player": "Jose Cuas",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -15038,6 +16478,19 @@
           "saves": 0
         },
         {
+          "player": "Christian Scott",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPitched": 13,
+          "gamesStarted": 13,
+          "inningsPitched": "59.2",
+          "era": "2.87",
+          "whip": "1.22",
+          "strikeOuts": 72,
+          "holds": 0,
+          "saves": 0
+        },
+        {
           "player": "JT Brubaker",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -15127,19 +16580,6 @@
           "strikeOuts": 33,
           "holds": 12,
           "saves": 6
-        },
-        {
-          "player": "Jonathan Bowlan",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPitched": 33,
-          "gamesStarted": 0,
-          "inningsPitched": "30.2",
-          "era": "2.93",
-          "whip": "1.08",
-          "strikeOuts": 38,
-          "holds": 5,
-          "saves": 0
         },
         {
           "player": "Kendry Rojas",
@@ -15502,19 +16942,6 @@
           "era": "3.15",
           "whip": "1.16",
           "strikeOuts": 97,
-          "holds": 0,
-          "saves": 0
-        },
-        {
-          "player": "Christian Scott",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPitched": 12,
-          "gamesStarted": 12,
-          "inningsPitched": "54.0",
-          "era": "3.17",
-          "whip": "1.30",
-          "strikeOuts": 65,
           "holds": 0,
           "saves": 0
         },
@@ -18431,6 +19858,19 @@
           "saves": 1
         },
         {
+          "player": "Devin Williams",
+          "team": "New York Mets",
+          "leagueId": 104,
+          "gamesPitched": 36,
+          "gamesStarted": 0,
+          "inningsPitched": "32.2",
+          "era": "4.68",
+          "whip": "1.65",
+          "strikeOuts": 45,
+          "holds": 0,
+          "saves": 14
+        },
+        {
           "player": "Domingo Gonzalez",
           "team": "Seattle Mariners",
           "leagueId": 103,
@@ -18611,19 +20051,6 @@
           "strikeOuts": 26,
           "holds": 1,
           "saves": 0
-        },
-        {
-          "player": "Devin Williams",
-          "team": "New York Mets",
-          "leagueId": 104,
-          "gamesPitched": 35,
-          "gamesStarted": 0,
-          "inningsPitched": "31.2",
-          "era": "4.83",
-          "whip": "1.71",
-          "strikeOuts": 44,
-          "holds": 0,
-          "saves": 13
         },
         {
           "player": "Joel Kuhnel",
@@ -19770,6 +21197,19 @@
           "saves": 1
         },
         {
+          "player": "Aaron Nola",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPitched": 20,
+          "gamesStarted": 20,
+          "inningsPitched": "103.0",
+          "era": "5.68",
+          "whip": "1.45",
+          "strikeOuts": 108,
+          "holds": 0,
+          "saves": 0
+        },
+        {
           "player": "Keegan Akin",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -19832,19 +21272,6 @@
           "whip": "1.56",
           "strikeOuts": 32,
           "holds": 5,
-          "saves": 0
-        },
-        {
-          "player": "Aaron Nola",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPitched": 19,
-          "gamesStarted": 19,
-          "inningsPitched": "97.0",
-          "era": "5.75",
-          "whip": "1.43",
-          "strikeOuts": 102,
-          "holds": 0,
           "saves": 0
         },
         {
@@ -20589,6 +22016,19 @@
           "saves": 0
         },
         {
+          "player": "Seth Johnson",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPitched": 12,
+          "gamesStarted": 0,
+          "inningsPitched": "13.1",
+          "era": "6.75",
+          "whip": "1.58",
+          "strikeOuts": 16,
+          "holds": 0,
+          "saves": 0
+        },
+        {
           "player": "Ken Waldichuk",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -20755,19 +22195,6 @@
           "whip": "2.00",
           "strikeOuts": 32,
           "holds": 2,
-          "saves": 0
-        },
-        {
-          "player": "Seth Johnson",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPitched": 11,
-          "gamesStarted": 0,
-          "inningsPitched": "11.1",
-          "era": "7.15",
-          "whip": "1.68",
-          "strikeOuts": 14,
-          "holds": 0,
           "saves": 0
         },
         {
@@ -24688,6 +26115,19 @@
           "saves": 0
         },
         {
+          "player": "Seth Johnson",
+          "team": "Philadelphia Phillies",
+          "leagueId": 104,
+          "gamesPitched": 12,
+          "gamesStarted": 0,
+          "inningsPitched": "13.1",
+          "era": "6.75",
+          "whip": "1.58",
+          "strikeOuts": 16,
+          "holds": 0,
+          "saves": 0
+        },
+        {
           "player": "Andrew Painter",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
@@ -24711,19 +26151,6 @@
           "whip": "1.71",
           "strikeOuts": 8,
           "holds": 3,
-          "saves": 0
-        },
-        {
-          "player": "Seth Johnson",
-          "team": "Philadelphia Phillies",
-          "leagueId": 104,
-          "gamesPitched": 11,
-          "gamesStarted": 0,
-          "inningsPitched": "11.1",
-          "era": "7.15",
-          "whip": "1.68",
-          "strikeOuts": 14,
-          "holds": 0,
           "saves": 0
         },
         {

@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-08-27T19:51:31.017Z",
+  "generatedAt": "2026-08-27T20:00:18.260Z",
   "date": "2026-08-26",
   "slateDate": "2026-08-27",
   "gameOfDay": 823180,
@@ -20353,12 +20353,12 @@
           "team": "Colorado Rockies",
           "leagueId": 104,
           "gamesPlayed": 119,
-          "atBats": 433,
-          "plateAppearances": 470,
-          "avg": ".291",
+          "atBats": 434,
+          "plateAppearances": 471,
+          "avg": ".290",
           "homeRuns": 13,
           "rbi": 68,
-          "ops": ".807"
+          "ops": ".805"
         },
         {
           "player": "TJ Rumfield",
@@ -20613,18 +20613,6 @@
           "ops": ".713"
         },
         {
-          "player": "Pete Alonso",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 134,
-          "atBats": 502,
-          "plateAppearances": 578,
-          "avg": ".275",
-          "homeRuns": 32,
-          "rbi": 91,
-          "ops": ".877"
-        },
-        {
           "player": "Drake Baldwin",
           "team": "Atlanta Braves",
           "leagueId": 104,
@@ -20635,6 +20623,18 @@
           "homeRuns": 21,
           "rbi": 65,
           "ops": ".808"
+        },
+        {
+          "player": "Pete Alonso",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 134,
+          "atBats": 503,
+          "plateAppearances": 579,
+          "avg": ".274",
+          "homeRuns": 32,
+          "rbi": 91,
+          "ops": ".876"
         },
         {
           "player": "Jac Caglianone",
@@ -21153,6 +21153,18 @@
           "ops": ".733"
         },
         {
+          "player": "Daylen Lile",
+          "team": "Washington Nationals",
+          "leagueId": 104,
+          "gamesPlayed": 134,
+          "atBats": 514,
+          "plateAppearances": 556,
+          "avg": ".251",
+          "homeRuns": 18,
+          "rbi": 74,
+          "ops": ".724"
+        },
+        {
           "player": "Ben Rice",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -21175,18 +21187,6 @@
           "homeRuns": 29,
           "rbi": 76,
           "ops": ".861"
-        },
-        {
-          "player": "Daylen Lile",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPlayed": 134,
-          "atBats": 513,
-          "plateAppearances": 555,
-          "avg": ".250",
-          "homeRuns": 18,
-          "rbi": 74,
-          "ops": ".722"
         },
         {
           "player": "Corbin Carroll",
@@ -21733,12 +21733,12 @@
           "team": "Baltimore Orioles",
           "leagueId": 103,
           "gamesPlayed": 133,
-          "atBats": 533,
-          "plateAppearances": 599,
-          "avg": ".218",
+          "atBats": 534,
+          "plateAppearances": 600,
+          "avg": ".217",
           "homeRuns": 20,
           "rbi": 51,
-          "ops": ".689"
+          "ops": ".688"
         },
         {
           "player": "Xander Bogaerts",
@@ -22343,18 +22343,6 @@
           "ops": ".807"
         },
         {
-          "player": "Jake McCarthy",
-          "team": "Colorado Rockies",
-          "leagueId": 104,
-          "gamesPlayed": 119,
-          "atBats": 433,
-          "plateAppearances": 470,
-          "avg": ".291",
-          "homeRuns": 13,
-          "rbi": 68,
-          "ops": ".807"
-        },
-        {
           "player": "Eloy Jiménez",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -22377,6 +22365,18 @@
           "homeRuns": 3,
           "rbi": 8,
           "ops": ".830"
+        },
+        {
+          "player": "Jake McCarthy",
+          "team": "Colorado Rockies",
+          "leagueId": 104,
+          "gamesPlayed": 119,
+          "atBats": 434,
+          "plateAppearances": 471,
+          "avg": ".290",
+          "homeRuns": 13,
+          "rbi": 68,
+          "ops": ".805"
         },
         {
           "player": "Ronny Simon",
@@ -22727,6 +22727,18 @@
           "ops": ".916"
         },
         {
+          "player": "Keibert Ruiz",
+          "team": "Washington Nationals",
+          "leagueId": 104,
+          "gamesPlayed": 88,
+          "atBats": 285,
+          "plateAppearances": 306,
+          "avg": ".281",
+          "homeRuns": 9,
+          "rbi": 45,
+          "ops": ".773"
+        },
+        {
           "player": "Junior Caminero",
           "team": "Tampa Bay Rays",
           "leagueId": 103,
@@ -22797,18 +22809,6 @@
           "homeRuns": 14,
           "rbi": 56,
           "ops": ".802"
-        },
-        {
-          "player": "Keibert Ruiz",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPlayed": 88,
-          "atBats": 284,
-          "plateAppearances": 305,
-          "avg": ".278",
-          "homeRuns": 8,
-          "rbi": 43,
-          "ops": ".758"
         },
         {
           "player": "Randal Grichuk",
@@ -22967,18 +22967,6 @@
           "ops": ".713"
         },
         {
-          "player": "Pete Alonso",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 134,
-          "atBats": 502,
-          "plateAppearances": 578,
-          "avg": ".275",
-          "homeRuns": 32,
-          "rbi": 91,
-          "ops": ".877"
-        },
-        {
           "player": "Ryan Waldschmidt",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -23013,6 +23001,18 @@
           "homeRuns": 21,
           "rbi": 65,
           "ops": ".808"
+        },
+        {
+          "player": "Pete Alonso",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 134,
+          "atBats": 503,
+          "plateAppearances": 579,
+          "avg": ".274",
+          "homeRuns": 32,
+          "rbi": 91,
+          "ops": ".876"
         },
         {
           "player": "Miguel Rojas",
@@ -24479,6 +24479,18 @@
           "ops": ".733"
         },
         {
+          "player": "Daylen Lile",
+          "team": "Washington Nationals",
+          "leagueId": 104,
+          "gamesPlayed": 134,
+          "atBats": 514,
+          "plateAppearances": 556,
+          "avg": ".251",
+          "homeRuns": 18,
+          "rbi": 74,
+          "ops": ".724"
+        },
+        {
           "player": "Ben Rice",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -24623,18 +24635,6 @@
           "ops": ".803"
         },
         {
-          "player": "Daylen Lile",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPlayed": 134,
-          "atBats": 513,
-          "plateAppearances": 555,
-          "avg": ".250",
-          "homeRuns": 18,
-          "rbi": 74,
-          "ops": ".722"
-        },
-        {
           "player": "Corbin Carroll",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -24657,18 +24657,6 @@
           "homeRuns": 21,
           "rbi": 67,
           "ops": ".760"
-        },
-        {
-          "player": "Jacob Young",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPlayed": 119,
-          "atBats": 365,
-          "plateAppearances": 407,
-          "avg": ".249",
-          "homeRuns": 10,
-          "rbi": 43,
-          "ops": ".715"
         },
         {
           "player": "Brandon Lowe",
@@ -24719,16 +24707,16 @@
           "ops": ".899"
         },
         {
-          "player": "Blaze Jordan",
-          "team": "St. Louis Cardinals",
+          "player": "Jacob Young",
+          "team": "Washington Nationals",
           "leagueId": 104,
-          "gamesPlayed": 58,
-          "atBats": 185,
-          "plateAppearances": 198,
+          "gamesPlayed": 119,
+          "atBats": 366,
+          "plateAppearances": 408,
           "avg": ".249",
-          "homeRuns": 3,
-          "rbi": 28,
-          "ops": ".662"
+          "homeRuns": 10,
+          "rbi": 43,
+          "ops": ".713"
         },
         {
           "player": "Will Smith",
@@ -24825,6 +24813,18 @@
           "homeRuns": 20,
           "rbi": 56,
           "ops": ".717"
+        },
+        {
+          "player": "Blaze Jordan",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 58,
+          "atBats": 186,
+          "plateAppearances": 199,
+          "avg": ".247",
+          "homeRuns": 3,
+          "rbi": 28,
+          "ops": ".658"
         },
         {
           "player": "Tyler Freeman",
@@ -25883,6 +25883,18 @@
           "ops": ".702"
         },
         {
+          "player": "Brady House",
+          "team": "Washington Nationals",
+          "leagueId": 104,
+          "gamesPlayed": 71,
+          "atBats": 249,
+          "plateAppearances": 274,
+          "avg": ".233",
+          "homeRuns": 9,
+          "rbi": 33,
+          "ops": ".686"
+        },
+        {
           "player": "John Rave",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -26121,18 +26133,6 @@
           "homeRuns": 6,
           "rbi": 14,
           "ops": ".650"
-        },
-        {
-          "player": "Brady House",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPlayed": 71,
-          "atBats": 248,
-          "plateAppearances": 273,
-          "avg": ".230",
-          "homeRuns": 9,
-          "rbi": 32,
-          "ops": ".676"
         },
         {
           "player": "Mike Yastrzemski",
@@ -26747,18 +26747,6 @@
           "ops": ".738"
         },
         {
-          "player": "Gunnar Henderson",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 133,
-          "atBats": 533,
-          "plateAppearances": 599,
-          "avg": ".218",
-          "homeRuns": 20,
-          "rbi": 51,
-          "ops": ".689"
-        },
-        {
           "player": "Lars Nootbaar",
           "team": "Arizona Diamondbacks",
           "leagueId": 104,
@@ -26769,6 +26757,18 @@
           "homeRuns": 4,
           "rbi": 21,
           "ops": ".657"
+        },
+        {
+          "player": "Gunnar Henderson",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 133,
+          "atBats": 534,
+          "plateAppearances": 600,
+          "avg": ".217",
+          "homeRuns": 20,
+          "rbi": 51,
+          "ops": ".688"
         },
         {
           "player": "Xander Bogaerts",
@@ -28583,18 +28583,6 @@
           "ops": ".433"
         },
         {
-          "player": "Ramón Urías",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 29,
-          "atBats": 68,
-          "plateAppearances": 79,
-          "avg": ".162",
-          "homeRuns": 3,
-          "rbi": 7,
-          "ops": ".604"
-        },
-        {
           "player": "Travis d'Arnaud",
           "team": "Los Angeles Angels",
           "leagueId": 103,
@@ -28605,6 +28593,18 @@
           "homeRuns": 1,
           "rbi": 3,
           "ops": ".498"
+        },
+        {
+          "player": "Ramón Urías",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 29,
+          "atBats": 69,
+          "plateAppearances": 80,
+          "avg": ".159",
+          "homeRuns": 3,
+          "rbi": 7,
+          "ops": ".596"
         },
         {
           "player": "Joshua Báez",
@@ -29627,18 +29627,6 @@
           "ops": ".000"
         },
         {
-          "player": "Luis Gastelum",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 21,
-          "atBats": 0,
-          "plateAppearances": 0,
-          "avg": ".000",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".000"
-        },
-        {
           "player": "Cade Gibson",
           "team": "Miami Marlins",
           "leagueId": 104,
@@ -30074,7 +30062,7 @@
           "player": "Orlando Ribalta",
           "team": "Washington Nationals",
           "leagueId": 104,
-          "gamesPlayed": 42,
+          "gamesPlayed": 43,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -30123,6 +30111,18 @@
           "team": "Cleveland Guardians",
           "leagueId": 103,
           "gamesPlayed": 50,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
+        },
+        {
+          "player": "Cam Sanders",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 10,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -31435,12 +31435,12 @@
           "team": "St. Louis Cardinals",
           "leagueId": 104,
           "gamesPlayed": 58,
-          "atBats": 185,
-          "plateAppearances": 198,
-          "avg": ".249",
+          "atBats": 186,
+          "plateAppearances": 199,
+          "avg": ".247",
           "homeRuns": 3,
           "rbi": 28,
-          "ops": ".662"
+          "ops": ".658"
         },
         {
           "player": "Rafael Flores Jr.",
@@ -32427,18 +32427,6 @@
           "ops": ".000"
         },
         {
-          "player": "Luis Gastelum",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 21,
-          "atBats": 0,
-          "plateAppearances": 0,
-          "avg": ".000",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".000"
-        },
-        {
           "player": "Blake Hunt",
           "team": "San Diego Padres",
           "leagueId": 104,
@@ -32515,6 +32503,18 @@
           "team": "Atlanta Braves",
           "leagueId": 104,
           "gamesPlayed": 14,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
+        },
+        {
+          "player": "Cam Sanders",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 10,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -37908,6 +37908,19 @@
           "saves": 0
         },
         {
+          "player": "Orlando Ribalta",
+          "team": "Washington Nationals",
+          "leagueId": 104,
+          "gamesPitched": 43,
+          "gamesStarted": 0,
+          "inningsPitched": "40.1",
+          "era": "4.02",
+          "whip": "1.21",
+          "strikeOuts": 37,
+          "holds": 12,
+          "saves": 2
+        },
+        {
           "player": "Jeff Hoffman",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -38088,19 +38101,6 @@
           "strikeOuts": 6,
           "holds": 0,
           "saves": 0
-        },
-        {
-          "player": "Orlando Ribalta",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPitched": 42,
-          "gamesStarted": 0,
-          "inningsPitched": "40.0",
-          "era": "4.05",
-          "whip": "1.23",
-          "strikeOuts": 37,
-          "holds": 12,
-          "saves": 2
         },
         {
           "player": "Ryan Zeferjahn",
@@ -39689,6 +39689,19 @@
           "saves": 0
         },
         {
+          "player": "Luis Gastelum",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPitched": 21,
+          "gamesStarted": 0,
+          "inningsPitched": "24.0",
+          "era": "4.88",
+          "whip": "1.08",
+          "strikeOuts": 30,
+          "holds": 1,
+          "saves": 0
+        },
+        {
           "player": "Shawn Armstrong",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -39881,19 +39894,6 @@
           "whip": "1.33",
           "strikeOuts": 8,
           "holds": 0,
-          "saves": 0
-        },
-        {
-          "player": "Luis Gastelum",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPitched": 21,
-          "gamesStarted": 0,
-          "inningsPitched": "23.1",
-          "era": "5.01",
-          "whip": "1.11",
-          "strikeOuts": 29,
-          "holds": 1,
           "saves": 0
         },
         {
@@ -40716,19 +40716,6 @@
           "saves": 24
         },
         {
-          "player": "Jimmy Herget",
-          "team": "Colorado Rockies",
-          "leagueId": 104,
-          "gamesPitched": 42,
-          "gamesStarted": 3,
-          "inningsPitched": "40.1",
-          "era": "5.58",
-          "whip": "1.56",
-          "strikeOuts": 37,
-          "holds": 8,
-          "saves": 3
-        },
-        {
           "player": "Drew Pomeranz",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -41015,6 +41002,19 @@
           "saves": 0
         },
         {
+          "player": "Cam Sanders",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPitched": 19,
+          "gamesStarted": 0,
+          "inningsPitched": "20.0",
+          "era": "5.85",
+          "whip": "1.35",
+          "strikeOuts": 24,
+          "holds": 0,
+          "saves": 3
+        },
+        {
           "player": "Alex Lange",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -41288,19 +41288,6 @@
           "saves": 0
         },
         {
-          "player": "Cam Sanders",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPitched": 18,
-          "gamesStarted": 0,
-          "inningsPitched": "19.1",
-          "era": "6.05",
-          "whip": "1.40",
-          "strikeOuts": 23,
-          "holds": 0,
-          "saves": 3
-        },
-        {
           "player": "Noah Schultz",
           "team": "Chicago White Sox",
           "leagueId": 103,
@@ -41481,6 +41468,19 @@
           "strikeOuts": 47,
           "holds": 0,
           "saves": 0
+        },
+        {
+          "player": "Jimmy Herget",
+          "team": "Colorado Rockies",
+          "leagueId": 104,
+          "gamesPitched": 42,
+          "gamesStarted": 3,
+          "inningsPitched": "40.2",
+          "era": "6.20",
+          "whip": "1.62",
+          "strikeOuts": 37,
+          "holds": 8,
+          "saves": 3
         },
         {
           "player": "Lucas Erceg",
@@ -45881,6 +45881,19 @@
           "saves": 1
         },
         {
+          "player": "Luis Gastelum",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPitched": 21,
+          "gamesStarted": 0,
+          "inningsPitched": "24.0",
+          "era": "4.88",
+          "whip": "1.08",
+          "strikeOuts": 30,
+          "holds": 1,
+          "saves": 0
+        },
+        {
           "player": "Caleb Kilian",
           "team": "Philadelphia Phillies",
           "leagueId": 104,
@@ -45930,19 +45943,6 @@
           "whip": "1.33",
           "strikeOuts": 8,
           "holds": 0,
-          "saves": 0
-        },
-        {
-          "player": "Luis Gastelum",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPitched": 21,
-          "gamesStarted": 0,
-          "inningsPitched": "23.1",
-          "era": "5.01",
-          "whip": "1.11",
-          "strikeOuts": 29,
-          "holds": 1,
           "saves": 0
         },
         {
@@ -46232,6 +46232,19 @@
           "saves": 0
         },
         {
+          "player": "Cam Sanders",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPitched": 19,
+          "gamesStarted": 0,
+          "inningsPitched": "20.0",
+          "era": "5.85",
+          "whip": "1.35",
+          "strikeOuts": 24,
+          "holds": 0,
+          "saves": 3
+        },
+        {
           "player": "Chayce McDermott",
           "team": "New York Mets",
           "leagueId": 104,
@@ -46308,19 +46321,6 @@
           "strikeOuts": 79,
           "holds": 0,
           "saves": 0
-        },
-        {
-          "player": "Cam Sanders",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPitched": 18,
-          "gamesStarted": 0,
-          "inningsPitched": "19.1",
-          "era": "6.05",
-          "whip": "1.40",
-          "strikeOuts": 23,
-          "holds": 0,
-          "saves": 3
         },
         {
           "player": "Noah Schultz",

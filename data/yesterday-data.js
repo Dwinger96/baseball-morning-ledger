@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-08-27T20:00:18.260Z",
+  "generatedAt": "2026-08-27T20:34:46.156Z",
   "date": "2026-08-26",
   "slateDate": "2026-08-27",
   "gameOfDay": 823180,
@@ -19488,7 +19488,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 822694,
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Nationals Park",
       "startTime": "2026-08-27T17:05:00Z",
       "away": {
@@ -19520,7 +19520,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 823503,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Yankee Stadium",
       "startTime": "2026-08-27T23:05:00Z",
       "away": {
@@ -20329,12 +20329,12 @@ window.ledgerEdition = {
           "team": "St. Louis Cardinals",
           "leagueId": 104,
           "gamesPlayed": 134,
-          "atBats": 509,
-          "plateAppearances": 564,
-          "avg": ".293",
+          "atBats": 510,
+          "plateAppearances": 565,
+          "avg": ".292",
           "homeRuns": 21,
           "rbi": 99,
-          "ops": ".841"
+          "ops": ".840"
         },
         {
           "player": "Michael Harris II",
@@ -20366,11 +20366,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 130,
           "atBats": 456,
-          "plateAppearances": 525,
+          "plateAppearances": 526,
           "avg": ".289",
           "homeRuns": 13,
           "rbi": 60,
-          "ops": ".820"
+          "ops": ".821"
         },
         {
           "player": "Chase DeLauter",
@@ -20433,6 +20433,18 @@ window.ledgerEdition = {
           "ops": ".882"
         },
         {
+          "player": "Jordan Walker",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 131,
+          "atBats": 510,
+          "plateAppearances": 560,
+          "avg": ".286",
+          "homeRuns": 27,
+          "rbi": 97,
+          "ops": ".847"
+        },
+        {
           "player": "Liam Hicks",
           "team": "Tampa Bay Rays",
           "leagueId": 103,
@@ -20479,18 +20491,6 @@ window.ledgerEdition = {
           "homeRuns": 17,
           "rbi": 67,
           "ops": ".801"
-        },
-        {
-          "player": "Jordan Walker",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 131,
-          "atBats": 509,
-          "plateAppearances": 559,
-          "avg": ".285",
-          "homeRuns": 27,
-          "rbi": 97,
-          "ops": ".844"
         },
         {
           "player": "Ernie Clement",
@@ -20625,18 +20625,6 @@ window.ledgerEdition = {
           "ops": ".808"
         },
         {
-          "player": "Pete Alonso",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 134,
-          "atBats": 503,
-          "plateAppearances": 579,
-          "avg": ".274",
-          "homeRuns": 32,
-          "rbi": 91,
-          "ops": ".876"
-        },
-        {
           "player": "Jac Caglianone",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -20647,6 +20635,18 @@ window.ledgerEdition = {
           "homeRuns": 22,
           "rbi": 60,
           "ops": ".812"
+        },
+        {
+          "player": "Pete Alonso",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 134,
+          "atBats": 504,
+          "plateAppearances": 580,
+          "avg": ".274",
+          "homeRuns": 32,
+          "rbi": 91,
+          "ops": ".874"
         },
         {
           "player": "CJ Abrams",
@@ -20913,6 +20913,18 @@ window.ledgerEdition = {
           "ops": ".795"
         },
         {
+          "player": "Willi Castro",
+          "team": "Colorado Rockies",
+          "leagueId": 104,
+          "gamesPlayed": 116,
+          "atBats": 412,
+          "plateAppearances": 460,
+          "avg": ".262",
+          "homeRuns": 15,
+          "rbi": 54,
+          "ops": ".760"
+        },
+        {
           "player": "Vladimir Guerrero Jr.",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -20935,18 +20947,6 @@ window.ledgerEdition = {
           "homeRuns": 28,
           "rbi": 100,
           "ops": ".806"
-        },
-        {
-          "player": "Willi Castro",
-          "team": "Colorado Rockies",
-          "leagueId": 104,
-          "gamesPlayed": 116,
-          "atBats": 411,
-          "plateAppearances": 459,
-          "avg": ".260",
-          "homeRuns": 15,
-          "rbi": 54,
-          "ops": ".756"
         },
         {
           "player": "Matt Olson",
@@ -21297,18 +21297,6 @@ window.ledgerEdition = {
           "ops": ".810"
         },
         {
-          "player": "Iván Herrera",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 134,
-          "atBats": 501,
-          "plateAppearances": 598,
-          "avg": ".246",
-          "homeRuns": 14,
-          "rbi": 53,
-          "ops": ".740"
-        },
-        {
           "player": "JJ Wetherholt",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -21319,6 +21307,18 @@ window.ledgerEdition = {
           "homeRuns": 17,
           "rbi": 48,
           "ops": ".724"
+        },
+        {
+          "player": "Iván Herrera",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 134,
+          "atBats": 502,
+          "plateAppearances": 599,
+          "avg": ".245",
+          "homeRuns": 14,
+          "rbi": 53,
+          "ops": ".739"
         },
         {
           "player": "Tyler Soderstrom",
@@ -21733,12 +21733,12 @@ window.ledgerEdition = {
           "team": "Baltimore Orioles",
           "leagueId": 103,
           "gamesPlayed": 133,
-          "atBats": 534,
-          "plateAppearances": 600,
-          "avg": ".217",
+          "atBats": 535,
+          "plateAppearances": 601,
+          "avg": ".219",
           "homeRuns": 20,
-          "rbi": 51,
-          "ops": ".688"
+          "rbi": 52,
+          "ops": ".692"
         },
         {
           "player": "Xander Bogaerts",
@@ -22323,12 +22323,12 @@ window.ledgerEdition = {
           "team": "St. Louis Cardinals",
           "leagueId": 104,
           "gamesPlayed": 134,
-          "atBats": 509,
-          "plateAppearances": 564,
-          "avg": ".293",
+          "atBats": 510,
+          "plateAppearances": 565,
+          "avg": ".292",
           "homeRuns": 21,
           "rbi": 99,
-          "ops": ".841"
+          "ops": ".840"
         },
         {
           "player": "Michael Harris II",
@@ -22396,11 +22396,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 130,
           "atBats": 456,
-          "plateAppearances": 525,
+          "plateAppearances": 526,
           "avg": ".289",
           "homeRuns": 13,
           "rbi": 60,
-          "ops": ".820"
+          "ops": ".821"
         },
         {
           "player": "James McCann",
@@ -22535,6 +22535,18 @@ window.ledgerEdition = {
           "ops": ".882"
         },
         {
+          "player": "Jordan Walker",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 131,
+          "atBats": 510,
+          "plateAppearances": 560,
+          "avg": ".286",
+          "homeRuns": 27,
+          "rbi": 97,
+          "ops": ".847"
+        },
+        {
           "player": "Liam Hicks",
           "team": "Tampa Bay Rays",
           "leagueId": 103,
@@ -22629,18 +22641,6 @@ window.ledgerEdition = {
           "homeRuns": 17,
           "rbi": 67,
           "ops": ".801"
-        },
-        {
-          "player": "Jordan Walker",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 131,
-          "atBats": 509,
-          "plateAppearances": 559,
-          "avg": ".285",
-          "homeRuns": 27,
-          "rbi": 97,
-          "ops": ".844"
         },
         {
           "player": "Juan Soto",
@@ -22955,6 +22955,18 @@ window.ledgerEdition = {
           "ops": ".736"
         },
         {
+          "player": "Christian Encarnacion-Strand",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 32,
+          "atBats": 109,
+          "plateAppearances": 117,
+          "avg": ".275",
+          "homeRuns": 7,
+          "rbi": 27,
+          "ops": ".842"
+        },
+        {
           "player": "Steven Kwan",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -23003,18 +23015,6 @@ window.ledgerEdition = {
           "ops": ".808"
         },
         {
-          "player": "Pete Alonso",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 134,
-          "atBats": 503,
-          "plateAppearances": 579,
-          "avg": ".274",
-          "homeRuns": 32,
-          "rbi": 91,
-          "ops": ".876"
-        },
-        {
           "player": "Miguel Rojas",
           "team": "Los Angeles Dodgers",
           "leagueId": 104,
@@ -23049,6 +23049,18 @@ window.ledgerEdition = {
           "homeRuns": 22,
           "rbi": 60,
           "ops": ".812"
+        },
+        {
+          "player": "Pete Alonso",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 134,
+          "atBats": 504,
+          "plateAppearances": 580,
+          "avg": ".274",
+          "homeRuns": 32,
+          "rbi": 91,
+          "ops": ".874"
         },
         {
           "player": "Masataka Yoshida",
@@ -23363,18 +23375,6 @@ window.ledgerEdition = {
           "ops": ".709"
         },
         {
-          "player": "Christian Encarnacion-Strand",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 32,
-          "atBats": 108,
-          "plateAppearances": 116,
-          "avg": ".269",
-          "homeRuns": 7,
-          "rbi": 27,
-          "ops": ".832"
-        },
-        {
           "player": "William Contreras",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -23507,18 +23507,6 @@ window.ledgerEdition = {
           "ops": ".892"
         },
         {
-          "player": "Cole Carrigg",
-          "team": "Colorado Rockies",
-          "leagueId": 104,
-          "gamesPlayed": 65,
-          "atBats": 222,
-          "plateAppearances": 258,
-          "avg": ".266",
-          "homeRuns": 6,
-          "rbi": 36,
-          "ops": ".800"
-        },
-        {
           "player": "Jacob Wilson",
           "team": "Athletics",
           "leagueId": 103,
@@ -23613,6 +23601,18 @@ window.ledgerEdition = {
           "homeRuns": 2,
           "rbi": 6,
           "ops": ".688"
+        },
+        {
+          "player": "Cole Carrigg",
+          "team": "Colorado Rockies",
+          "leagueId": 104,
+          "gamesPlayed": 65,
+          "atBats": 223,
+          "plateAppearances": 259,
+          "avg": ".265",
+          "homeRuns": 6,
+          "rbi": 36,
+          "ops": ".797"
         },
         {
           "player": "Trevor Larnach",
@@ -23759,6 +23759,18 @@ window.ledgerEdition = {
           "ops": ".795"
         },
         {
+          "player": "Willi Castro",
+          "team": "Colorado Rockies",
+          "leagueId": 104,
+          "gamesPlayed": 116,
+          "atBats": 412,
+          "plateAppearances": 460,
+          "avg": ".262",
+          "homeRuns": 15,
+          "rbi": 54,
+          "ops": ".760"
+        },
+        {
           "player": "Wyatt Langford",
           "team": "Texas Rangers",
           "leagueId": 103,
@@ -23889,18 +23901,6 @@ window.ledgerEdition = {
           "homeRuns": 5,
           "rbi": 20,
           "ops": ".702"
-        },
-        {
-          "player": "Willi Castro",
-          "team": "Colorado Rockies",
-          "leagueId": 104,
-          "gamesPlayed": 116,
-          "atBats": 411,
-          "plateAppearances": 459,
-          "avg": ".260",
-          "homeRuns": 15,
-          "rbi": 54,
-          "ops": ".756"
         },
         {
           "player": "Matt Olson",
@@ -24676,11 +24676,11 @@ window.ledgerEdition = {
           "leagueId": 103,
           "gamesPlayed": 79,
           "atBats": 229,
-          "plateAppearances": 259,
+          "plateAppearances": 260,
           "avg": ".249",
           "homeRuns": 6,
           "rbi": 31,
-          "ops": ".722"
+          "ops": ".725"
         },
         {
           "player": "Brayan Rocchio",
@@ -24923,18 +24923,6 @@ window.ledgerEdition = {
           "ops": ".701"
         },
         {
-          "player": "Iván Herrera",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 134,
-          "atBats": 501,
-          "plateAppearances": 598,
-          "avg": ".246",
-          "homeRuns": 14,
-          "rbi": 53,
-          "ops": ".740"
-        },
-        {
           "player": "JJ Wetherholt",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
@@ -24993,6 +24981,18 @@ window.ledgerEdition = {
           "homeRuns": 4,
           "rbi": 36,
           "ops": ".647"
+        },
+        {
+          "player": "Iván Herrera",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 134,
+          "atBats": 502,
+          "plateAppearances": 599,
+          "avg": ".245",
+          "homeRuns": 14,
+          "rbi": 53,
+          "ops": ".739"
         },
         {
           "player": "Tyler Soderstrom",
@@ -25288,11 +25288,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 115,
           "atBats": 340,
-          "plateAppearances": 369,
+          "plateAppearances": 370,
           "avg": ".241",
           "homeRuns": 10,
           "rbi": 44,
-          "ops": ".659"
+          "ops": ".661"
         },
         {
           "player": "Austin Martin",
@@ -25367,18 +25367,6 @@ window.ledgerEdition = {
           "ops": ".679"
         },
         {
-          "player": "José Fermín",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 96,
-          "atBats": 262,
-          "plateAppearances": 295,
-          "avg": ".240",
-          "homeRuns": 6,
-          "rbi": 34,
-          "ops": ".672"
-        },
-        {
           "player": "Kevin Alcántara",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -25413,6 +25401,18 @@ window.ledgerEdition = {
           "homeRuns": 8,
           "rbi": 33,
           "ops": ".710"
+        },
+        {
+          "player": "José Fermín",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 96,
+          "atBats": 263,
+          "plateAppearances": 296,
+          "avg": ".240",
+          "homeRuns": 6,
+          "rbi": 34,
+          "ops": ".669"
         },
         {
           "player": "George Springer",
@@ -25739,6 +25739,18 @@ window.ledgerEdition = {
           "ops": ".725"
         },
         {
+          "player": "Jackson Holliday",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 82,
+          "atBats": 251,
+          "plateAppearances": 290,
+          "avg": ".235",
+          "homeRuns": 6,
+          "rbi": 27,
+          "ops": ".681"
+        },
+        {
           "player": "Jorbit Vivas",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -25761,18 +25773,6 @@ window.ledgerEdition = {
           "homeRuns": 5,
           "rbi": 12,
           "ops": ".748"
-        },
-        {
-          "player": "Samuel Basallo",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 94,
-          "atBats": 307,
-          "plateAppearances": 338,
-          "avg": ".235",
-          "homeRuns": 17,
-          "rbi": 48,
-          "ops": ".735"
         },
         {
           "player": "Matt Chapman",
@@ -25883,6 +25883,18 @@ window.ledgerEdition = {
           "ops": ".702"
         },
         {
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 94,
+          "atBats": 309,
+          "plateAppearances": 340,
+          "avg": ".233",
+          "homeRuns": 17,
+          "rbi": 48,
+          "ops": ".731"
+        },
+        {
           "player": "Brady House",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -25953,18 +25965,6 @@ window.ledgerEdition = {
           "homeRuns": 10,
           "rbi": 23,
           "ops": ".732"
-        },
-        {
-          "player": "Jackson Holliday",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 82,
-          "atBats": 250,
-          "plateAppearances": 289,
-          "avg": ".232",
-          "homeRuns": 6,
-          "rbi": 27,
-          "ops": ".675"
         },
         {
           "player": "Michael Conforto",
@@ -26279,18 +26279,6 @@ window.ledgerEdition = {
           "ops": ".694"
         },
         {
-          "player": "Leody Taveras",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 117,
-          "atBats": 366,
-          "plateAppearances": 413,
-          "avg": ".227",
-          "homeRuns": 8,
-          "rbi": 49,
-          "ops": ".658"
-        },
-        {
           "player": "Jeremiah Jackson",
           "team": "Baltimore Orioles",
           "leagueId": 103,
@@ -26301,6 +26289,18 @@ window.ledgerEdition = {
           "homeRuns": 7,
           "rbi": 39,
           "ops": ".614"
+        },
+        {
+          "player": "Leody Taveras",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 117,
+          "atBats": 367,
+          "plateAppearances": 414,
+          "avg": ".226",
+          "homeRuns": 8,
+          "rbi": 49,
+          "ops": ".656"
         },
         {
           "player": "Jazz Chisholm Jr.",
@@ -26399,18 +26399,6 @@ window.ledgerEdition = {
           "ops": ".712"
         },
         {
-          "player": "Connor Norby",
-          "team": "Colorado Rockies",
-          "leagueId": 104,
-          "gamesPlayed": 80,
-          "atBats": 245,
-          "plateAppearances": 286,
-          "avg": ".224",
-          "homeRuns": 6,
-          "rbi": 25,
-          "ops": ".699"
-        },
-        {
           "player": "Corey Seager",
           "team": "Texas Rangers",
           "leagueId": 103,
@@ -26445,6 +26433,18 @@ window.ledgerEdition = {
           "homeRuns": 1,
           "rbi": 9,
           "ops": ".556"
+        },
+        {
+          "player": "Connor Norby",
+          "team": "Colorado Rockies",
+          "leagueId": 104,
+          "gamesPlayed": 80,
+          "atBats": 246,
+          "plateAppearances": 287,
+          "avg": ".224",
+          "homeRuns": 6,
+          "rbi": 25,
+          "ops": ".697"
         },
         {
           "player": "Elias Díaz",
@@ -26495,18 +26495,6 @@ window.ledgerEdition = {
           "ops": ".723"
         },
         {
-          "player": "Colton Cowser",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 118,
-          "atBats": 274,
-          "plateAppearances": 317,
-          "avg": ".223",
-          "homeRuns": 12,
-          "rbi": 35,
-          "ops": ".688"
-        },
-        {
           "player": "Osleivis Basabe",
           "team": "San Francisco Giants",
           "leagueId": 104,
@@ -26553,6 +26541,18 @@ window.ledgerEdition = {
           "homeRuns": 15,
           "rbi": 61,
           "ops": ".659"
+        },
+        {
+          "player": "Colton Cowser",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 118,
+          "atBats": 275,
+          "plateAppearances": 318,
+          "avg": ".222",
+          "homeRuns": 12,
+          "rbi": 35,
+          "ops": ".686"
         },
         {
           "player": "Brenton Doyle",
@@ -26711,6 +26711,18 @@ window.ledgerEdition = {
           "ops": ".860"
         },
         {
+          "player": "Gunnar Henderson",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 133,
+          "atBats": 535,
+          "plateAppearances": 601,
+          "avg": ".219",
+          "homeRuns": 20,
+          "rbi": 52,
+          "ops": ".692"
+        },
+        {
           "player": "Petey Halpin",
           "team": "Cleveland Guardians",
           "leagueId": 103,
@@ -26757,18 +26769,6 @@ window.ledgerEdition = {
           "homeRuns": 4,
           "rbi": 21,
           "ops": ".657"
-        },
-        {
-          "player": "Gunnar Henderson",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 133,
-          "atBats": 534,
-          "plateAppearances": 600,
-          "avg": ".217",
-          "homeRuns": 20,
-          "rbi": 51,
-          "ops": ".688"
         },
         {
           "player": "Xander Bogaerts",
@@ -27023,6 +27023,18 @@ window.ledgerEdition = {
           "ops": ".587"
         },
         {
+          "player": "Coby Mayo",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 106,
+          "atBats": 319,
+          "plateAppearances": 348,
+          "avg": ".213",
+          "homeRuns": 18,
+          "rbi": 51,
+          "ops": ".718"
+        },
+        {
           "player": "Jake Meyers",
           "team": "Houston Astros",
           "leagueId": 103,
@@ -27083,18 +27095,6 @@ window.ledgerEdition = {
           "ops": ".673"
         },
         {
-          "player": "Pedro Pagés",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPlayed": 76,
-          "atBats": 175,
-          "plateAppearances": 194,
-          "avg": ".211",
-          "homeRuns": 4,
-          "rbi": 11,
-          "ops": ".577"
-        },
-        {
           "player": "Colson Montgomery",
           "team": "Chicago White Sox",
           "leagueId": 103,
@@ -27143,18 +27143,6 @@ window.ledgerEdition = {
           "ops": ".655"
         },
         {
-          "player": "Coby Mayo",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 106,
-          "atBats": 318,
-          "plateAppearances": 347,
-          "avg": ".211",
-          "homeRuns": 17,
-          "rbi": 48,
-          "ops": ".705"
-        },
-        {
           "player": "Tyler Callihan",
           "team": "Pittsburgh Pirates",
           "leagueId": 104,
@@ -27177,6 +27165,18 @@ window.ledgerEdition = {
           "homeRuns": 10,
           "rbi": 31,
           "ops": ".778"
+        },
+        {
+          "player": "Pedro Pagés",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPlayed": 76,
+          "atBats": 176,
+          "plateAppearances": 195,
+          "avg": ".210",
+          "homeRuns": 4,
+          "rbi": 11,
+          "ops": ".575"
         },
         {
           "player": "Gavin Sheets",
@@ -27830,7 +27830,7 @@ window.ledgerEdition = {
           "player": "Nolan Gorman",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
-          "gamesPlayed": 64,
+          "gamesPlayed": 65,
           "atBats": 208,
           "plateAppearances": 236,
           "avg": ".192",
@@ -30119,18 +30119,6 @@ window.ledgerEdition = {
           "ops": ".000"
         },
         {
-          "player": "Cam Sanders",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 10,
-          "atBats": 0,
-          "plateAppearances": 0,
-          "avg": ".000",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".000"
-        },
-        {
           "player": "Paxton Schultz",
           "team": "Washington Nationals",
           "leagueId": 104,
@@ -30218,7 +30206,7 @@ window.ledgerEdition = {
           "player": "George Soriano",
           "team": "St. Louis Cardinals",
           "leagueId": 104,
-          "gamesPlayed": 60,
+          "gamesPlayed": 61,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -30462,11 +30450,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 130,
           "atBats": 456,
-          "plateAppearances": 525,
+          "plateAppearances": 526,
           "avg": ".289",
           "homeRuns": 13,
           "rbi": 60,
-          "ops": ".820"
+          "ops": ".821"
         },
         {
           "player": "Chase DeLauter",
@@ -30605,12 +30593,12 @@ window.ledgerEdition = {
           "team": "Colorado Rockies",
           "leagueId": 104,
           "gamesPlayed": 65,
-          "atBats": 222,
-          "plateAppearances": 258,
-          "avg": ".266",
+          "atBats": 223,
+          "plateAppearances": 259,
+          "avg": ".265",
           "homeRuns": 6,
           "rbi": 36,
-          "ops": ".800"
+          "ops": ".797"
         },
         {
           "player": "Sal Stewart",
@@ -30642,11 +30630,11 @@ window.ledgerEdition = {
           "leagueId": 103,
           "gamesPlayed": 79,
           "atBats": 229,
-          "plateAppearances": 259,
+          "plateAppearances": 260,
           "avg": ".249",
           "homeRuns": 6,
           "rbi": 31,
-          "ops": ".722"
+          "ops": ".725"
         },
         {
           "player": "Esmerlyn Valdez",
@@ -30702,23 +30690,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 115,
           "atBats": 340,
-          "plateAppearances": 369,
+          "plateAppearances": 370,
           "avg": ".241",
           "homeRuns": 10,
           "rbi": 44,
-          "ops": ".659"
-        },
-        {
-          "player": "Samuel Basallo",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 94,
-          "atBats": 307,
-          "plateAppearances": 338,
-          "avg": ".235",
-          "homeRuns": 17,
-          "rbi": 48,
-          "ops": ".735"
+          "ops": ".661"
         },
         {
           "player": "Joe Mack",
@@ -30731,6 +30707,18 @@ window.ledgerEdition = {
           "homeRuns": 12,
           "rbi": 38,
           "ops": ".707"
+        },
+        {
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 94,
+          "atBats": 309,
+          "plateAppearances": 340,
+          "avg": ".233",
+          "homeRuns": 17,
+          "rbi": 48,
+          "ops": ".731"
         },
         {
           "player": "Braden Montgomery",
@@ -31028,11 +31016,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 130,
           "atBats": 456,
-          "plateAppearances": 525,
+          "plateAppearances": 526,
           "avg": ".289",
           "homeRuns": 13,
           "rbi": 60,
-          "ops": ".820"
+          "ops": ".821"
         },
         {
           "player": "Chase DeLauter",
@@ -31215,18 +31203,6 @@ window.ledgerEdition = {
           "ops": ".667"
         },
         {
-          "player": "Cole Carrigg",
-          "team": "Colorado Rockies",
-          "leagueId": 104,
-          "gamesPlayed": 65,
-          "atBats": 222,
-          "plateAppearances": 258,
-          "avg": ".266",
-          "homeRuns": 6,
-          "rbi": 36,
-          "ops": ".800"
-        },
-        {
           "player": "Cooper Pratt",
           "team": "Milwaukee Brewers",
           "leagueId": 104,
@@ -31261,6 +31237,18 @@ window.ledgerEdition = {
           "homeRuns": 2,
           "rbi": 6,
           "ops": ".688"
+        },
+        {
+          "player": "Cole Carrigg",
+          "team": "Colorado Rockies",
+          "leagueId": 104,
+          "gamesPlayed": 65,
+          "atBats": 223,
+          "plateAppearances": 259,
+          "avg": ".265",
+          "homeRuns": 6,
+          "rbi": 36,
+          "ops": ".797"
         },
         {
           "player": "Sal Stewart",
@@ -31412,11 +31400,11 @@ window.ledgerEdition = {
           "leagueId": 103,
           "gamesPlayed": 79,
           "atBats": 229,
-          "plateAppearances": 259,
+          "plateAppearances": 260,
           "avg": ".249",
           "homeRuns": 6,
           "rbi": 31,
-          "ops": ".722"
+          "ops": ".725"
         },
         {
           "player": "Esmerlyn Valdez",
@@ -31580,11 +31568,11 @@ window.ledgerEdition = {
           "leagueId": 104,
           "gamesPlayed": 115,
           "atBats": 340,
-          "plateAppearances": 369,
+          "plateAppearances": 370,
           "avg": ".241",
           "homeRuns": 10,
           "rbi": 44,
-          "ops": ".659"
+          "ops": ".661"
         },
         {
           "player": "Kevin Alcántara",
@@ -31647,18 +31635,6 @@ window.ledgerEdition = {
           "ops": ".728"
         },
         {
-          "player": "Samuel Basallo",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 94,
-          "atBats": 307,
-          "plateAppearances": 338,
-          "avg": ".235",
-          "homeRuns": 17,
-          "rbi": 48,
-          "ops": ".735"
-        },
-        {
           "player": "Spencer Jones",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -31681,6 +31657,18 @@ window.ledgerEdition = {
           "homeRuns": 12,
           "rbi": 38,
           "ops": ".707"
+        },
+        {
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPlayed": 94,
+          "atBats": 309,
+          "plateAppearances": 340,
+          "avg": ".233",
+          "homeRuns": 17,
+          "rbi": 48,
+          "ops": ".731"
         },
         {
           "player": "Braden Montgomery",
@@ -32503,18 +32491,6 @@ window.ledgerEdition = {
           "team": "Atlanta Braves",
           "leagueId": 104,
           "gamesPlayed": 14,
-          "atBats": 0,
-          "plateAppearances": 0,
-          "avg": ".000",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".000"
-        },
-        {
-          "player": "Cam Sanders",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPlayed": 10,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -33718,7 +33694,7 @@ window.ledgerEdition = {
           "era": "0.00",
           "whip": "1.50",
           "strikeOuts": 2,
-          "holds": 0,
+          "holds": 1,
           "saves": 0
         },
         {
@@ -36942,7 +36918,7 @@ window.ledgerEdition = {
           "era": "3.61",
           "whip": "1.37",
           "strikeOuts": 42,
-          "holds": 6,
+          "holds": 7,
           "saves": 12
         },
         {
@@ -37752,6 +37728,19 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Orlando Ribalta",
+          "team": "Washington Nationals",
+          "leagueId": 104,
+          "gamesPitched": 43,
+          "gamesStarted": 0,
+          "inningsPitched": "41.0",
+          "era": "3.95",
+          "whip": "1.24",
+          "strikeOuts": 38,
+          "holds": 12,
+          "saves": 2
+        },
+        {
           "player": "Taj Bradley",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -37908,19 +37897,6 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
-          "player": "Orlando Ribalta",
-          "team": "Washington Nationals",
-          "leagueId": 104,
-          "gamesPitched": 43,
-          "gamesStarted": 0,
-          "inningsPitched": "40.1",
-          "era": "4.02",
-          "whip": "1.21",
-          "strikeOuts": 37,
-          "holds": 12,
-          "saves": 2
-        },
-        {
           "player": "Jeff Hoffman",
           "team": "Minnesota Twins",
           "leagueId": 103,
@@ -38049,19 +38025,6 @@ window.ledgerEdition = {
           "strikeOuts": 34,
           "holds": 0,
           "saves": 0
-        },
-        {
-          "player": "George Soriano",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPitched": 60,
-          "gamesStarted": 0,
-          "inningsPitched": "58.0",
-          "era": "4.03",
-          "whip": "1.26",
-          "strikeOuts": 57,
-          "holds": 19,
-          "saves": 2
         },
         {
           "player": "Shane Baz",
@@ -38244,6 +38207,19 @@ window.ledgerEdition = {
           "strikeOuts": 46,
           "holds": 17,
           "saves": 1
+        },
+        {
+          "player": "George Soriano",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPitched": 61,
+          "gamesStarted": 0,
+          "inningsPitched": "58.2",
+          "era": "4.14",
+          "whip": "1.28",
+          "strikeOuts": 58,
+          "holds": 19,
+          "saves": 2
         },
         {
           "player": "Andrew Abbott",
@@ -39140,19 +39116,6 @@ window.ledgerEdition = {
           "whip": "1.43",
           "strikeOuts": 32,
           "holds": 0,
-          "saves": 1
-        },
-        {
-          "player": "Caleb Ferguson",
-          "team": "St. Louis Cardinals",
-          "leagueId": 104,
-          "gamesPitched": 33,
-          "gamesStarted": 1,
-          "inningsPitched": "31.2",
-          "era": "4.55",
-          "whip": "1.64",
-          "strikeOuts": 30,
-          "holds": 4,
           "saves": 1
         },
         {
@@ -40235,6 +40198,19 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Caleb Ferguson",
+          "team": "St. Louis Cardinals",
+          "leagueId": 104,
+          "gamesPitched": 34,
+          "gamesStarted": 1,
+          "inningsPitched": "32.2",
+          "era": "5.23",
+          "whip": "1.68",
+          "strikeOuts": 31,
+          "holds": 4,
+          "saves": 1
+        },
+        {
           "player": "Nick Lodolo",
           "team": "Cincinnati Reds",
           "leagueId": 104,
@@ -40638,6 +40614,19 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Cam Sanders",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPitched": 19,
+          "gamesStarted": 0,
+          "inningsPitched": "21.1",
+          "era": "5.48",
+          "whip": "1.36",
+          "strikeOuts": 27,
+          "holds": 0,
+          "saves": 3
+        },
+        {
           "player": "Patrick Corbin",
           "team": "Toronto Blue Jays",
           "leagueId": 103,
@@ -41000,19 +40989,6 @@ window.ledgerEdition = {
           "strikeOuts": 58,
           "holds": 0,
           "saves": 0
-        },
-        {
-          "player": "Cam Sanders",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPitched": 19,
-          "gamesStarted": 0,
-          "inningsPitched": "20.0",
-          "era": "5.85",
-          "whip": "1.35",
-          "strikeOuts": 24,
-          "holds": 0,
-          "saves": 3
         },
         {
           "player": "Alex Lange",
@@ -44486,7 +44462,7 @@ window.ledgerEdition = {
           "era": "0.00",
           "whip": "1.50",
           "strikeOuts": 2,
-          "holds": 0,
+          "holds": 1,
           "saves": 0
         },
         {
@@ -46141,6 +46117,19 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Cam Sanders",
+          "team": "Baltimore Orioles",
+          "leagueId": 103,
+          "gamesPitched": 19,
+          "gamesStarted": 0,
+          "inningsPitched": "21.1",
+          "era": "5.48",
+          "whip": "1.36",
+          "strikeOuts": 27,
+          "holds": 0,
+          "saves": 3
+        },
+        {
           "player": "Luinder Avila",
           "team": "Kansas City Royals",
           "leagueId": 103,
@@ -46230,19 +46219,6 @@ window.ledgerEdition = {
           "strikeOuts": 10,
           "holds": 1,
           "saves": 0
-        },
-        {
-          "player": "Cam Sanders",
-          "team": "Baltimore Orioles",
-          "leagueId": 103,
-          "gamesPitched": 19,
-          "gamesStarted": 0,
-          "inningsPitched": "20.0",
-          "era": "5.85",
-          "whip": "1.35",
-          "strikeOuts": 24,
-          "holds": 0,
-          "saves": 3
         },
         {
           "player": "Chayce McDermott",

@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-08-28T20:59:27.159Z",
+  "generatedAt": "2026-08-28T21:11:29.202Z",
   "date": "2026-08-27",
   "slateDate": "2026-08-28",
   "gameOfDay": 824879,
@@ -10455,6 +10455,18 @@ window.ledgerEdition = {
           "ops": ".760"
         },
         {
+          "player": "Nico Hoerner",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 132,
+          "atBats": 524,
+          "plateAppearances": 578,
+          "avg": ".261",
+          "homeRuns": 7,
+          "rbi": 59,
+          "ops": ".675"
+        },
+        {
           "player": "Isaac Paredes",
           "team": "Houston Astros",
           "leagueId": 103,
@@ -10465,18 +10477,6 @@ window.ledgerEdition = {
           "homeRuns": 17,
           "rbi": 73,
           "ops": ".782"
-        },
-        {
-          "player": "Nico Hoerner",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 132,
-          "atBats": 523,
-          "plateAppearances": 577,
-          "avg": ".260",
-          "homeRuns": 7,
-          "rbi": 59,
-          "ops": ".673"
         },
         {
           "player": "Vladimir Guerrero Jr.",
@@ -12149,6 +12149,18 @@ window.ledgerEdition = {
           "ops": ".801"
         },
         {
+          "player": "Pedro Ramírez",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 59,
+          "atBats": 165,
+          "plateAppearances": 182,
+          "avg": ".285",
+          "homeRuns": 4,
+          "rbi": 24,
+          "ops": ".785"
+        },
+        {
           "player": "Luis García Jr.",
           "team": "New York Yankees",
           "leagueId": 103,
@@ -12267,18 +12279,6 @@ window.ledgerEdition = {
           "homeRuns": 9,
           "rbi": 45,
           "ops": ".773"
-        },
-        {
-          "player": "Pedro Ramírez",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 59,
-          "atBats": 164,
-          "plateAppearances": 181,
-          "avg": ".280",
-          "homeRuns": 3,
-          "rbi": 21,
-          "ops": ".760"
         },
         {
           "player": "Junior Caminero",
@@ -13373,6 +13373,18 @@ window.ledgerEdition = {
           "ops": ".637"
         },
         {
+          "player": "Nico Hoerner",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 132,
+          "atBats": 524,
+          "plateAppearances": 578,
+          "avg": ".261",
+          "homeRuns": 7,
+          "rbi": 59,
+          "ops": ".675"
+        },
+        {
           "player": "Isaac Paredes",
           "team": "Houston Astros",
           "leagueId": 103,
@@ -13443,18 +13455,6 @@ window.ledgerEdition = {
           "homeRuns": 5,
           "rbi": 20,
           "ops": ".702"
-        },
-        {
-          "player": "Nico Hoerner",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 132,
-          "atBats": 523,
-          "plateAppearances": 577,
-          "avg": ".260",
-          "homeRuns": 7,
-          "rbi": 59,
-          "ops": ".673"
         },
         {
           "player": "Vladimir Guerrero Jr.",
@@ -13529,18 +13529,6 @@ window.ledgerEdition = {
           "ops": ".651"
         },
         {
-          "player": "Carson Kelly",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 100,
-          "atBats": 314,
-          "plateAppearances": 353,
-          "avg": ".258",
-          "homeRuns": 8,
-          "rbi": 45,
-          "ops": ".713"
-        },
-        {
           "player": "Gleyber Torres",
           "team": "Detroit Tigers",
           "leagueId": 103,
@@ -13575,6 +13563,18 @@ window.ledgerEdition = {
           "homeRuns": 17,
           "rbi": 52,
           "ops": ".833"
+        },
+        {
+          "player": "Carson Kelly",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 100,
+          "atBats": 315,
+          "plateAppearances": 354,
+          "avg": ".257",
+          "homeRuns": 8,
+          "rbi": 45,
+          "ops": ".710"
         },
         {
           "player": "Will Wagner",
@@ -13983,6 +13983,18 @@ window.ledgerEdition = {
           "homeRuns": 22,
           "rbi": 69,
           "ops": ".790"
+        },
+        {
+          "player": "Matt Shaw",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 57,
+          "atBats": 131,
+          "plateAppearances": 148,
+          "avg": ".252",
+          "homeRuns": 4,
+          "rbi": 20,
+          "ops": ".754"
         },
         {
           "player": "Hunter Goodman",
@@ -14403,18 +14415,6 @@ window.ledgerEdition = {
           "homeRuns": 6,
           "rbi": 14,
           "ops": ".884"
-        },
-        {
-          "player": "Matt Shaw",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 56,
-          "atBats": 130,
-          "plateAppearances": 147,
-          "avg": ".246",
-          "homeRuns": 4,
-          "rbi": 20,
-          "ops": ".737"
         },
         {
           "player": "Connor Wong",
@@ -18869,18 +18869,6 @@ window.ledgerEdition = {
           "ops": ".212"
         },
         {
-          "player": "Tejay Antone",
-          "team": "Cincinnati Reds",
-          "leagueId": 104,
-          "gamesPlayed": 45,
-          "atBats": 0,
-          "plateAppearances": 0,
-          "avg": ".000",
-          "homeRuns": 0,
-          "rbi": 0,
-          "ops": ".000"
-        },
-        {
           "player": "Javier Assad",
           "team": "Chicago Cubs",
           "leagueId": 104,
@@ -19461,6 +19449,18 @@ window.ledgerEdition = {
           "team": "Chicago Cubs",
           "leagueId": 104,
           "gamesPlayed": 1,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
+        },
+        {
+          "player": "Sam Moll",
+          "team": "Cincinnati Reds",
+          "leagueId": 104,
+          "gamesPlayed": 63,
           "atBats": 0,
           "plateAppearances": 0,
           "avg": ".000",
@@ -20613,6 +20613,18 @@ window.ledgerEdition = {
           "ops": ".740"
         },
         {
+          "player": "Pedro Ramírez",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 59,
+          "atBats": 165,
+          "plateAppearances": 182,
+          "avg": ".285",
+          "homeRuns": 4,
+          "rbi": 24,
+          "ops": ".785"
+        },
+        {
           "player": "Tristan Peters",
           "team": "Chicago White Sox",
           "leagueId": 103,
@@ -20623,18 +20635,6 @@ window.ledgerEdition = {
           "homeRuns": 12,
           "rbi": 52,
           "ops": ".821"
-        },
-        {
-          "player": "Pedro Ramírez",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 59,
-          "atBats": 164,
-          "plateAppearances": 181,
-          "avg": ".280",
-          "homeRuns": 3,
-          "rbi": 21,
-          "ops": ".760"
         },
         {
           "player": "Carson Benge",
@@ -25592,19 +25592,6 @@ window.ledgerEdition = {
           "saves": 1
         },
         {
-          "player": "Tejay Antone",
-          "team": "Cincinnati Reds",
-          "leagueId": 104,
-          "gamesPitched": 45,
-          "gamesStarted": 0,
-          "inningsPitched": "43.2",
-          "era": "3.30",
-          "whip": "1.10",
-          "strikeOuts": 41,
-          "holds": 8,
-          "saves": 1
-        },
-        {
           "player": "Keider Montero",
           "team": "Detroit Tigers",
           "leagueId": 103,
@@ -27152,6 +27139,19 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Tejay Antone",
+          "team": "Cincinnati Reds",
+          "leagueId": 104,
+          "gamesPitched": 45,
+          "gamesStarted": 0,
+          "inningsPitched": "43.2",
+          "era": "3.92",
+          "whip": "1.15",
+          "strikeOuts": 41,
+          "holds": 8,
+          "saves": 1
+        },
+        {
           "player": "Tyler Kinley",
           "team": "Detroit Tigers",
           "leagueId": 103,
@@ -28621,6 +28621,19 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "Sam Moll",
+          "team": "Cincinnati Reds",
+          "leagueId": 104,
+          "gamesPitched": 63,
+          "gamesStarted": 0,
+          "inningsPitched": "53.2",
+          "era": "4.53",
+          "whip": "1.53",
+          "strikeOuts": 53,
+          "holds": 6,
+          "saves": 1
+        },
+        {
           "player": "Seranthony Domínguez",
           "team": "Seattle Mariners",
           "leagueId": 103,
@@ -28723,19 +28736,6 @@ window.ledgerEdition = {
           "strikeOuts": 31,
           "holds": 12,
           "saves": 2
-        },
-        {
-          "player": "Sam Moll",
-          "team": "Cincinnati Reds",
-          "leagueId": 104,
-          "gamesPitched": 62,
-          "gamesStarted": 0,
-          "inningsPitched": "53.1",
-          "era": "4.56",
-          "whip": "1.52",
-          "strikeOuts": 53,
-          "holds": 6,
-          "saves": 1
         },
         {
           "player": "Dustin May",

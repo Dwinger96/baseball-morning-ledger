@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-08-28T20:55:40.956Z",
+  "generatedAt": "2026-08-28T20:59:27.159Z",
   "date": "2026-08-27",
   "slateDate": "2026-08-28",
   "gameOfDay": 824879,
@@ -11211,6 +11211,18 @@
           "ops": ".635"
         },
         {
+          "player": "Ian Happ",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 131,
+          "atBats": 473,
+          "plateAppearances": 550,
+          "avg": ".220",
+          "homeRuns": 23,
+          "rbi": 61,
+          "ops": ".751"
+        },
+        {
           "player": "JJ Bleday",
           "team": "Cincinnati Reds",
           "leagueId": 104,
@@ -11245,18 +11257,6 @@
           "homeRuns": 20,
           "rbi": 52,
           "ops": ".692"
-        },
-        {
-          "player": "Ian Happ",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 131,
-          "atBats": 472,
-          "plateAppearances": 549,
-          "avg": ".218",
-          "homeRuns": 23,
-          "rbi": 61,
-          "ops": ".749"
         },
         {
           "player": "Trent Grisham",
@@ -16133,6 +16133,18 @@
           "ops": ".657"
         },
         {
+          "player": "Ian Happ",
+          "team": "Chicago Cubs",
+          "leagueId": 104,
+          "gamesPlayed": 131,
+          "atBats": 473,
+          "plateAppearances": 550,
+          "avg": ".220",
+          "homeRuns": 23,
+          "rbi": 61,
+          "ops": ".751"
+        },
+        {
           "player": "Marcelo Mayer",
           "team": "Boston Red Sox",
           "leagueId": 103,
@@ -16239,18 +16251,6 @@
           "homeRuns": 3,
           "rbi": 9,
           "ops": ".582"
-        },
-        {
-          "player": "Ian Happ",
-          "team": "Chicago Cubs",
-          "leagueId": 104,
-          "gamesPlayed": 131,
-          "atBats": 472,
-          "plateAppearances": 549,
-          "avg": ".218",
-          "homeRuns": 23,
-          "rbi": 61,
-          "ops": ".749"
         },
         {
           "player": "Kyle Higashioka",
@@ -18867,6 +18867,18 @@
           "homeRuns": 0,
           "rbi": 3,
           "ops": ".212"
+        },
+        {
+          "player": "Tejay Antone",
+          "team": "Cincinnati Reds",
+          "leagueId": 104,
+          "gamesPlayed": 45,
+          "atBats": 0,
+          "plateAppearances": 0,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".000"
         },
         {
           "player": "Javier Assad",
@@ -25583,11 +25595,11 @@
           "player": "Tejay Antone",
           "team": "Cincinnati Reds",
           "leagueId": 104,
-          "gamesPitched": 44,
+          "gamesPitched": 45,
           "gamesStarted": 0,
           "inningsPitched": "43.2",
           "era": "3.30",
-          "whip": "1.08",
+          "whip": "1.10",
           "strikeOuts": 41,
           "holds": 8,
           "saves": 1

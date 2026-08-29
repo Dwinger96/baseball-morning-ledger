@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-08-29T14:41:59.863Z",
+  "generatedAt": "2026-08-29T15:06:26.564Z",
   "date": "2026-08-28",
   "slateDate": "2026-08-29",
   "gameOfDay": 824960,
@@ -19437,7 +19437,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 823665,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Target Field",
       "startTime": "2026-08-29T18:10:00Z",
       "away": {

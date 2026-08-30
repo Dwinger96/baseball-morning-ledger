@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-08-30T14:31:20.743Z",
+  "generatedAt": "2026-08-30T14:53:23.946Z",
   "date": "2026-08-29",
   "slateDate": "2026-08-30",
   "gameOfDay": 822690,
@@ -19967,7 +19967,7 @@
           "batter": "Carlos Cortes",
           "pitcher": "Shane Baz",
           "result": "Pop Out",
-          "description": "Carlos Cortes pops out to first baseman Coby Mayo.",
+          "description": "Carlos Cortes pops out to first baseman Coby Mayo in foul territory.",
           "rbi": 0,
           "awayScore": 2,
           "homeScore": 0
@@ -22120,7 +22120,7 @@
     },
     {
       "gamePk": 823502,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Yankee Stadium",
       "startTime": "2026-08-30T17:35:00Z",
       "away": {
@@ -22136,7 +22136,7 @@
     },
     {
       "gamePk": 822766,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Rogers Centre",
       "startTime": "2026-08-30T17:37:00Z",
       "away": {
@@ -22184,7 +22184,7 @@
     },
     {
       "gamePk": 822933,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Tropicana Field",
       "startTime": "2026-08-30T17:40:00Z",
       "away": {
@@ -22200,7 +22200,7 @@
     },
     {
       "gamePk": 823662,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Target Field",
       "startTime": "2026-08-30T18:10:00Z",
       "away": {

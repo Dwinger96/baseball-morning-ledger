@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-02T13:53:14.225Z",
+  "generatedAt": "2026-09-02T14:32:28.221Z",
   "date": "2026-09-01",
   "slateDate": "2026-09-02",
   "gameOfDay": 824472,
@@ -20700,7 +20700,7 @@
     },
     {
       "gamePk": 822686,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Nationals Park",
       "startTime": "2026-09-02T17:05:00Z",
       "away": {

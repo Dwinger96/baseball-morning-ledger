@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-03T13:36:15.437Z",
+  "generatedAt": "2026-09-03T13:54:08.246Z",
   "date": "2026-09-02",
   "slateDate": "2026-09-03",
   "gameOfDay": 824312,
@@ -20823,7 +20823,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 823337,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "PNC Park",
       "startTime": "2026-09-03T16:35:00Z",
       "away": {

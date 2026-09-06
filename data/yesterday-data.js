@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-06T13:10:43.352Z",
+  "generatedAt": "2026-09-06T13:42:51.454Z",
   "date": "2026-09-05",
   "slateDate": "2026-09-06",
   "gameOfDay": 824145,
@@ -19761,7 +19761,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 824469,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Great American Ball Park",
       "startTime": "2026-09-06T16:10:00Z",
       "away": {

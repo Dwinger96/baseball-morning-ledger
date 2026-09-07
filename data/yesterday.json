@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-07T15:04:38.164Z",
+  "generatedAt": "2026-09-07T15:17:20.769Z",
   "date": "2026-09-06",
   "slateDate": "2026-09-07",
   "gameOfDay": 824385,
@@ -19513,7 +19513,7 @@
     },
     {
       "gamePk": 823742,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "American Family Field",
       "startTime": "2026-09-07T18:10:00Z",
       "away": {

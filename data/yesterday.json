@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-10T13:51:30.925Z",
+  "generatedAt": "2026-09-10T14:29:29.832Z",
   "date": "2026-09-09",
   "slateDate": "2026-09-10",
   "gameOfDay": 823172,
@@ -19655,7 +19655,7 @@
     },
     {
       "gamePk": 823413,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Citizens Bank Park",
       "startTime": "2026-09-10T17:05:00Z",
       "away": {

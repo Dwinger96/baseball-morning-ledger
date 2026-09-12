@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-12T13:09:53.592Z",
+  "generatedAt": "2026-09-12T13:37:45.466Z",
   "date": "2026-09-11",
   "slateDate": "2026-09-12",
   "gameOfDay": 824873,
@@ -33658,6 +33658,18 @@ window.ledgerEdition = {
           "homeRuns": 0,
           "rbi": 0,
           "ops": ".000"
+        },
+        {
+          "player": "Josue De Paula",
+          "team": "Los Angeles Dodgers",
+          "leagueId": 104,
+          "gamesPlayed": 1,
+          "atBats": 3,
+          "plateAppearances": 4,
+          "avg": ".000",
+          "homeRuns": 0,
+          "rbi": 0,
+          "ops": ".250"
         },
         {
           "player": "Kyler Fedko",

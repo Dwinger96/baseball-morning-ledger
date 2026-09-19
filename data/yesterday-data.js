@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-19T13:28:43.359Z",
+  "generatedAt": "2026-09-19T13:56:11.752Z",
   "date": "2026-09-18",
   "slateDate": "2026-09-19",
   "gameOfDay": 824790,
@@ -45957,6 +45957,19 @@ window.ledgerEdition = {
           "saves": 0
         },
         {
+          "player": "José Rodríguez",
+          "team": "Toronto Blue Jays",
+          "leagueId": 103,
+          "gamesPitched": 1,
+          "gamesStarted": 0,
+          "inningsPitched": "1.2",
+          "era": "0.00",
+          "whip": "0.60",
+          "strikeOuts": 2,
+          "holds": 0,
+          "saves": 0
+        },
+        {
           "player": "Dylan Ross",
           "team": "New York Mets",
           "leagueId": 104,
@@ -48008,6 +48021,19 @@ window.ledgerEdition = {
           "whip": "1.69",
           "strikeOuts": 29,
           "holds": 1,
+          "saves": 0
+        },
+        {
+          "player": "Julian Aguiar",
+          "team": "Cincinnati Reds",
+          "leagueId": 104,
+          "gamesPitched": 1,
+          "gamesStarted": 0,
+          "inningsPitched": "3.0",
+          "era": "6.00",
+          "whip": "1.67",
+          "strikeOuts": 2,
+          "holds": 0,
           "saves": 0
         },
         {

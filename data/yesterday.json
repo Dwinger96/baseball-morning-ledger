@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-20T13:43:12.682Z",
+  "generatedAt": "2026-09-20T14:15:55.232Z",
   "date": "2026-09-19",
   "slateDate": "2026-09-20",
   "gameOfDay": 823249,
@@ -20328,7 +20328,7 @@
     },
     {
       "gamePk": 824381,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Progressive Field",
       "startTime": "2026-09-20T17:40:00Z",
       "away": {
@@ -20344,7 +20344,7 @@
     },
     {
       "gamePk": 822922,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Tropicana Field",
       "startTime": "2026-09-20T17:40:00Z",
       "away": {

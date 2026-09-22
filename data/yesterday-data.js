@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-22T14:11:52.686Z",
+  "generatedAt": "2026-09-22T15:00:37.448Z",
   "date": "2026-09-21",
   "slateDate": "2026-09-22",
   "gameOfDay": 824787,
@@ -3629,7 +3629,7 @@ window.ledgerEdition = {
   "todaySlate": [
     {
       "gamePk": 823543,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Yankee Stadium",
       "startTime": "2026-09-22T17:05:00Z",
       "away": {
@@ -3784,7 +3784,7 @@ window.ledgerEdition = {
       "home": {
         "name": "Chicago Cubs",
         "abbreviation": "Chicago Cubs",
-        "probablePitcher": null
+        "probablePitcher": "Shota Imanaga"
       }
     },
     {

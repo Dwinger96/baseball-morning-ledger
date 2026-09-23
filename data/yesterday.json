@@ -1,6 +1,6 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-23T14:27:16.153Z",
+  "generatedAt": "2026-09-23T15:04:42.367Z",
   "date": "2026-09-22",
   "slateDate": "2026-09-23",
   "gameOfDay": 824624,
@@ -19698,8 +19698,8 @@
         "leagueId": null,
         "leagueName": "",
         "score": 0,
-        "hits": null,
-        "errors": null
+        "hits": 0,
+        "errors": 0
       },
       "home": {
         "id": 110,
@@ -19708,20 +19708,62 @@
         "leagueId": null,
         "leagueName": "",
         "score": 0,
-        "hits": null,
-        "errors": null
+        "hits": 0,
+        "errors": 0
       },
-      "innings": [],
+      "innings": [
+        {
+          "num": 1,
+          "away": 0,
+          "home": 0
+        }
+      ],
       "scoringPlays": [],
-      "playLog": [],
+      "playLog": [
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "Nathan Lukes",
+          "pitcher": "Chris Bassitt",
+          "result": "Game Advisory",
+          "description": "Status Change - Pre-Game",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        }
+      ],
       "boxScore": {
         "away": {
           "batting": [],
-          "pitching": []
+          "pitching": [
+            {
+              "name": "Max Scherzer",
+              "inningsPitched": "0.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 0
+            }
+          ]
         },
         "home": {
           "batting": [],
-          "pitching": []
+          "pitching": [
+            {
+              "name": "Chris Bassitt",
+              "inningsPitched": "0.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 0
+            }
+          ]
         }
       },
       "probablePitchers": {
@@ -19754,7 +19796,7 @@
     },
     {
       "gamePk": 824785,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Oriole Park at Camden Yards",
       "startTime": "2026-09-23T17:35:00Z",
       "away": {
@@ -19925,7 +19967,7 @@
       "home": {
         "name": "Texas Rangers",
         "abbreviation": "Texas Rangers",
-        "probablePitcher": null
+        "probablePitcher": "Cody Bradford"
       }
     },
     {

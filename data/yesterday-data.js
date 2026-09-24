@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-24T14:13:22.087Z",
+  "generatedAt": "2026-09-24T14:27:24.041Z",
   "date": "2026-09-23",
   "slateDate": "2026-09-24",
   "gameOfDay": 824868,
@@ -20608,7 +20608,7 @@ window.ledgerEdition = {
       "away": {
         "name": "Milwaukee Brewers",
         "abbreviation": "Milwaukee Brewers",
-        "probablePitcher": "Bryse Wilson"
+        "probablePitcher": null
       },
       "home": {
         "name": "Philadelphia Phillies",

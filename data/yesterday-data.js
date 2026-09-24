@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-24T14:27:24.041Z",
+  "generatedAt": "2026-09-24T15:13:22.738Z",
   "date": "2026-09-23",
   "slateDate": "2026-09-24",
   "gameOfDay": 824868,
@@ -20538,7 +20538,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 824059,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Kauffman Stadium",
       "startTime": "2026-09-24T18:10:00Z",
       "away": {

@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-25T14:37:13.098Z",
+  "generatedAt": "2026-09-25T14:45:05.577Z",
   "date": "2026-09-24",
   "slateDate": "2026-09-25",
   "gameOfDay": 823326,
@@ -15624,7 +15624,7 @@ window.ledgerEdition = {
       "gamePk": 824706,
       "status": "Scheduled",
       "venue": "Fenway Park",
-      "startTime": "2026-09-25T22:05:00Z",
+      "startTime": "2026-09-25T21:35:00Z",
       "away": {
         "name": "Chicago Cubs",
         "abbreviation": "Chicago Cubs",

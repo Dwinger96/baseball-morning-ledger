@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-25T14:45:05.577Z",
+  "generatedAt": "2026-09-25T15:19:27.803Z",
   "date": "2026-09-24",
   "slateDate": "2026-09-25",
   "gameOfDay": 823326,
@@ -15644,7 +15644,7 @@ window.ledgerEdition = {
       "away": {
         "name": "Baltimore Orioles",
         "abbreviation": "Baltimore Orioles",
-        "probablePitcher": "Brandon Young"
+        "probablePitcher": "Trevor Rogers"
       },
       "home": {
         "name": "New York Yankees",
@@ -15660,7 +15660,7 @@ window.ledgerEdition = {
       "away": {
         "name": "Baltimore Orioles",
         "abbreviation": "Baltimore Orioles",
-        "probablePitcher": "Trevor Rogers"
+        "probablePitcher": "Brandon Young"
       },
       "home": {
         "name": "New York Yankees",

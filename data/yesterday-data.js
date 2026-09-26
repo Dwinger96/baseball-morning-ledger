@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-09-26T13:53:36.339Z",
+  "generatedAt": "2026-09-26T14:32:59.179Z",
   "date": "2026-09-25",
   "slateDate": "2026-09-26",
   "gameOfDay": 824703,
@@ -21962,7 +21962,7 @@ window.ledgerEdition = {
     },
     {
       "gamePk": 824219,
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Comerica Park",
       "startTime": "2026-09-26T17:10:00Z",
       "away": {

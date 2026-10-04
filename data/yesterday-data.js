@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-10-04T14:59:10.121Z",
+  "generatedAt": "2026-10-04T15:24:38.483Z",
   "date": "2026-10-03",
   "slateDate": "2026-10-04",
   "gameOfDay": 849835,

@@ -1,25 +1,1123 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-10-10T15:53:35.548Z",
-  "date": "2026-10-09",
-  "slateDate": "2026-10-10",
-  "gameOfDay": null,
-  "games": [],
-  "todaySlate": [
+  "generatedAt": "2026-10-11T15:44:15.365Z",
+  "date": "2026-10-10",
+  "slateDate": "2026-10-11",
+  "gameOfDay": 849831,
+  "games": [
     {
       "gamePk": 849831,
-      "status": "Scheduled",
+      "status": "Final",
       "venue": "Progressive Field",
       "startTime": "2026-10-11T00:00:00Z",
       "away": {
+        "id": 145,
         "name": "Chicago White Sox",
         "abbreviation": "Chicago White Sox",
-        "probablePitcher": "Sean Burke"
+        "leagueId": null,
+        "leagueName": "",
+        "score": 0,
+        "hits": 3,
+        "errors": 1
       },
       "home": {
+        "id": 114,
         "name": "Cleveland Guardians",
         "abbreviation": "Cleveland Guardians",
-        "probablePitcher": "Gavin Williams"
+        "leagueId": null,
+        "leagueName": "",
+        "score": 2,
+        "hits": 6,
+        "errors": 0
+      },
+      "innings": [
+        {
+          "num": 1,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 2,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 3,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 4,
+          "away": 0,
+          "home": 2
+        },
+        {
+          "num": 5,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 6,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 7,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 8,
+          "away": 0,
+          "home": 0
+        },
+        {
+          "num": 9,
+          "away": 0,
+          "home": 0
+        }
+      ],
+      "scoringPlays": [
+        {
+          "inning": 4,
+          "half": "bottom",
+          "play": "José Ramírez homers (2) on a line drive to right field. Steven Kwan scores.",
+          "awayScore": 0,
+          "homeScore": 2
+        }
+      ],
+      "playLog": [
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "Sam Antonacci",
+          "pitcher": "Gavin Williams",
+          "result": "Lineout",
+          "description": "Sam Antonacci lines out sharply to left fielder Steven Kwan.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "Kyle Teel",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Kyle Teel strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "top",
+          "batter": "Miguel Vargas",
+          "pitcher": "Gavin Williams",
+          "result": "Groundout",
+          "description": "Miguel Vargas grounds out, shortstop Brayan Rocchio to first baseman Nathaniel Lowe.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "bottom",
+          "batter": "Steven Kwan",
+          "pitcher": "Sean Burke",
+          "result": "Flyout",
+          "description": "Steven Kwan flies out to center fielder Brenton Doyle.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "bottom",
+          "batter": "José Ramírez",
+          "pitcher": "Sean Burke",
+          "result": "Flyout",
+          "description": "José Ramírez flies out to right fielder Tristan Peters.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 1,
+          "half": "bottom",
+          "batter": "Chase DeLauter",
+          "pitcher": "Sean Burke",
+          "result": "Lineout",
+          "description": "Chase DeLauter lines out sharply to center fielder Brenton Doyle.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Munetaka Murakami",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Munetaka Murakami strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Andrew Benintendi",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Andrew Benintendi strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Tristan Peters",
+          "pitcher": "Gavin Williams",
+          "result": "Walk",
+          "description": "Tristan Peters walks.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Chase Meidroth",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Chase Meidroth strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Jo Adell",
+          "pitcher": "Sean Burke",
+          "result": "Pop Out",
+          "description": "Jo Adell pops out to first baseman Munetaka Murakami in foul territory.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Nathaniel Lowe",
+          "pitcher": "Sean Burke",
+          "result": "Groundout",
+          "description": "Nathaniel Lowe grounds out, second baseman Chase Meidroth to first baseman Munetaka Murakami.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Travis Bazzana",
+          "pitcher": "Sean Burke",
+          "result": "Strikeout",
+          "description": "Travis Bazzana strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Colson Montgomery",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Colson Montgomery strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Brenton Doyle",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Brenton Doyle strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Sam Antonacci",
+          "pitcher": "Gavin Williams",
+          "result": "Groundout",
+          "description": "Sam Antonacci grounds out, first baseman Nathaniel Lowe to pitcher Gavin Williams.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Patrick Bailey",
+          "pitcher": "Sean Burke",
+          "result": "Groundout",
+          "description": "Patrick Bailey grounds out, second baseman Chase Meidroth to first baseman Munetaka Murakami.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Petey Halpin",
+          "pitcher": "Sean Burke",
+          "result": "Groundout",
+          "description": "Petey Halpin grounds out, first baseman Munetaka Murakami to pitcher Sean Burke.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Brayan Rocchio",
+          "pitcher": "Sean Burke",
+          "result": "Strikeout",
+          "description": "Brayan Rocchio strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Kyle Teel",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Kyle Teel called out on strikes.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Miguel Vargas",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Miguel Vargas called out on strikes.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Munetaka Murakami",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Munetaka Murakami strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Steven Kwan",
+          "pitcher": "Sean Burke",
+          "result": "Single",
+          "description": "Steven Kwan singles on a line drive to right fielder Tristan Peters.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "José Ramírez",
+          "pitcher": "Sean Burke",
+          "result": "Home Run",
+          "description": "José Ramírez homers (2) on a line drive to right field. Steven Kwan scores.",
+          "rbi": 2,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Chase DeLauter",
+          "pitcher": "Sean Burke",
+          "result": "Flyout",
+          "description": "Chase DeLauter flies out to left fielder Sam Antonacci.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Jo Adell",
+          "pitcher": "Sean Burke",
+          "result": "Single",
+          "description": "Jo Adell singles on a ground ball to shortstop Colson Montgomery.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Nathaniel Lowe",
+          "pitcher": "Sean Burke",
+          "result": "Pop Out",
+          "description": "Nathaniel Lowe pops out to first baseman Munetaka Murakami.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Travis Bazzana",
+          "pitcher": "Sean Burke",
+          "result": "Strikeout",
+          "description": "Travis Bazzana strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Andrew Benintendi",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Andrew Benintendi strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Tristan Peters",
+          "pitcher": "Gavin Williams",
+          "result": "Groundout",
+          "description": "Tristan Peters grounds out, second baseman Travis Bazzana to first baseman Nathaniel Lowe.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Chase Meidroth",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Chase Meidroth strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Patrick Bailey",
+          "pitcher": "Sean Burke",
+          "result": "Groundout",
+          "description": "Patrick Bailey grounds out to first baseman Munetaka Murakami.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Petey Halpin",
+          "pitcher": "Sean Burke",
+          "result": "Double",
+          "description": "Petey Halpin doubles (1) on a line drive to right fielder Tristan Peters. Petey Halpin out at 3rd on the throw, right fielder Tristan Peters to second baseman Chase Meidroth to third baseman Miguel Vargas.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Brayan Rocchio",
+          "pitcher": "Sean Burke",
+          "result": "Strikeout",
+          "description": "Brayan Rocchio strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Colson Montgomery",
+          "pitcher": "Gavin Williams",
+          "result": "Hit By Pitch",
+          "description": "Colson Montgomery hit by pitch.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Brenton Doyle",
+          "pitcher": "Gavin Williams",
+          "result": "Strikeout",
+          "description": "Brenton Doyle strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Sam Antonacci",
+          "pitcher": "Gavin Williams",
+          "result": "Flyout",
+          "description": "Sam Antonacci flies out to right fielder Chase DeLauter.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Kyle Teel",
+          "pitcher": "Gavin Williams",
+          "result": "Single",
+          "description": "Kyle Teel singles on a line drive to right fielder Chase DeLauter. Colson Montgomery to 2nd.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Miguel Vargas",
+          "pitcher": "Gavin Williams",
+          "result": "Walk",
+          "description": "Miguel Vargas walks. Colson Montgomery to 3rd. Kyle Teel to 2nd.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Munetaka Murakami",
+          "pitcher": "Erik Sabrowski",
+          "result": "Strikeout",
+          "description": "Munetaka Murakami strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Steven Kwan",
+          "pitcher": "Sean Newcomb",
+          "result": "Strikeout",
+          "description": "Steven Kwan called out on strikes.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "José Ramírez",
+          "pitcher": "Sean Newcomb",
+          "result": "Strikeout",
+          "description": "José Ramírez called out on strikes.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Chase DeLauter",
+          "pitcher": "Sean Newcomb",
+          "result": "Single",
+          "description": "Chase DeLauter singles on a ground ball to second baseman Chase Meidroth.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Jo Adell",
+          "pitcher": "Sean Newcomb",
+          "result": "Strikeout",
+          "description": "Jo Adell strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Andrew Benintendi",
+          "pitcher": "Hunter Gaddis",
+          "result": "Strikeout",
+          "description": "Andrew Benintendi strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Tristan Peters",
+          "pitcher": "Hunter Gaddis",
+          "result": "Single",
+          "description": "Tristan Peters singles on a line drive to right fielder Chase DeLauter.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Chase Meidroth",
+          "pitcher": "Hunter Gaddis",
+          "result": "Strikeout",
+          "description": "Chase Meidroth strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Colson Montgomery",
+          "pitcher": "Hunter Gaddis",
+          "result": "Strikeout",
+          "description": "Colson Montgomery called out on strikes.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Nathaniel Lowe",
+          "pitcher": "Sean Newcomb",
+          "result": "Groundout",
+          "description": "Nathaniel Lowe grounds out, first baseman Munetaka Murakami to pitcher Sean Newcomb.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Travis Bazzana",
+          "pitcher": "Sean Newcomb",
+          "result": "Field Error",
+          "description": "Travis Bazzana reaches on a fielding error by shortstop Colson Montgomery.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Patrick Bailey",
+          "pitcher": "Sean Newcomb",
+          "result": "Grounded Into DP",
+          "description": "Patrick Bailey grounds into a double play, shortstop Colson Montgomery to second baseman Chase Meidroth to first baseman Munetaka Murakami. Travis Bazzana out at 2nd. Patrick Bailey out at 1st.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Randal Grichuk",
+          "pitcher": "Hunter Gaddis",
+          "result": "Strikeout",
+          "description": "Randal Grichuk strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Sam Antonacci",
+          "pitcher": "Hunter Gaddis",
+          "result": "Single",
+          "description": "Sam Antonacci singles on a fly ball to right fielder Chase DeLauter.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Kyle Teel",
+          "pitcher": "Cade Smith",
+          "result": "Strikeout",
+          "description": "Kyle Teel strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Miguel Vargas",
+          "pitcher": "Cade Smith",
+          "result": "Pop Out",
+          "description": "Miguel Vargas pops out to catcher Patrick Bailey in foul territory.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Petey Halpin",
+          "pitcher": "Sean Newcomb",
+          "result": "Double",
+          "description": "Petey Halpin doubles (2) on a fly ball to center fielder Tristan Peters.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Brayan Rocchio",
+          "pitcher": "Grant Taylor",
+          "result": "Groundout",
+          "description": "Brayan Rocchio grounds out, shortstop Colson Montgomery to first baseman Munetaka Murakami. Petey Halpin to 3rd.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Steven Kwan",
+          "pitcher": "Grant Taylor",
+          "result": "Walk",
+          "description": "Steven Kwan walks.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "José Ramírez",
+          "pitcher": "Grant Taylor",
+          "result": "Intent Walk",
+          "description": "Grant Taylor intentionally walks José Ramírez. Steven Kwan to 2nd.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Chase DeLauter",
+          "pitcher": "Grant Taylor",
+          "result": "Forceout",
+          "description": "Chase DeLauter grounds into a force out, second baseman Chase Meidroth to catcher Kyle Teel. Petey Halpin out at home. Steven Kwan to 3rd. José Ramírez to 2nd. Chase DeLauter to 1st.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Jo Adell",
+          "pitcher": "Grant Taylor",
+          "result": "Groundout",
+          "description": "Jo Adell grounds out, third baseman Miguel Vargas to first baseman Munetaka Murakami.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Munetaka Murakami",
+          "pitcher": "Cade Smith",
+          "result": "Strikeout",
+          "description": "Munetaka Murakami strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Andrew Benintendi",
+          "pitcher": "Cade Smith",
+          "result": "Strikeout",
+          "description": "Andrew Benintendi strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Tristan Peters",
+          "pitcher": "Cade Smith",
+          "result": "Strikeout",
+          "description": "Tristan Peters strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 2
+        }
+      ],
+      "boxScore": {
+        "away": {
+          "batting": [
+            {
+              "name": "Sam Antonacci",
+              "position": "LF",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Kyle Teel",
+              "position": "C",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 3
+            },
+            {
+              "name": "Miguel Vargas",
+              "position": "3B",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Munetaka Murakami",
+              "position": "1B",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 4
+            },
+            {
+              "name": "Andrew Benintendi",
+              "position": "DH",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 4
+            },
+            {
+              "name": "Tristan Peters",
+              "position": "CF",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Chase Meidroth",
+              "position": "2B",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 3
+            },
+            {
+              "name": "Colson Montgomery",
+              "position": "SS",
+              "atBats": 2,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Brenton Doyle",
+              "position": "CF",
+              "atBats": 2,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Randal Grichuk",
+              "position": "RF",
+              "atBats": 1,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            }
+          ],
+          "pitching": [
+            {
+              "name": "Sean Burke",
+              "inningsPitched": "5.0",
+              "hits": 4,
+              "runs": 2,
+              "earnedRuns": 2,
+              "walks": 0,
+              "strikeOuts": 4,
+              "homeRuns": 1,
+              "pitches": 71
+            },
+            {
+              "name": "Sean Newcomb",
+              "inningsPitched": "2.0",
+              "hits": 2,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 3,
+              "homeRuns": 0,
+              "pitches": 23
+            },
+            {
+              "name": "Grant Taylor",
+              "inningsPitched": "1.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 2,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 13
+            }
+          ]
+        },
+        "home": {
+          "batting": [
+            {
+              "name": "Steven Kwan",
+              "position": "LF",
+              "atBats": 3,
+              "runs": 1,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 1
+            },
+            {
+              "name": "José Ramírez",
+              "position": "3B",
+              "atBats": 3,
+              "runs": 1,
+              "hits": 1,
+              "homeRuns": 1,
+              "rbi": 2,
+              "walks": 1,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Chase DeLauter",
+              "position": "RF",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Jo Adell",
+              "position": "DH",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Nathaniel Lowe",
+              "position": "1B",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Travis Bazzana",
+              "position": "2B",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Patrick Bailey",
+              "position": "C",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Petey Halpin",
+              "position": "CF",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 2,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Brayan Rocchio",
+              "position": "SS",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 2
+            }
+          ],
+          "pitching": [
+            {
+              "name": "Gavin Williams",
+              "inningsPitched": "5.2",
+              "hits": 1,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 2,
+              "strikeOuts": 12,
+              "homeRuns": 0,
+              "pitches": 94
+            },
+            {
+              "name": "Erik Sabrowski",
+              "inningsPitched": "0.1",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 1,
+              "homeRuns": 0,
+              "pitches": 5
+            },
+            {
+              "name": "Hunter Gaddis",
+              "inningsPitched": "1.1",
+              "hits": 2,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 4,
+              "homeRuns": 0,
+              "pitches": 24
+            },
+            {
+              "name": "Cade Smith",
+              "inningsPitched": "1.2",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 4,
+              "homeRuns": 0,
+              "pitches": 27
+            }
+          ]
+        }
+      },
+      "probablePitchers": {
+        "away": "Sean Burke",
+        "home": "Gavin Williams"
+      },
+      "decisions": {
+        "winner": null,
+        "loser": null,
+        "save": null
+      }
+    }
+  ],
+  "todaySlate": [
+    {
+      "gamePk": 849809,
+      "status": "Scheduled",
+      "venue": "American Family Field",
+      "startTime": "2026-10-12T00:00:00Z",
+      "away": {
+        "name": "Los Angeles Dodgers",
+        "abbreviation": "Los Angeles Dodgers",
+        "probablePitcher": "Tarik Skubal"
+      },
+      "home": {
+        "name": "Milwaukee Brewers",
+        "abbreviation": "Milwaukee Brewers",
+        "probablePitcher": "Jacob Misiorowski"
       }
     }
   ],

@@ -1,29 +1,29 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-10-11T16:20:28.559Z",
-  "date": "2026-10-10",
-  "slateDate": "2026-10-11",
-  "gameOfDay": 849831,
+  "generatedAt": "2026-10-12T19:05:12.790Z",
+  "date": "2026-10-11",
+  "slateDate": "2026-10-12",
+  "gameOfDay": 849809,
   "games": [
     {
-      "gamePk": 849831,
+      "gamePk": 849809,
       "status": "Final",
-      "venue": "Progressive Field",
-      "startTime": "2026-10-11T00:00:00Z",
+      "venue": "American Family Field",
+      "startTime": "2026-10-12T00:00:00Z",
       "away": {
-        "id": 145,
-        "name": "Chicago White Sox",
-        "abbreviation": "Chicago White Sox",
+        "id": 119,
+        "name": "Los Angeles Dodgers",
+        "abbreviation": "Los Angeles Dodgers",
         "leagueId": null,
         "leagueName": "",
-        "score": 0,
-        "hits": 3,
-        "errors": 1
+        "score": 1,
+        "hits": 7,
+        "errors": 0
       },
       "home": {
-        "id": 114,
-        "name": "Cleveland Guardians",
-        "abbreviation": "Cleveland Guardians",
+        "id": 158,
+        "name": "Milwaukee Brewers",
+        "abbreviation": "Milwaukee Brewers",
         "leagueId": null,
         "leagueName": "",
         "score": 2,
@@ -38,7 +38,7 @@
         },
         {
           "num": 2,
-          "away": 0,
+          "away": 1,
           "home": 0
         },
         {
@@ -49,12 +49,12 @@
         {
           "num": 4,
           "away": 0,
-          "home": 2
+          "home": 1
         },
         {
           "num": 5,
           "away": 0,
-          "home": 0
+          "home": 1
         },
         {
           "num": 6,
@@ -79,10 +79,24 @@
       ],
       "scoringPlays": [
         {
+          "inning": 2,
+          "half": "top",
+          "play": "Andy Pages singles on a ground ball to right fielder Luis Lara. Shohei Ohtani scores. Teoscar Hernández to 2nd.",
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
           "inning": 4,
           "half": "bottom",
-          "play": "José Ramírez homers (2) on a line drive to right field. Steven Kwan scores.",
-          "awayScore": 0,
+          "play": "Brice Turang homers (1) on a fly ball to left center field.",
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "play": "Luis Lara singles on a sharp ground ball to center fielder Andy Pages. Garrett Mitchell scores.",
+          "awayScore": 1,
           "homeScore": 2
         }
       ],
@@ -90,10 +104,10 @@
         {
           "inning": 1,
           "half": "top",
-          "batter": "Sam Antonacci",
-          "pitcher": "Gavin Williams",
-          "result": "Lineout",
-          "description": "Sam Antonacci lines out sharply to left fielder Steven Kwan.",
+          "batter": "Mookie Betts",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Groundout",
+          "description": "Mookie Betts grounds out, second baseman Brice Turang to first baseman Jake Bauers.",
           "rbi": 0,
           "awayScore": 0,
           "homeScore": 0
@@ -101,10 +115,10 @@
         {
           "inning": 1,
           "half": "top",
-          "batter": "Kyle Teel",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Kyle Teel strikes out on a foul tip.",
+          "batter": "Freddie Freeman",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Single",
+          "description": "Freddie Freeman singles on a line drive to left fielder Jackson Chourio.",
           "rbi": 0,
           "awayScore": 0,
           "homeScore": 0
@@ -112,683 +126,749 @@
         {
           "inning": 1,
           "half": "top",
-          "batter": "Miguel Vargas",
-          "pitcher": "Gavin Williams",
-          "result": "Groundout",
-          "description": "Miguel Vargas grounds out, shortstop Brayan Rocchio to first baseman Nathaniel Lowe.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 1,
-          "half": "bottom",
-          "batter": "Steven Kwan",
-          "pitcher": "Sean Burke",
-          "result": "Flyout",
-          "description": "Steven Kwan flies out to center fielder Brenton Doyle.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 1,
-          "half": "bottom",
-          "batter": "José Ramírez",
-          "pitcher": "Sean Burke",
-          "result": "Flyout",
-          "description": "José Ramírez flies out to right fielder Tristan Peters.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 1,
-          "half": "bottom",
-          "batter": "Chase DeLauter",
-          "pitcher": "Sean Burke",
-          "result": "Lineout",
-          "description": "Chase DeLauter lines out sharply to center fielder Brenton Doyle.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 2,
-          "half": "top",
-          "batter": "Munetaka Murakami",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Munetaka Murakami strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 2,
-          "half": "top",
-          "batter": "Andrew Benintendi",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Andrew Benintendi strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 2,
-          "half": "top",
-          "batter": "Tristan Peters",
-          "pitcher": "Gavin Williams",
-          "result": "Walk",
-          "description": "Tristan Peters walks.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 2,
-          "half": "top",
-          "batter": "Chase Meidroth",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Chase Meidroth strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 2,
-          "half": "bottom",
-          "batter": "Jo Adell",
-          "pitcher": "Sean Burke",
-          "result": "Pop Out",
-          "description": "Jo Adell pops out to first baseman Munetaka Murakami in foul territory.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 2,
-          "half": "bottom",
-          "batter": "Nathaniel Lowe",
-          "pitcher": "Sean Burke",
-          "result": "Groundout",
-          "description": "Nathaniel Lowe grounds out, second baseman Chase Meidroth to first baseman Munetaka Murakami.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 2,
-          "half": "bottom",
-          "batter": "Travis Bazzana",
-          "pitcher": "Sean Burke",
-          "result": "Strikeout",
-          "description": "Travis Bazzana strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 3,
-          "half": "top",
-          "batter": "Colson Montgomery",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Colson Montgomery strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 3,
-          "half": "top",
-          "batter": "Brenton Doyle",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Brenton Doyle strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 3,
-          "half": "top",
-          "batter": "Sam Antonacci",
-          "pitcher": "Gavin Williams",
-          "result": "Groundout",
-          "description": "Sam Antonacci grounds out, first baseman Nathaniel Lowe to pitcher Gavin Williams.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 3,
-          "half": "bottom",
-          "batter": "Patrick Bailey",
-          "pitcher": "Sean Burke",
-          "result": "Groundout",
-          "description": "Patrick Bailey grounds out, second baseman Chase Meidroth to first baseman Munetaka Murakami.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 3,
-          "half": "bottom",
-          "batter": "Petey Halpin",
-          "pitcher": "Sean Burke",
-          "result": "Groundout",
-          "description": "Petey Halpin grounds out, first baseman Munetaka Murakami to pitcher Sean Burke.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 3,
-          "half": "bottom",
-          "batter": "Brayan Rocchio",
-          "pitcher": "Sean Burke",
-          "result": "Strikeout",
-          "description": "Brayan Rocchio strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 4,
-          "half": "top",
-          "batter": "Kyle Teel",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Kyle Teel called out on strikes.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 4,
-          "half": "top",
-          "batter": "Miguel Vargas",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Miguel Vargas called out on strikes.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 4,
-          "half": "top",
-          "batter": "Munetaka Murakami",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Munetaka Murakami strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 4,
-          "half": "bottom",
-          "batter": "Steven Kwan",
-          "pitcher": "Sean Burke",
-          "result": "Single",
-          "description": "Steven Kwan singles on a line drive to right fielder Tristan Peters.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 0
-        },
-        {
-          "inning": 4,
-          "half": "bottom",
-          "batter": "José Ramírez",
-          "pitcher": "Sean Burke",
-          "result": "Home Run",
-          "description": "José Ramírez homers (2) on a line drive to right field. Steven Kwan scores.",
-          "rbi": 2,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 4,
-          "half": "bottom",
-          "batter": "Chase DeLauter",
-          "pitcher": "Sean Burke",
-          "result": "Flyout",
-          "description": "Chase DeLauter flies out to left fielder Sam Antonacci.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 4,
-          "half": "bottom",
-          "batter": "Jo Adell",
-          "pitcher": "Sean Burke",
-          "result": "Single",
-          "description": "Jo Adell singles on a ground ball to shortstop Colson Montgomery.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 4,
-          "half": "bottom",
-          "batter": "Nathaniel Lowe",
-          "pitcher": "Sean Burke",
-          "result": "Pop Out",
-          "description": "Nathaniel Lowe pops out to first baseman Munetaka Murakami.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 4,
-          "half": "bottom",
-          "batter": "Travis Bazzana",
-          "pitcher": "Sean Burke",
-          "result": "Strikeout",
-          "description": "Travis Bazzana strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 5,
-          "half": "top",
-          "batter": "Andrew Benintendi",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Andrew Benintendi strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 5,
-          "half": "top",
-          "batter": "Tristan Peters",
-          "pitcher": "Gavin Williams",
-          "result": "Groundout",
-          "description": "Tristan Peters grounds out, second baseman Travis Bazzana to first baseman Nathaniel Lowe.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 5,
-          "half": "top",
-          "batter": "Chase Meidroth",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Chase Meidroth strikes out on a foul tip.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 5,
-          "half": "bottom",
-          "batter": "Patrick Bailey",
-          "pitcher": "Sean Burke",
-          "result": "Groundout",
-          "description": "Patrick Bailey grounds out to first baseman Munetaka Murakami.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 5,
-          "half": "bottom",
-          "batter": "Petey Halpin",
-          "pitcher": "Sean Burke",
-          "result": "Double",
-          "description": "Petey Halpin doubles (1) on a line drive to right fielder Tristan Peters. Petey Halpin out at 3rd on the throw, right fielder Tristan Peters to second baseman Chase Meidroth to third baseman Miguel Vargas.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 5,
-          "half": "bottom",
-          "batter": "Brayan Rocchio",
-          "pitcher": "Sean Burke",
-          "result": "Strikeout",
-          "description": "Brayan Rocchio strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "top",
-          "batter": "Colson Montgomery",
-          "pitcher": "Gavin Williams",
-          "result": "Hit By Pitch",
-          "description": "Colson Montgomery hit by pitch.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "top",
-          "batter": "Brenton Doyle",
-          "pitcher": "Gavin Williams",
-          "result": "Strikeout",
-          "description": "Brenton Doyle strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "top",
-          "batter": "Sam Antonacci",
-          "pitcher": "Gavin Williams",
-          "result": "Flyout",
-          "description": "Sam Antonacci flies out to right fielder Chase DeLauter.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "top",
-          "batter": "Kyle Teel",
-          "pitcher": "Gavin Williams",
-          "result": "Single",
-          "description": "Kyle Teel singles on a line drive to right fielder Chase DeLauter. Colson Montgomery to 2nd.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "top",
-          "batter": "Miguel Vargas",
-          "pitcher": "Gavin Williams",
-          "result": "Walk",
-          "description": "Miguel Vargas walks. Colson Montgomery to 3rd. Kyle Teel to 2nd.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "top",
-          "batter": "Munetaka Murakami",
-          "pitcher": "Erik Sabrowski",
-          "result": "Strikeout",
-          "description": "Munetaka Murakami strikes out on a foul tip.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "bottom",
-          "batter": "Steven Kwan",
-          "pitcher": "Sean Newcomb",
-          "result": "Strikeout",
-          "description": "Steven Kwan called out on strikes.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "bottom",
-          "batter": "José Ramírez",
-          "pitcher": "Sean Newcomb",
-          "result": "Strikeout",
-          "description": "José Ramírez called out on strikes.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "bottom",
-          "batter": "Chase DeLauter",
-          "pitcher": "Sean Newcomb",
-          "result": "Single",
-          "description": "Chase DeLauter singles on a ground ball to second baseman Chase Meidroth.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 6,
-          "half": "bottom",
-          "batter": "Jo Adell",
-          "pitcher": "Sean Newcomb",
-          "result": "Strikeout",
-          "description": "Jo Adell strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 7,
-          "half": "top",
-          "batter": "Andrew Benintendi",
-          "pitcher": "Hunter Gaddis",
-          "result": "Strikeout",
-          "description": "Andrew Benintendi strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 7,
-          "half": "top",
-          "batter": "Tristan Peters",
-          "pitcher": "Hunter Gaddis",
-          "result": "Single",
-          "description": "Tristan Peters singles on a line drive to right fielder Chase DeLauter.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 7,
-          "half": "top",
-          "batter": "Chase Meidroth",
-          "pitcher": "Hunter Gaddis",
-          "result": "Strikeout",
-          "description": "Chase Meidroth strikes out on a foul tip.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 7,
-          "half": "top",
-          "batter": "Colson Montgomery",
-          "pitcher": "Hunter Gaddis",
-          "result": "Strikeout",
-          "description": "Colson Montgomery called out on strikes.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 7,
-          "half": "bottom",
-          "batter": "Nathaniel Lowe",
-          "pitcher": "Sean Newcomb",
-          "result": "Groundout",
-          "description": "Nathaniel Lowe grounds out, first baseman Munetaka Murakami to pitcher Sean Newcomb.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 7,
-          "half": "bottom",
-          "batter": "Travis Bazzana",
-          "pitcher": "Sean Newcomb",
-          "result": "Field Error",
-          "description": "Travis Bazzana reaches on a fielding error by shortstop Colson Montgomery.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 7,
-          "half": "bottom",
-          "batter": "Patrick Bailey",
-          "pitcher": "Sean Newcomb",
+          "batter": "Will Smith",
+          "pitcher": "Jacob Misiorowski",
           "result": "Grounded Into DP",
-          "description": "Patrick Bailey grounds into a double play, shortstop Colson Montgomery to second baseman Chase Meidroth to first baseman Munetaka Murakami. Travis Bazzana out at 2nd. Patrick Bailey out at 1st.",
+          "description": "Will Smith grounds into a double play, shortstop Cooper Pratt to second baseman Brice Turang to first baseman Jake Bauers. Freddie Freeman out at 2nd. Will Smith out at 1st.",
           "rbi": 0,
           "awayScore": 0,
-          "homeScore": 2
+          "homeScore": 0
         },
         {
-          "inning": 8,
-          "half": "top",
-          "batter": "Randal Grichuk",
-          "pitcher": "Hunter Gaddis",
-          "result": "Strikeout",
-          "description": "Randal Grichuk strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 8,
-          "half": "top",
-          "batter": "Sam Antonacci",
-          "pitcher": "Hunter Gaddis",
-          "result": "Single",
-          "description": "Sam Antonacci singles on a fly ball to right fielder Chase DeLauter.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 8,
-          "half": "top",
-          "batter": "Kyle Teel",
-          "pitcher": "Cade Smith",
-          "result": "Strikeout",
-          "description": "Kyle Teel strikes out swinging.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 8,
-          "half": "top",
-          "batter": "Miguel Vargas",
-          "pitcher": "Cade Smith",
-          "result": "Pop Out",
-          "description": "Miguel Vargas pops out to catcher Patrick Bailey in foul territory.",
-          "rbi": 0,
-          "awayScore": 0,
-          "homeScore": 2
-        },
-        {
-          "inning": 8,
+          "inning": 1,
           "half": "bottom",
-          "batter": "Petey Halpin",
-          "pitcher": "Sean Newcomb",
-          "result": "Double",
-          "description": "Petey Halpin doubles (2) on a fly ball to center fielder Tristan Peters.",
+          "batter": "Jackson Chourio",
+          "pitcher": "Tarik Skubal",
+          "result": "Strikeout",
+          "description": "Jackson Chourio strikes out swinging.",
           "rbi": 0,
           "awayScore": 0,
-          "homeScore": 2
+          "homeScore": 0
         },
         {
-          "inning": 8,
+          "inning": 1,
           "half": "bottom",
-          "batter": "Brayan Rocchio",
-          "pitcher": "Grant Taylor",
+          "batter": "Brice Turang",
+          "pitcher": "Tarik Skubal",
           "result": "Groundout",
-          "description": "Brayan Rocchio grounds out, shortstop Colson Montgomery to first baseman Munetaka Murakami. Petey Halpin to 3rd.",
+          "description": "Brice Turang grounds out, second baseman Enrique Hernández to first baseman Freddie Freeman.",
           "rbi": 0,
           "awayScore": 0,
-          "homeScore": 2
+          "homeScore": 0
         },
         {
-          "inning": 8,
+          "inning": 1,
           "half": "bottom",
-          "batter": "Steven Kwan",
-          "pitcher": "Grant Taylor",
+          "batter": "William Contreras",
+          "pitcher": "Tarik Skubal",
+          "result": "Strikeout",
+          "description": "William Contreras strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 0,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Shohei Ohtani",
+          "pitcher": "Jacob Misiorowski",
           "result": "Walk",
-          "description": "Steven Kwan walks.",
+          "description": "Shohei Ohtani walks.",
           "rbi": 0,
           "awayScore": 0,
-          "homeScore": 2
+          "homeScore": 0
         },
         {
-          "inning": 8,
-          "half": "bottom",
-          "batter": "José Ramírez",
-          "pitcher": "Grant Taylor",
-          "result": "Intent Walk",
-          "description": "Grant Taylor intentionally walks José Ramírez. Steven Kwan to 2nd.",
+          "inning": 2,
+          "half": "top",
+          "batter": "Teoscar Hernández",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Single",
+          "description": "Teoscar Hernández singles on a line drive to right fielder Luis Lara. Shohei Ohtani to 2nd.",
           "rbi": 0,
           "awayScore": 0,
-          "homeScore": 2
+          "homeScore": 0
         },
         {
-          "inning": 8,
-          "half": "bottom",
-          "batter": "Chase DeLauter",
-          "pitcher": "Grant Taylor",
-          "result": "Forceout",
-          "description": "Chase DeLauter grounds into a force out, second baseman Chase Meidroth to catcher Kyle Teel. Petey Halpin out at home. Steven Kwan to 3rd. José Ramírez to 2nd. Chase DeLauter to 1st.",
+          "inning": 2,
+          "half": "top",
+          "batter": "Max Muncy",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Strikeout",
+          "description": "Max Muncy strikes out swinging.",
           "rbi": 0,
           "awayScore": 0,
-          "homeScore": 2
+          "homeScore": 0
         },
         {
-          "inning": 8,
+          "inning": 2,
+          "half": "top",
+          "batter": "Andy Pages",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Single",
+          "description": "Andy Pages singles on a ground ball to right fielder Luis Lara. Shohei Ohtani scores. Teoscar Hernández to 2nd.",
+          "rbi": 1,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Kyle Tucker",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Walk",
+          "description": "Kyle Tucker walks. Teoscar Hernández to 3rd. Andy Pages to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "top",
+          "batter": "Enrique Hernández",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Grounded Into DP",
+          "description": "Enrique Hernández grounds into a double play, shortstop Cooper Pratt to second baseman Brice Turang to first baseman Jake Bauers. Kyle Tucker out at 2nd. Enrique Hernández out at 1st.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
           "half": "bottom",
-          "batter": "Jo Adell",
-          "pitcher": "Grant Taylor",
+          "batter": "Jake Bauers",
+          "pitcher": "Tarik Skubal",
+          "result": "Strikeout",
+          "description": "Jake Bauers strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Andrew Vaughn",
+          "pitcher": "Tarik Skubal",
+          "result": "Double",
+          "description": "Andrew Vaughn doubles (1) on a line drive to left fielder Teoscar Hernández.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Garrett Mitchell",
+          "pitcher": "Tarik Skubal",
           "result": "Groundout",
-          "description": "Jo Adell grounds out, third baseman Miguel Vargas to first baseman Munetaka Murakami.",
+          "description": "Garrett Mitchell grounds out, second baseman Enrique Hernández to first baseman Freddie Freeman. Andrew Vaughn to 3rd.",
           "rbi": 0,
-          "awayScore": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 2,
+          "half": "bottom",
+          "batter": "Cooper Pratt",
+          "pitcher": "Tarik Skubal",
+          "result": "Strikeout",
+          "description": "Cooper Pratt strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Mookie Betts",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Single",
+          "description": "Mookie Betts singles on a ground ball to left fielder Jackson Chourio.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Freddie Freeman",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Strikeout",
+          "description": "Freddie Freeman strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Will Smith",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Flyout",
+          "description": "Will Smith flies out to center fielder Garrett Mitchell.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "top",
+          "batter": "Shohei Ohtani",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Strikeout",
+          "description": "Shohei Ohtani strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Luis Lara",
+          "pitcher": "Tarik Skubal",
+          "result": "Strikeout",
+          "description": "Luis Lara strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Joey Ortiz",
+          "pitcher": "Tarik Skubal",
+          "result": "Strikeout",
+          "description": "Joey Ortiz called out on strikes.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 3,
+          "half": "bottom",
+          "batter": "Jackson Chourio",
+          "pitcher": "Tarik Skubal",
+          "result": "Flyout",
+          "description": "Jackson Chourio flies out to center fielder Andy Pages.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Teoscar Hernández",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Single",
+          "description": "Teoscar Hernández singles on a sharp line drive to center fielder Garrett Mitchell.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Max Muncy",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Strikeout",
+          "description": "Max Muncy called out on strikes.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Andy Pages",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Flyout",
+          "description": "Andy Pages flies out to right fielder Luis Lara.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "top",
+          "batter": "Kyle Tucker",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Strikeout",
+          "description": "Kyle Tucker strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 0
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Brice Turang",
+          "pitcher": "Tarik Skubal",
+          "result": "Home Run",
+          "description": "Brice Turang homers (1) on a fly ball to left center field.",
+          "rbi": 1,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "William Contreras",
+          "pitcher": "Tarik Skubal",
+          "result": "Strikeout",
+          "description": "William Contreras strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Jake Bauers",
+          "pitcher": "Tarik Skubal",
+          "result": "Single",
+          "description": "Jake Bauers singles on a sharp line drive to right fielder Kyle Tucker.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 4,
+          "half": "bottom",
+          "batter": "Andrew Vaughn",
+          "pitcher": "Tarik Skubal",
+          "result": "Grounded Into DP",
+          "description": "Andrew Vaughn grounds into a double play, second baseman Enrique Hernández to shortstop Mookie Betts to first baseman Freddie Freeman. Jake Bauers out at 2nd. Andrew Vaughn out at 1st.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Enrique Hernández",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Flyout",
+          "description": "Enrique Hernández flies out to center fielder Garrett Mitchell.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Mookie Betts",
+          "pitcher": "Jacob Misiorowski",
+          "result": "Walk",
+          "description": "Mookie Betts walks.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 5,
+          "half": "top",
+          "batter": "Freddie Freeman",
+          "pitcher": "DL Hall",
+          "result": "Grounded Into DP",
+          "description": "Freddie Freeman grounds into a double play, second baseman Brice Turang to shortstop Cooper Pratt to first baseman Jake Bauers. Mookie Betts out at 2nd. Freddie Freeman out at 1st.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Garrett Mitchell",
+          "pitcher": "Tarik Skubal",
+          "result": "Walk",
+          "description": "Garrett Mitchell walks.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Cooper Pratt",
+          "pitcher": "Tarik Skubal",
+          "result": "Sac Bunt",
+          "description": "Cooper Pratt out on a sacrifice bunt, first baseman Freddie Freeman to second baseman Enrique Hernández. Garrett Mitchell to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 1
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Luis Lara",
+          "pitcher": "Tarik Skubal",
+          "result": "Single",
+          "description": "Luis Lara singles on a sharp ground ball to center fielder Andy Pages. Garrett Mitchell scores.",
+          "rbi": 1,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Joey Ortiz",
+          "pitcher": "Tarik Skubal",
+          "result": "Groundout",
+          "description": "Joey Ortiz grounds out, shortstop Mookie Betts to first baseman Freddie Freeman. Luis Lara to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Jackson Chourio",
+          "pitcher": "Tarik Skubal",
+          "result": "Single",
+          "description": "Jackson Chourio singles on a sharp ground ball to third baseman Max Muncy. Luis Lara to 3rd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "Brice Turang",
+          "pitcher": "Tarik Skubal",
+          "result": "Walk",
+          "description": "Brice Turang walks. Jackson Chourio to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 5,
+          "half": "bottom",
+          "batter": "William Contreras",
+          "pitcher": "Tarik Skubal",
+          "result": "Flyout",
+          "description": "William Contreras flies out to right fielder Kyle Tucker.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Will Smith",
+          "pitcher": "Abner Uribe",
+          "result": "Flyout",
+          "description": "Will Smith flies out to right fielder Luis Lara.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Shohei Ohtani",
+          "pitcher": "Abner Uribe",
+          "result": "Single",
+          "description": "Shohei Ohtani singles on a soft line drive to left fielder Jackson Chourio.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Teoscar Hernández",
+          "pitcher": "Abner Uribe",
+          "result": "Strikeout",
+          "description": "Teoscar Hernández strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Max Muncy",
+          "pitcher": "Abner Uribe",
+          "result": "Single",
+          "description": "Max Muncy singles on a sharp ground ball to right fielder Luis Lara. Shohei Ohtani to 3rd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "top",
+          "batter": "Andy Pages",
+          "pitcher": "Abner Uribe",
+          "result": "Strikeout",
+          "description": "Andy Pages strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Jake Bauers",
+          "pitcher": "Alex Vesia",
+          "result": "Walk",
+          "description": "Jake Bauers walks.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Andrew Vaughn",
+          "pitcher": "Alex Vesia",
+          "result": "Strikeout",
+          "description": "Andrew Vaughn strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 6,
+          "half": "bottom",
+          "batter": "Garrett Mitchell",
+          "pitcher": "Alex Vesia",
+          "result": "Strikeout",
+          "description": "Garrett Mitchell strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Kyle Tucker",
+          "pitcher": "Aaron Ashby",
+          "result": "Strikeout",
+          "description": "Kyle Tucker strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Enrique Hernández",
+          "pitcher": "Aaron Ashby",
+          "result": "Flyout",
+          "description": "Enrique Hernández flies out to center fielder Garrett Mitchell.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "top",
+          "batter": "Mookie Betts",
+          "pitcher": "Aaron Ashby",
+          "result": "Flyout",
+          "description": "Mookie Betts flies out to right fielder Luis Lara.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Cooper Pratt",
+          "pitcher": "Evan Phillips",
+          "result": "Strikeout",
+          "description": "Cooper Pratt strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Luis Lara",
+          "pitcher": "Evan Phillips",
+          "result": "Strikeout",
+          "description": "Luis Lara called out on strikes.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 7,
+          "half": "bottom",
+          "batter": "Joey Ortiz",
+          "pitcher": "Evan Phillips",
+          "result": "Strikeout",
+          "description": "Joey Ortiz strikes out swinging.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Freddie Freeman",
+          "pitcher": "Aaron Ashby",
+          "result": "Pop Out",
+          "description": "Freddie Freeman pops out to second baseman Brice Turang.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Will Smith",
+          "pitcher": "Aaron Ashby",
+          "result": "Walk",
+          "description": "Will Smith walks.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Shohei Ohtani",
+          "pitcher": "Aaron Ashby",
+          "result": "Pop Out",
+          "description": "Shohei Ohtani pops out to third baseman Joey Ortiz.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "top",
+          "batter": "Teoscar Hernández",
+          "pitcher": "Aaron Ashby",
+          "result": "Groundout",
+          "description": "Teoscar Hernández grounds out, third baseman Joey Ortiz to first baseman Jake Bauers.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Jackson Chourio",
+          "pitcher": "Evan Phillips",
+          "result": "Single",
+          "description": "Jackson Chourio singles on a ground ball to right fielder Kyle Tucker.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Brice Turang",
+          "pitcher": "Tanner Scott",
+          "result": "Sac Bunt",
+          "description": "Brice Turang out on a sacrifice bunt, pitcher Tanner Scott to second baseman Enrique Hernández. Jackson Chourio to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "William Contreras",
+          "pitcher": "Tanner Scott",
+          "result": "Intent Walk",
+          "description": "Tanner Scott intentionally walks William Contreras.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Jake Bauers",
+          "pitcher": "Tanner Scott",
+          "result": "Strikeout",
+          "description": "Jake Bauers strikes out on a foul tip.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Andrew Vaughn",
+          "pitcher": "Tanner Scott",
+          "result": "Intent Walk",
+          "description": "Tanner Scott intentionally walks Andrew Vaughn. Jackson Chourio to 3rd. William Contreras to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 8,
+          "half": "bottom",
+          "batter": "Garrett Mitchell",
+          "pitcher": "Tanner Scott",
+          "result": "Groundout",
+          "description": "Garrett Mitchell grounds out sharply, shortstop Mookie Betts to first baseman Freddie Freeman.",
+          "rbi": 0,
+          "awayScore": 1,
           "homeScore": 2
         },
         {
           "inning": 9,
           "half": "top",
-          "batter": "Munetaka Murakami",
-          "pitcher": "Cade Smith",
-          "result": "Strikeout",
-          "description": "Munetaka Murakami strikes out swinging.",
+          "batter": "Max Muncy",
+          "pitcher": "Trevor Megill",
+          "result": "Pop Out",
+          "description": "Max Muncy pops out to second baseman Brice Turang.",
           "rbi": 0,
-          "awayScore": 0,
+          "awayScore": 1,
           "homeScore": 2
         },
         {
           "inning": 9,
           "half": "top",
-          "batter": "Andrew Benintendi",
-          "pitcher": "Cade Smith",
-          "result": "Strikeout",
-          "description": "Andrew Benintendi strikes out swinging.",
+          "batter": "Andy Pages",
+          "pitcher": "Trevor Megill",
+          "result": "Lineout",
+          "description": "Andy Pages lines out to left fielder Jackson Chourio.",
           "rbi": 0,
-          "awayScore": 0,
+          "awayScore": 1,
           "homeScore": 2
         },
         {
           "inning": 9,
           "half": "top",
-          "batter": "Tristan Peters",
-          "pitcher": "Cade Smith",
-          "result": "Strikeout",
-          "description": "Tristan Peters strikes out swinging.",
+          "batter": "Kyle Tucker",
+          "pitcher": "Trevor Megill",
+          "result": "Walk",
+          "description": "Kyle Tucker walks.",
           "rbi": 0,
-          "awayScore": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Josue De Paula",
+          "pitcher": "Trevor Megill",
+          "result": "Walk",
+          "description": "Josue De Paula walks. Kyle Tucker to 2nd.",
+          "rbi": 0,
+          "awayScore": 1,
+          "homeScore": 2
+        },
+        {
+          "inning": 9,
+          "half": "top",
+          "batter": "Mookie Betts",
+          "pitcher": "Trevor Megill",
+          "result": "Flyout",
+          "description": "Mookie Betts flies out to center fielder Garrett Mitchell.",
+          "rbi": 0,
+          "awayScore": 1,
           "homeScore": 2
         }
       ],
@@ -796,65 +876,43 @@
         "away": {
           "batting": [
             {
-              "name": "Sam Antonacci",
-              "position": "LF",
+              "name": "Mookie Betts",
+              "position": "SS",
               "atBats": 4,
               "runs": 0,
               "hits": 1,
               "homeRuns": 0,
               "rbi": 0,
-              "walks": 0,
+              "walks": 1,
               "strikeOuts": 0
             },
             {
-              "name": "Kyle Teel",
-              "position": "C",
-              "atBats": 4,
-              "runs": 0,
-              "hits": 1,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 3
-            },
-            {
-              "name": "Miguel Vargas",
-              "position": "3B",
-              "atBats": 3,
-              "runs": 0,
-              "hits": 0,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 1,
-              "strikeOuts": 1
-            },
-            {
-              "name": "Munetaka Murakami",
+              "name": "Freddie Freeman",
               "position": "1B",
               "atBats": 4,
               "runs": 0,
-              "hits": 0,
+              "hits": 1,
               "homeRuns": 0,
               "rbi": 0,
               "walks": 0,
-              "strikeOuts": 4
+              "strikeOuts": 1
             },
             {
-              "name": "Andrew Benintendi",
-              "position": "DH",
-              "atBats": 4,
-              "runs": 0,
-              "hits": 0,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 4
-            },
-            {
-              "name": "Tristan Peters",
-              "position": "CF",
+              "name": "Will Smith",
+              "position": "C",
               "atBats": 3,
               "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 0
+            },
+            {
+              "name": "Shohei Ohtani",
+              "position": "DH",
+              "atBats": 3,
+              "runs": 1,
               "hits": 1,
               "homeRuns": 0,
               "rbi": 0,
@@ -862,7 +920,51 @@
               "strikeOuts": 1
             },
             {
-              "name": "Chase Meidroth",
+              "name": "Teoscar Hernández",
+              "position": "LF",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 2,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Max Muncy",
+              "position": "3B",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Andy Pages",
+              "position": "CF",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 1,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Kyle Tucker",
+              "position": "RF",
+              "atBats": 2,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 2,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Enrique Hernández",
               "position": "2B",
               "atBats": 3,
               "runs": 0,
@@ -870,10 +972,137 @@
               "homeRuns": 0,
               "rbi": 0,
               "walks": 0,
-              "strikeOuts": 3
+              "strikeOuts": 0
             },
             {
-              "name": "Colson Montgomery",
+              "name": "Josue De Paula",
+              "position": "PH",
+              "atBats": 0,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 0
+            }
+          ],
+          "pitching": [
+            {
+              "name": "Tarik Skubal",
+              "inningsPitched": "5.0",
+              "hits": 5,
+              "runs": 2,
+              "earnedRuns": 2,
+              "walks": 2,
+              "strikeOuts": 7,
+              "homeRuns": 1,
+              "pitches": 81
+            },
+            {
+              "name": "Alex Vesia",
+              "inningsPitched": "1.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 1,
+              "strikeOuts": 2,
+              "homeRuns": 0,
+              "pitches": 16
+            },
+            {
+              "name": "Evan Phillips",
+              "inningsPitched": "1.0",
+              "hits": 1,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 3,
+              "homeRuns": 0,
+              "pitches": 17
+            },
+            {
+              "name": "Tanner Scott",
+              "inningsPitched": "1.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 2,
+              "strikeOuts": 1,
+              "homeRuns": 0,
+              "pitches": 9
+            }
+          ]
+        },
+        "home": {
+          "batting": [
+            {
+              "name": "Jackson Chourio",
+              "position": "LF",
+              "atBats": 4,
+              "runs": 0,
+              "hits": 2,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 0,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Brice Turang",
+              "position": "2B",
+              "atBats": 2,
+              "runs": 1,
+              "hits": 1,
+              "homeRuns": 1,
+              "rbi": 1,
+              "walks": 1,
+              "strikeOuts": 0
+            },
+            {
+              "name": "William Contreras",
+              "position": "C",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Jake Bauers",
+              "position": "1B",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Andrew Vaughn",
+              "position": "DH",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Garrett Mitchell",
+              "position": "CF",
+              "atBats": 3,
+              "runs": 1,
+              "hits": 0,
+              "homeRuns": 0,
+              "rbi": 0,
+              "walks": 1,
+              "strikeOuts": 1
+            },
+            {
+              "name": "Cooper Pratt",
               "position": "SS",
               "atBats": 2,
               "runs": 0,
@@ -884,53 +1113,75 @@
               "strikeOuts": 2
             },
             {
-              "name": "Brenton Doyle",
-              "position": "CF",
-              "atBats": 2,
+              "name": "Luis Lara",
+              "position": "RF",
+              "atBats": 3,
+              "runs": 0,
+              "hits": 1,
+              "homeRuns": 0,
+              "rbi": 1,
+              "walks": 0,
+              "strikeOuts": 2
+            },
+            {
+              "name": "Joey Ortiz",
+              "position": "3B",
+              "atBats": 3,
               "runs": 0,
               "hits": 0,
               "homeRuns": 0,
               "rbi": 0,
               "walks": 0,
               "strikeOuts": 2
-            },
-            {
-              "name": "Randal Grichuk",
-              "position": "RF",
-              "atBats": 1,
-              "runs": 0,
-              "hits": 0,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 1
             }
           ],
           "pitching": [
             {
-              "name": "Sean Burke",
-              "inningsPitched": "5.0",
-              "hits": 4,
-              "runs": 2,
-              "earnedRuns": 2,
-              "walks": 0,
-              "strikeOuts": 4,
-              "homeRuns": 1,
-              "pitches": 71
+              "name": "Jacob Misiorowski",
+              "inningsPitched": "4.1",
+              "hits": 5,
+              "runs": 1,
+              "earnedRuns": 1,
+              "walks": 3,
+              "strikeOuts": 5,
+              "homeRuns": 0,
+              "pitches": 94
             },
             {
-              "name": "Sean Newcomb",
-              "inningsPitched": "2.0",
+              "name": "DL Hall",
+              "inningsPitched": "0.2",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 0,
+              "strikeOuts": 0,
+              "homeRuns": 0,
+              "pitches": 4
+            },
+            {
+              "name": "Abner Uribe",
+              "inningsPitched": "1.0",
               "hits": 2,
               "runs": 0,
               "earnedRuns": 0,
               "walks": 0,
-              "strikeOuts": 3,
+              "strikeOuts": 2,
               "homeRuns": 0,
-              "pitches": 23
+              "pitches": 15
             },
             {
-              "name": "Grant Taylor",
+              "name": "Aaron Ashby",
+              "inningsPitched": "2.0",
+              "hits": 0,
+              "runs": 0,
+              "earnedRuns": 0,
+              "walks": 1,
+              "strikeOuts": 1,
+              "homeRuns": 0,
+              "pitches": 26
+            },
+            {
+              "name": "Trevor Megill",
               "inningsPitched": "1.0",
               "hits": 0,
               "runs": 0,
@@ -938,163 +1189,14 @@
               "walks": 2,
               "strikeOuts": 0,
               "homeRuns": 0,
-              "pitches": 13
-            }
-          ]
-        },
-        "home": {
-          "batting": [
-            {
-              "name": "Steven Kwan",
-              "position": "LF",
-              "atBats": 3,
-              "runs": 1,
-              "hits": 1,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 1,
-              "strikeOuts": 1
-            },
-            {
-              "name": "José Ramírez",
-              "position": "3B",
-              "atBats": 3,
-              "runs": 1,
-              "hits": 1,
-              "homeRuns": 1,
-              "rbi": 2,
-              "walks": 1,
-              "strikeOuts": 1
-            },
-            {
-              "name": "Chase DeLauter",
-              "position": "RF",
-              "atBats": 4,
-              "runs": 0,
-              "hits": 1,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 0
-            },
-            {
-              "name": "Jo Adell",
-              "position": "DH",
-              "atBats": 4,
-              "runs": 0,
-              "hits": 1,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 1
-            },
-            {
-              "name": "Nathaniel Lowe",
-              "position": "1B",
-              "atBats": 3,
-              "runs": 0,
-              "hits": 0,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 0
-            },
-            {
-              "name": "Travis Bazzana",
-              "position": "2B",
-              "atBats": 3,
-              "runs": 0,
-              "hits": 0,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 2
-            },
-            {
-              "name": "Patrick Bailey",
-              "position": "C",
-              "atBats": 3,
-              "runs": 0,
-              "hits": 0,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 0
-            },
-            {
-              "name": "Petey Halpin",
-              "position": "CF",
-              "atBats": 3,
-              "runs": 0,
-              "hits": 2,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 0
-            },
-            {
-              "name": "Brayan Rocchio",
-              "position": "SS",
-              "atBats": 3,
-              "runs": 0,
-              "hits": 0,
-              "homeRuns": 0,
-              "rbi": 0,
-              "walks": 0,
-              "strikeOuts": 2
-            }
-          ],
-          "pitching": [
-            {
-              "name": "Gavin Williams",
-              "inningsPitched": "5.2",
-              "hits": 1,
-              "runs": 0,
-              "earnedRuns": 0,
-              "walks": 2,
-              "strikeOuts": 12,
-              "homeRuns": 0,
-              "pitches": 94
-            },
-            {
-              "name": "Erik Sabrowski",
-              "inningsPitched": "0.1",
-              "hits": 0,
-              "runs": 0,
-              "earnedRuns": 0,
-              "walks": 0,
-              "strikeOuts": 1,
-              "homeRuns": 0,
-              "pitches": 5
-            },
-            {
-              "name": "Hunter Gaddis",
-              "inningsPitched": "1.1",
-              "hits": 2,
-              "runs": 0,
-              "earnedRuns": 0,
-              "walks": 0,
-              "strikeOuts": 4,
-              "homeRuns": 0,
-              "pitches": 24
-            },
-            {
-              "name": "Cade Smith",
-              "inningsPitched": "1.2",
-              "hits": 0,
-              "runs": 0,
-              "earnedRuns": 0,
-              "walks": 0,
-              "strikeOuts": 4,
-              "homeRuns": 0,
-              "pitches": 27
+              "pitches": 19
             }
           ]
         }
       },
       "probablePitchers": {
-        "away": "Sean Burke",
-        "home": "Gavin Williams"
+        "away": "Tarik Skubal",
+        "home": "Jacob Misiorowski"
       },
       "decisions": {
         "winner": null,
@@ -1105,19 +1207,35 @@
   ],
   "todaySlate": [
     {
-      "gamePk": 849809,
-      "status": "Scheduled",
+      "gamePk": 849812,
+      "status": "Pre-Game",
       "venue": "American Family Field",
-      "startTime": "2026-10-12T00:00:00Z",
+      "startTime": "2026-10-12T21:00:00Z",
       "away": {
         "name": "Los Angeles Dodgers",
         "abbreviation": "Los Angeles Dodgers",
-        "probablePitcher": "Tarik Skubal"
+        "probablePitcher": "Yoshinobu Yamamoto"
       },
       "home": {
         "name": "Milwaukee Brewers",
         "abbreviation": "Milwaukee Brewers",
-        "probablePitcher": "Jacob Misiorowski"
+        "probablePitcher": "Logan Henderson"
+      }
+    },
+    {
+      "gamePk": 849820,
+      "status": "Scheduled",
+      "venue": "Tropicana Field",
+      "startTime": "2026-10-13T00:00:00Z",
+      "away": {
+        "name": "Cleveland Guardians",
+        "abbreviation": "Cleveland Guardians",
+        "probablePitcher": "Foster Griffin"
+      },
+      "home": {
+        "name": "Tampa Bay Rays",
+        "abbreviation": "Tampa Bay Rays",
+        "probablePitcher": "Drew Rasmussen"
       }
     }
   ],

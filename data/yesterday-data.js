@@ -1,6 +1,6 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-10-16T14:18:58.910Z",
+  "generatedAt": "2026-10-16T14:54:23.029Z",
   "date": "2026-10-15",
   "slateDate": "2026-10-16",
   "gameOfDay": 849818,
@@ -2358,7 +2358,7 @@ window.ledgerEdition = {
       "home": {
         "name": "Cleveland Guardians",
         "abbreviation": "Cleveland Guardians",
-        "probablePitcher": null
+        "probablePitcher": "Shawn Armstrong"
       }
     }
   ],

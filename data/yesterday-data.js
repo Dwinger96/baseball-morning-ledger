@@ -1,11 +1,28 @@
 window.ledgerEdition = {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-10-22T15:20:59.424Z",
-  "date": "2026-10-21",
-  "slateDate": "2026-10-22",
+  "generatedAt": "2026-10-23T14:15:27.201Z",
+  "date": "2026-10-22",
+  "slateDate": "2026-10-23",
   "gameOfDay": null,
   "games": [],
-  "todaySlate": [],
+  "todaySlate": [
+    {
+      "gamePk": 849805,
+      "status": "Scheduled",
+      "venue": "American Family Field",
+      "startTime": "2026-10-24T00:00:00Z",
+      "away": {
+        "name": "Tampa Bay Rays",
+        "abbreviation": "Tampa Bay Rays",
+        "probablePitcher": "Nick Martinez"
+      },
+      "home": {
+        "name": "Milwaukee Brewers",
+        "abbreviation": "Milwaukee Brewers",
+        "probablePitcher": "Jacob Misiorowski"
+      }
+    }
+  ],
   "standings": {
     "divisions": [],
     "wildCards": []

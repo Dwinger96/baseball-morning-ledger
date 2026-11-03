@@ -1,8 +1,8 @@
 {
   "source": "mlb-stats-api",
-  "generatedAt": "2026-11-02T20:23:45.823Z",
-  "date": "2026-11-01",
-  "slateDate": "2026-11-02",
+  "generatedAt": "2026-11-03T17:05:06.184Z",
+  "date": "2026-11-02",
+  "slateDate": "2026-11-03",
   "gameOfDay": null,
   "games": [],
   "todaySlate": [],
@@ -12618,6 +12618,18 @@
           "homeRuns": 3,
           "rbi": 8,
           "ops": ".542"
+        },
+        {
+          "player": "Will Banfield",
+          "team": "Cincinnati Reds",
+          "leagueId": 104,
+          "gamesPlayed": 11,
+          "atBats": 20,
+          "plateAppearances": 21,
+          "avg": ".150",
+          "homeRuns": 0,
+          "rbi": 1,
+          "ops": ".343"
         },
         {
           "player": "Rodolfo Durán",
@@ -28090,6 +28102,19 @@
           "era": "11.45",
           "whip": "2.55",
           "strikeOuts": 13,
+          "holds": 0,
+          "saves": 0
+        },
+        {
+          "player": "Carlos Duran",
+          "team": "Kansas City Royals",
+          "leagueId": 103,
+          "gamesPitched": 2,
+          "gamesStarted": 0,
+          "inningsPitched": "1.1",
+          "era": "13.50",
+          "whip": "3.75",
+          "strikeOuts": 1,
           "holds": 0,
           "saves": 0
         },
